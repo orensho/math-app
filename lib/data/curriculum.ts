@@ -1,7 +1,9 @@
 import { Book, Unit } from '../types/curriculum'
+import { BasicsModule } from '../types/basics'
 import grade6Book16 from './grade-6/shevilim-plus-16.json'
 import grade6Book17 from './grade-6/shevilim-plus.json'
 import grade6Book18 from './grade-6/shevilim-plus-18.json'
+import multiplicationTables from './basics/multiplication-tables.json'
 
 export async function getBookById(gradeId: string, bookId: string): Promise<Book | null> {
   if (gradeId === '6') {
@@ -56,4 +58,20 @@ export const BOOKS_BY_GRADE: Record<string, { id: string; name: string; descript
       description: 'ספר מתמטיקה לכיתה ו׳ - יחסים, קנה מידה וסטטיסטיקה',
     },
   ],
+}
+
+export const BASICS_MODULES = [
+  {
+    id: 'multiplication-tables',
+    name: 'לוח הכפל',
+    description: 'למידה ותרגול לוח הכפל',
+    icon: '✖️',
+  },
+]
+
+export async function getBasicsModule(moduleId: string): Promise<BasicsModule | null> {
+  if (moduleId === 'multiplication-tables') {
+    return multiplicationTables as BasicsModule
+  }
+  return null
 }

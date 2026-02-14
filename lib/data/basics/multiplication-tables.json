@@ -1,0 +1,408 @@
+{
+  "id": "multiplication-tables",
+  "name": "לוח הכפל",
+  "description": "למידה ותרגול לוח הכפל",
+  "concepts": [
+    {
+      "id": "concept-1",
+      "title": "מהו כפל?",
+      "content": "כפל הוא חיבור חוזר של אותו מספר. לדוגמה: 3×4 פירושו 3+3+3+3 = 12",
+      "formula": "a \\times b = \\underbrace{a + a + \\cdots + a}_{b \\text{ פעמים}}",
+      "order": 1
+    },
+    {
+      "id": "concept-2",
+      "title": "החוק החילופי",
+      "content": "בכפל, סדר הגורמים אינו משנה. כלומר: 3×4 = 4×3",
+      "formula": "a \\times b = b \\times a",
+      "order": 2
+    },
+    {
+      "id": "concept-3",
+      "title": "כפל ב-0 וב-1",
+      "content": "כל מספר כפול 0 שווה 0. כל מספר כפול 1 שווה לעצמו.",
+      "formula": "a \\times 0 = 0 \\quad , \\quad a \\times 1 = a",
+      "order": 3
+    },
+    {
+      "id": "concept-4",
+      "title": "לוח הכפל",
+      "content": "לוח הכפל מכיל את כל תוצאות הכפל של המספרים מ-0 עד 10. חשוב לדעת אותו בעל-פה.",
+      "formula": "",
+      "order": 4
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-0",
+      "title": "לוח הכפל של 0",
+      "rows": [
+        { "expression": "0 × 0", "result": 0 },
+        { "expression": "0 × 1", "result": 0 },
+        { "expression": "0 × 2", "result": 0 },
+        { "expression": "0 × 3", "result": 0 },
+        { "expression": "0 × 4", "result": 0 },
+        { "expression": "0 × 5", "result": 0 },
+        { "expression": "0 × 6", "result": 0 },
+        { "expression": "0 × 7", "result": 0 },
+        { "expression": "0 × 8", "result": 0 },
+        { "expression": "0 × 9", "result": 0 },
+        { "expression": "0 × 10", "result": 0 }
+      ]
+    },
+    {
+      "id": "table-1",
+      "title": "לוח הכפל של 1",
+      "rows": [
+        { "expression": "1 × 0", "result": 0 },
+        { "expression": "1 × 1", "result": 1 },
+        { "expression": "1 × 2", "result": 2 },
+        { "expression": "1 × 3", "result": 3 },
+        { "expression": "1 × 4", "result": 4 },
+        { "expression": "1 × 5", "result": 5 },
+        { "expression": "1 × 6", "result": 6 },
+        { "expression": "1 × 7", "result": 7 },
+        { "expression": "1 × 8", "result": 8 },
+        { "expression": "1 × 9", "result": 9 },
+        { "expression": "1 × 10", "result": 10 }
+      ]
+    },
+    {
+      "id": "table-2",
+      "title": "לוח הכפל של 2",
+      "rows": [
+        { "expression": "2 × 0", "result": 0 },
+        { "expression": "2 × 1", "result": 2 },
+        { "expression": "2 × 2", "result": 4 },
+        { "expression": "2 × 3", "result": 6 },
+        { "expression": "2 × 4", "result": 8 },
+        { "expression": "2 × 5", "result": 10 },
+        { "expression": "2 × 6", "result": 12 },
+        { "expression": "2 × 7", "result": 14 },
+        { "expression": "2 × 8", "result": 16 },
+        { "expression": "2 × 9", "result": 18 },
+        { "expression": "2 × 10", "result": 20 }
+      ]
+    },
+    {
+      "id": "table-3",
+      "title": "לוח הכפל של 3",
+      "rows": [
+        { "expression": "3 × 0", "result": 0 },
+        { "expression": "3 × 1", "result": 3 },
+        { "expression": "3 × 2", "result": 6 },
+        { "expression": "3 × 3", "result": 9 },
+        { "expression": "3 × 4", "result": 12 },
+        { "expression": "3 × 5", "result": 15 },
+        { "expression": "3 × 6", "result": 18 },
+        { "expression": "3 × 7", "result": 21 },
+        { "expression": "3 × 8", "result": 24 },
+        { "expression": "3 × 9", "result": 27 },
+        { "expression": "3 × 10", "result": 30 }
+      ]
+    },
+    {
+      "id": "table-4",
+      "title": "לוח הכפל של 4",
+      "rows": [
+        { "expression": "4 × 0", "result": 0 },
+        { "expression": "4 × 1", "result": 4 },
+        { "expression": "4 × 2", "result": 8 },
+        { "expression": "4 × 3", "result": 12 },
+        { "expression": "4 × 4", "result": 16 },
+        { "expression": "4 × 5", "result": 20 },
+        { "expression": "4 × 6", "result": 24 },
+        { "expression": "4 × 7", "result": 28 },
+        { "expression": "4 × 8", "result": 32 },
+        { "expression": "4 × 9", "result": 36 },
+        { "expression": "4 × 10", "result": 40 }
+      ]
+    },
+    {
+      "id": "table-5",
+      "title": "לוח הכפל של 5",
+      "rows": [
+        { "expression": "5 × 0", "result": 0 },
+        { "expression": "5 × 1", "result": 5 },
+        { "expression": "5 × 2", "result": 10 },
+        { "expression": "5 × 3", "result": 15 },
+        { "expression": "5 × 4", "result": 20 },
+        { "expression": "5 × 5", "result": 25 },
+        { "expression": "5 × 6", "result": 30 },
+        { "expression": "5 × 7", "result": 35 },
+        { "expression": "5 × 8", "result": 40 },
+        { "expression": "5 × 9", "result": 45 },
+        { "expression": "5 × 10", "result": 50 }
+      ]
+    },
+    {
+      "id": "table-6",
+      "title": "לוח הכפל של 6",
+      "rows": [
+        { "expression": "6 × 0", "result": 0 },
+        { "expression": "6 × 1", "result": 6 },
+        { "expression": "6 × 2", "result": 12 },
+        { "expression": "6 × 3", "result": 18 },
+        { "expression": "6 × 4", "result": 24 },
+        { "expression": "6 × 5", "result": 30 },
+        { "expression": "6 × 6", "result": 36 },
+        { "expression": "6 × 7", "result": 42 },
+        { "expression": "6 × 8", "result": 48 },
+        { "expression": "6 × 9", "result": 54 },
+        { "expression": "6 × 10", "result": 60 }
+      ]
+    },
+    {
+      "id": "table-7",
+      "title": "לוח הכפל של 7",
+      "rows": [
+        { "expression": "7 × 0", "result": 0 },
+        { "expression": "7 × 1", "result": 7 },
+        { "expression": "7 × 2", "result": 14 },
+        { "expression": "7 × 3", "result": 21 },
+        { "expression": "7 × 4", "result": 28 },
+        { "expression": "7 × 5", "result": 35 },
+        { "expression": "7 × 6", "result": 42 },
+        { "expression": "7 × 7", "result": 49 },
+        { "expression": "7 × 8", "result": 56 },
+        { "expression": "7 × 9", "result": 63 },
+        { "expression": "7 × 10", "result": 70 }
+      ]
+    },
+    {
+      "id": "table-8",
+      "title": "לוח הכפל של 8",
+      "rows": [
+        { "expression": "8 × 0", "result": 0 },
+        { "expression": "8 × 1", "result": 8 },
+        { "expression": "8 × 2", "result": 16 },
+        { "expression": "8 × 3", "result": 24 },
+        { "expression": "8 × 4", "result": 32 },
+        { "expression": "8 × 5", "result": 40 },
+        { "expression": "8 × 6", "result": 48 },
+        { "expression": "8 × 7", "result": 56 },
+        { "expression": "8 × 8", "result": 64 },
+        { "expression": "8 × 9", "result": 72 },
+        { "expression": "8 × 10", "result": 80 }
+      ]
+    },
+    {
+      "id": "table-9",
+      "title": "לוח הכפל של 9",
+      "rows": [
+        { "expression": "9 × 0", "result": 0 },
+        { "expression": "9 × 1", "result": 9 },
+        { "expression": "9 × 2", "result": 18 },
+        { "expression": "9 × 3", "result": 27 },
+        { "expression": "9 × 4", "result": 36 },
+        { "expression": "9 × 5", "result": 45 },
+        { "expression": "9 × 6", "result": 54 },
+        { "expression": "9 × 7", "result": 63 },
+        { "expression": "9 × 8", "result": 72 },
+        { "expression": "9 × 9", "result": 81 },
+        { "expression": "9 × 10", "result": 90 }
+      ]
+    },
+    {
+      "id": "table-10",
+      "title": "לוח הכפל של 10",
+      "rows": [
+        { "expression": "10 × 0", "result": 0 },
+        { "expression": "10 × 1", "result": 10 },
+        { "expression": "10 × 2", "result": 20 },
+        { "expression": "10 × 3", "result": 30 },
+        { "expression": "10 × 4", "result": 40 },
+        { "expression": "10 × 5", "result": 50 },
+        { "expression": "10 × 6", "result": 60 },
+        { "expression": "10 × 7", "result": 70 },
+        { "expression": "10 × 8", "result": 80 },
+        { "expression": "10 × 9", "result": 90 },
+        { "expression": "10 × 10", "result": 100 }
+      ]
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "q1",
+      "question": "כמה זה 7 × 8?",
+      "options": [
+        { "id": "a", "text": "56" },
+        { "id": "b", "text": "54" },
+        { "id": "c", "text": "63" },
+        { "id": "d", "text": "48" }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "7 × 8 = 56. ניתן לחשוב על זה כ-7 פעמים 8, או 8 פעמים 7.",
+      "solutionSteps": [
+        "7 × 8 פירושו 7+7+7+7+7+7+7+7",
+        "או בצורה קצרה יותר: 7 × 8 = 56"
+      ],
+      "points": 10,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q2",
+      "question": "כמה זה 9 × 6?",
+      "options": [
+        { "id": "a", "text": "45" },
+        { "id": "b", "text": "54" },
+        { "id": "c", "text": "63" },
+        { "id": "d", "text": "48" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "9 × 6 = 54. טריק: בלוח הכפל של 9, סכום הספרות בתוצאה תמיד שווה ל-9.",
+      "solutionSteps": [
+        "9 × 6 = 54",
+        "בדיקה: 5 + 4 = 9 ✓"
+      ],
+      "points": 10,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q3",
+      "question": "כמה זה 12 × 5?",
+      "options": [
+        { "id": "a", "text": "50" },
+        { "id": "b", "text": "55" },
+        { "id": "c", "text": "60" },
+        { "id": "d", "text": "65" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "12 × 5 = 60. כל מספר כפול 5 מסתיים ב-0 או ב-5.",
+      "solutionSteps": [
+        "12 × 5 = (10 + 2) × 5",
+        "= 10 × 5 + 2 × 5",
+        "= 50 + 10 = 60"
+      ],
+      "points": 10,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q4",
+      "question": "כמה זה 8 × 8?",
+      "options": [
+        { "id": "a", "text": "56" },
+        { "id": "b", "text": "64" },
+        { "id": "c", "text": "72" },
+        { "id": "d", "text": "80" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "8 × 8 = 64. זהו מרובע מושלם.",
+      "solutionSteps": [
+        "8 × 8 = 64",
+        "זה נקרא 8 בריבוע: 8²"
+      ],
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q5",
+      "question": "אם 6 × 7 = 42, כמה זה 7 × 6?",
+      "options": [
+        { "id": "a", "text": "36" },
+        { "id": "b", "text": "42" },
+        { "id": "c", "text": "48" },
+        { "id": "d", "text": "49" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "7 × 6 = 42. לפי החוק החילופי של הכפל, סדר הגורמים אינו משנה.",
+      "solutionSteps": [
+        "לפי החוק החילופי: a × b = b × a",
+        "לכן: 7 × 6 = 6 × 7 = 42"
+      ],
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q6",
+      "question": "כמה זה 3 × 9?",
+      "options": [
+        { "id": "a", "text": "24" },
+        { "id": "b", "text": "27" },
+        { "id": "c", "text": "30" },
+        { "id": "d", "text": "33" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "3 × 9 = 27",
+      "solutionSteps": [
+        "3 × 9 = 9 + 9 + 9",
+        "= 18 + 9 = 27"
+      ],
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q7",
+      "question": "כמה זה 11 × 4?",
+      "options": [
+        { "id": "a", "text": "40" },
+        { "id": "b", "text": "42" },
+        { "id": "c", "text": "44" },
+        { "id": "d", "text": "48" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "11 × 4 = 44. טריק: כפל ב-11 מחזיר את הספרה פעמיים (עובד עד 9).",
+      "solutionSteps": [
+        "11 × 4 = (10 + 1) × 4",
+        "= 10 × 4 + 1 × 4",
+        "= 40 + 4 = 44"
+      ],
+      "points": 10,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q8",
+      "question": "כמה זה 0 × 100?",
+      "options": [
+        { "id": "a", "text": "0" },
+        { "id": "b", "text": "1" },
+        { "id": "c", "text": "10" },
+        { "id": "d", "text": "100" }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "0 × 100 = 0. כל מספר כפול 0 שווה 0.",
+      "solutionSteps": [
+        "חוק: a × 0 = 0 לכל מספר a",
+        "לכן: 0 × 100 = 0"
+      ],
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q9",
+      "question": "כמה זה 5 × 12?",
+      "options": [
+        { "id": "a", "text": "50" },
+        { "id": "b", "text": "55" },
+        { "id": "c", "text": "60" },
+        { "id": "d", "text": "65" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "5 × 12 = 60",
+      "solutionSteps": [
+        "5 × 12 = 5 × 10 + 5 × 2",
+        "= 50 + 10 = 60"
+      ],
+      "points": 10,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q10",
+      "question": "כמה זה 10 × 10?",
+      "options": [
+        { "id": "a", "text": "10" },
+        { "id": "b", "text": "20" },
+        { "id": "c", "text": "100" },
+        { "id": "d", "text": "1000" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "10 × 10 = 100. זהו מרובע מושלם ומספר בעל שני אפסים.",
+      "solutionSteps": [
+        "10 × 10 = 100",
+        "זה נקרא 10 בריבוע: 10²"
+      ],
+      "points": 10,
+      "difficulty": "easy"
+    }
+  ]
+}

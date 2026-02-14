@@ -1,8 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { QuizQuestion as QuizQuestionType } from '@/lib/types/curriculum'
 import { useProgress } from '@/contexts/ProgressContext'
+import { shuffle } from '@/lib/utils/shuffle'
 import QuizQuestion from './QuizQuestion'
 import QuizResult from './QuizResult'
 import QuizProgress from './QuizProgress'
@@ -16,13 +17,22 @@ interface QuizContainerProps {
 
 export default function QuizContainer({ questions, unitId }: QuizContainerProps) {
   const { recordQuizAttempt, getTotalPoints } = useProgress()
+
+  // Shuffle questions and their options on component mount
+  const shuffledQuestions = useMemo(() => {
+    return shuffle(questions).map(question => ({
+      ...question,
+      options: shuffle(question.options)
+    }))
+  }, [questions])
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [showResult, setShowResult] = useState(false)
   const [totalScore, setTotalScore] = useState(0)
   const [isCompleted, setIsCompleted] = useState(false)
 
-  const currentQuestion = questions[currentQuestionIndex]
+  const currentQuestion = shuffledQuestions[currentQuestionIndex]
 
   const handleAnswerSelect = (answerId: string) => {
     setSelectedAnswer(answerId)
@@ -42,7 +52,7 @@ export default function QuizContainer({ questions, unitId }: QuizContainerProps)
   }
 
   const handleNext = () => {
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < shuffledQuestions.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1)
       setSelectedAnswer(null)
       setShowResult(false)
@@ -57,7 +67,7 @@ export default function QuizContainer({ questions, unitId }: QuizContainerProps)
   }
 
   if (isCompleted) {
-    const maxScore = questions.reduce((sum, q) => sum + q.points, 0)
+    const maxScore = shuffledQuestions.reduce((sum, q) => sum + q.points, 0)
     const percentage = Math.round((totalScore / maxScore) * 100)
 
     return (
@@ -94,7 +104,7 @@ export default function QuizContainer({ questions, unitId }: QuizContainerProps)
       <div className="flex justify-between items-center">
         <QuizProgress
           current={currentQuestionIndex + 1}
-          total={questions.length}
+          total={shuffledQuestions.length}
         />
         <ScoreDisplay score={totalScore} />
       </div>
@@ -113,7 +123,7 @@ export default function QuizContainer({ questions, unitId }: QuizContainerProps)
             selectedAnswer={selectedAnswer}
             onNext={handleNext}
             onRetry={handleRetry}
-            isLastQuestion={currentQuestionIndex === questions.length - 1}
+            isLastQuestion={currentQuestionIndex === shuffledQuestions.length - 1}
           />
         )}
       </Card>

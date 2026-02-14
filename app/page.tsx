@@ -20,7 +20,33 @@ export default function Home() {
             למידה אינטראקטיבית עם תרגול, דוגמאות וחידונים
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-16">
+          {/* Basics Section */}
+          <div className="mb-12">
+            <Link href="/basics">
+              <Card className="p-8 group max-w-md mx-auto">
+                <div className="text-center">
+                  <div className="text-5xl mb-4">🎓</div>
+                  <h2 className="text-3xl font-bold font-display text-neutral-900 mb-2 group-hover:text-primary-600 transition-colors">
+                    יסודות
+                  </h2>
+                  <p className="text-neutral-600">
+                    לוח כפל, חילוק ועוד מיומנויות בסיס
+                  </p>
+                </div>
+              </Card>
+            </Link>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-3xl font-bold font-display text-neutral-900 text-center mb-2">
+              כיתות
+            </h2>
+            <p className="text-neutral-600 text-center">
+              בחר את הכיתה שלך
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-8">
             {GRADES.map((grade, index) => (
               <Link key={grade.id} href={`/grade/${grade.id}`}>
                 <Card
