@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <div className="text-3xl font-bold font-display text-primary-600">
-              מתמטיקה
+              מתמטיקול
             </div>
           </Link>
 

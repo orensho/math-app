@@ -18,7 +18,7 @@ const heebo = Heebo({
 })
 
 export const metadata: Metadata = {
-  title: 'מתמטיקה בעברית - שבילים פלוס',
+  title: 'מתמטיקול - שבילים פלוס',
   description: 'אפליקציה ללימוד מתמטיקה לכיתות א-ו',
 }
 

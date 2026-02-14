@@ -11,7 +11,7 @@ export default function Home() {
       <div className="relative z-10 container mx-auto px-4 py-24">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-6xl font-bold font-display text-neutral-900 mb-6 animate-fade-in">
-            מתמטיקה בעברית
+            מתמטיקול
           </h1>
           <p className="text-2xl text-neutral-600 mb-4">
             שבילים פלוס
