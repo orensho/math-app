@@ -227,16 +227,23 @@ npm run lint     # בדיקת קוד
 
 ### תצוגה מקדימה
 
+<div align="center">
+
 **עמוד הבית**
-![מתמטיקול - עמוד הבית](https://via.placeholder.com/800x500/0ea5e9/ffffff?text=מתמטיקול+-+עמוד+הבית)
+
+![מתמטיקול - עמוד הבית](public/screenshots/home.png)
 
 **חידון לוח הכפל**
-![חידון לוח הכפל](https://via.placeholder.com/800x500/f59e0b/ffffff?text=חידון+לוח+הכפל)
+
+![חידון לוח הכפל](public/screenshots/multiplication-quiz.png)
 
 **פתרון צעד אחר צעד**
-![פתרון צעד אחר צעד](https://via.placeholder.com/800x500/10b981/ffffff?text=פתרון+צעד+אחר+צעד)
 
-> 💡 **הערה:** להוספת צילומי מסך אמיתיים, החלף את ה-placeholders עם תמונות בתיקיית `public/screenshots/`
+![פתרון צעד אחר צעד](public/screenshots/solution-steps.png)
+
+</div>
+
+> 📸 **צילום מסכים:** להוספת צילומי מסך, הרץ `./take-screenshots.sh` או הוסף תמונות ידנית לתיקייה `public/screenshots/`
 
 ## 📚 תודות וייחוס
 
