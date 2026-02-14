@@ -1,0 +1,2330 @@
+{
+  "id": "grade-6-shevilim-plus-16",
+  "gradeId": "6",
+  "name": "שבילים פלוס 16",
+  "description": "ספר מתמטיקה לכיתה ו'",
+  "units": [
+    {
+      "id": "unit-1",
+      "bookId": "grade-6-shevilim-plus-16",
+      "order": 1,
+      "name": "כפל וחילוק שברים - חלק א",
+      "description": "לימוד פעולות כפל וחילוק בשברים עם מספרים שלמים ומעורבים",
+      "subSections": [
+        "כפל - הגורמים הם שבר ומספר שלם - חזרה והעמקה",
+        "חילוק - אחד הגורמים (המחלק או המנה) הוא מספר שלם",
+        "כפל - הגורמים הם מספר מעורב ומספר שלם",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-1-1",
+          "title": "כפל שבר במספר שלם",
+          "content": "כדי לכפול שבר במספר שלם, כופלים את המונה במספר השלם ושומרים על המכנה.",
+          "formula": "\\frac{a}{b} \\times n = \\frac{a \\times n}{b}",
+          "order": 1
+        },
+        {
+          "id": "concept-1-2",
+          "title": "חילוק שבר במספר שלם",
+          "content": "כדי לחלק שבר במספר שלם, כופלים את המכנה במספר השלם ושומרים על המונה, או כופלים בשבר ההופכי.",
+          "formula": "\\frac{a}{b} \\div n = \\frac{a}{b \\times n}",
+          "order": 2
+        },
+        {
+          "id": "concept-1-3",
+          "title": "מספר מעורב",
+          "content": "מספר מעורב מורכב מחלק שלם וחלק שברי. ניתן להמיר אותו לשבר לא צרוף על ידי כפל החלק השלם במכנה וחיבור המונה.",
+          "formula": "a\\frac{b}{c} = \\frac{a \\times c + b}{c}",
+          "order": 3
+        },
+        {
+          "id": "concept-1-4",
+          "title": "כפל מספר מעורב במספר שלם",
+          "content": "כדי לכפול מספר מעורב במספר שלם, ניתן להמיר למספר מעורב לשבר לא צרוף ואז לכפול, או לכפול בנפרד את החלק השלם והשבר.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-1-1",
+          "question": "חשב: 2/5 × 3",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל המונה במספר השלם",
+              "calculation": "2 × 3 = 6",
+              "explanation": "כופלים את המונה 2 ב-3"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבת השבר",
+              "calculation": "6/5",
+              "explanation": "המכנה נשאר 5"
+            },
+            {
+              "stepNumber": 3,
+              "description": "המרה למספר מעורב",
+              "calculation": "6/5 = 1⅕",
+              "explanation": "ניתן להציג כמספר מעורב"
+            }
+          ],
+          "finalAnswer": "6/5 או 1⅕"
+        },
+        {
+          "id": "example-1-2",
+          "question": "חשב: 3/4 ÷ 2",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל המכנה במספר השלם",
+              "calculation": "4 × 2 = 8",
+              "explanation": "כופלים את המכנה 4 ב-2"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבת התוצאה",
+              "calculation": "3/8",
+              "explanation": "המונה נשאר 3, המכנה הוא 8"
+            }
+          ],
+          "finalAnswer": "3/8"
+        },
+        {
+          "id": "example-1-3",
+          "question": "חשב: 2⅓ × 4",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר לא צרוף",
+              "calculation": "2⅓ = 7/3",
+              "explanation": "2×3+1 = 7, לכן 7/3"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל במספר השלם",
+              "calculation": "7/3 × 4 = 28/3",
+              "explanation": "כופלים את המונה ב-4"
+            },
+            {
+              "stepNumber": 3,
+              "description": "המרה למספר מעורב",
+              "calculation": "28/3 = 9⅓",
+              "explanation": "28 ÷ 3 = 9 שלמים ושארית 1"
+            }
+          ],
+          "finalAnswer": "9⅓"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-1-1",
+          "question": "חשב: 3/7 × 2",
+          "options": [
+            {"id": "opt-1", "text": "6/7", "isCorrect": true},
+            {"id": "opt-2", "text": "3/14", "isCorrect": false},
+            {"id": "opt-3", "text": "5/7", "isCorrect": false},
+            {"id": "opt-4", "text": "6/14", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כופלים את המונה במספר השלם: 3 × 2 = 6, המכנה נשאר 7",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל המונה",
+              "calculation": "3 × 2 = 6",
+              "explanation": "כופלים את המונה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבת התוצאה",
+              "calculation": "6/7",
+              "explanation": "המכנה נשאר זהה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-2",
+          "question": "חשב: 5/6 ÷ 5",
+          "options": [
+            {"id": "opt-1", "text": "1/6", "isCorrect": true},
+            {"id": "opt-2", "text": "5/30", "isCorrect": false},
+            {"id": "opt-3", "text": "25/6", "isCorrect": false},
+            {"id": "opt-4", "text": "1/5", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5/6 ÷ 5 = 5/(6×5) = 5/30 = 1/6",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל המכנה",
+              "calculation": "6 × 5 = 30",
+              "explanation": "כופלים את המכנה ב-5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "5/30 = 1/6",
+              "explanation": "מצמצמים ב-5"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-3",
+          "question": "המר למספר מעורב: 11/4",
+          "options": [
+            {"id": "opt-1", "text": "2¾", "isCorrect": true},
+            {"id": "opt-2", "text": "3¼", "isCorrect": false},
+            {"id": "opt-3", "text": "2¼", "isCorrect": false},
+            {"id": "opt-4", "text": "1¾", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "11 ÷ 4 = 2 שלמים ושארית 3, לכן 2¾",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "11 ÷ 4 = 2 שארית 3",
+              "explanation": "מחלקים את המונה במכנה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבת המספר המעורב",
+              "calculation": "2¾",
+              "explanation": "2 שלמים ו-3/4"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-4",
+          "question": "חשב: 1½ × 6",
+          "options": [
+            {"id": "opt-1", "text": "9", "isCorrect": true},
+            {"id": "opt-2", "text": "7½", "isCorrect": false},
+            {"id": "opt-3", "text": "6½", "isCorrect": false},
+            {"id": "opt-4", "text": "8", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1½ = 3/2, לכן 3/2 × 6 = 18/2 = 9",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר",
+              "calculation": "1½ = 3/2",
+              "explanation": "מהמירים למספר לא צרוף"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל",
+              "calculation": "3/2 × 6 = 18/2 = 9",
+              "explanation": "כופלים ומצמצמים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-5",
+          "question": "חשב: 4/9 × 3",
+          "options": [
+            {"id": "opt-1", "text": "4/3", "isCorrect": true},
+            {"id": "opt-2", "text": "12/9", "isCorrect": false},
+            {"id": "opt-3", "text": "4/27", "isCorrect": false},
+            {"id": "opt-4", "text": "7/9", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "4/9 × 3 = 12/9 = 4/3",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "4 × 3 = 12",
+              "explanation": "כופלים את המונה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "12/9 = 4/3",
+              "explanation": "מצמצמים ב-3"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-6",
+          "question": "חשב: 7/8 ÷ 7",
+          "options": [
+            {"id": "opt-1", "text": "1/8", "isCorrect": true},
+            {"id": "opt-2", "text": "7/56", "isCorrect": false},
+            {"id": "opt-3", "text": "1/7", "isCorrect": false},
+            {"id": "opt-4", "text": "49/8", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "7/8 ÷ 7 = 7/(8×7) = 7/56 = 1/8",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל המכנה",
+              "calculation": "8 × 7 = 56",
+              "explanation": "כופלים את המכנה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "7/56 = 1/8",
+              "explanation": "מצמצמים ב-7"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-7",
+          "question": "המר לשבר לא צרוף: 3⅖",
+          "options": [
+            {"id": "opt-1", "text": "17/5", "isCorrect": true},
+            {"id": "opt-2", "text": "15/5", "isCorrect": false},
+            {"id": "opt-3", "text": "13/5", "isCorrect": false},
+            {"id": "opt-4", "text": "8/5", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3⅖ = (3×5+2)/5 = 17/5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "3 × 5 + 2 = 17",
+              "explanation": "כופלים את החלק השלם במכנה ומוסיפים את המונה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבת השבר",
+              "calculation": "17/5",
+              "explanation": "השבר הלא צרוף"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-8",
+          "question": "חשב: 2¼ × 8",
+          "options": [
+            {"id": "opt-1", "text": "18", "isCorrect": true},
+            {"id": "opt-2", "text": "16", "isCorrect": false},
+            {"id": "opt-3", "text": "20", "isCorrect": false},
+            {"id": "opt-4", "text": "10¼", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2¼ = 9/4, לכן 9/4 × 8 = 72/4 = 18",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "2¼ = 9/4",
+              "explanation": "מהמירים לשבר לא צרוף"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל",
+              "calculation": "9/4 × 8 = 72/4 = 18",
+              "explanation": "כופלים ומצמצמים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-9",
+          "question": "חשב: 5/12 × 4",
+          "options": [
+            {"id": "opt-1", "text": "5/3", "isCorrect": true},
+            {"id": "opt-2", "text": "20/12", "isCorrect": false},
+            {"id": "opt-3", "text": "5/48", "isCorrect": false},
+            {"id": "opt-4", "text": "9/12", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5/12 × 4 = 20/12 = 5/3",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "5 × 4 = 20",
+              "explanation": "כופלים את המונה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "20/12 = 5/3",
+              "explanation": "מצמצמים ב-4"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-10",
+          "question": "חשב: 10 ÷ 4 והצג כמספר מעורב",
+          "options": [
+            {"id": "opt-1", "text": "2½", "isCorrect": true},
+            {"id": "opt-2", "text": "2¼", "isCorrect": false},
+            {"id": "opt-3", "text": "2¾", "isCorrect": false},
+            {"id": "opt-4", "text": "3", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "10 ÷ 4 = 10/4 = 5/2 = 2½",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כתיבה כשבר",
+              "calculation": "10/4",
+              "explanation": "חילוק כשבר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "10/4 = 5/2",
+              "explanation": "מצמצמים ב-2"
+            },
+            {
+              "stepNumber": 3,
+              "description": "המרה למספר מעורב",
+              "calculation": "5/2 = 2½",
+              "explanation": "5 ÷ 2 = 2 שארית 1"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "bookId": "grade-6-shevilim-plus-16",
+      "order": 2,
+      "name": "שוב חישוב - המבנה העשרוני",
+      "description": "חזרה והעמקה במבנה המערכת העשרונית ועבודה עם מספרים עשרוניים",
+      "subSections": [
+        "המבנה העשרוני - חזרה",
+        "השוואה וסידור מספרים עשרוניים",
+        "עיגול מספרים עשרוניים",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-2-1",
+          "title": "ערך מקומי במספרים עשרוניים",
+          "content": "במערכת העשרונית, כל ספרה מייצגת ערך שונה בהתאם למיקומה. מימין לנקודה העשרונית נמצאים עשיריות, מאיות, אלפיות וכו'.",
+          "formula": "0.abc = \\frac{a}{10} + \\frac{b}{100} + \\frac{c}{1000}",
+          "order": 1
+        },
+        {
+          "id": "concept-2-2",
+          "title": "השוואת מספרים עשרוניים",
+          "content": "להשוואת מספרים עשרוניים, משווים תחילה את החלק השלם, ואז את הספרות לפי סדר מימין לנקודה.",
+          "order": 2
+        },
+        {
+          "id": "concept-2-3",
+          "title": "עיגול מספרים עשרוניים",
+          "content": "לעיגול מספר עשרוני, בודקים את הספרה הבאה: אם היא 5 או יותר - מעגלים כלפי מעלה, אם היא פחות מ-5 - מעגלים כלפי מטה.",
+          "order": 3
+        },
+        {
+          "id": "concept-2-4",
+          "title": "המרה בין שברים עשרוניים לשברים רגילים",
+          "content": "ניתן להמיר שבר עשרוני לשבר רגיל על ידי כתיבת הספרות כמונה והמכנה הוא חזקה של 10.",
+          "formula": "0.a = \\frac{a}{10}, \\quad 0.ab = \\frac{ab}{100}",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-2-1",
+          "question": "השווה: 0.45 ו-0.405",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "השוואת החלק השלם",
+              "calculation": "0 = 0",
+              "explanation": "שני המספרים אין להם חלק שלם"
+            },
+            {
+              "stepNumber": 2,
+              "description": "השוואת העשיריות",
+              "calculation": "4 = 4",
+              "explanation": "לשני המספרים 4 עשיריות"
+            },
+            {
+              "stepNumber": 3,
+              "description": "השוואת המאיות",
+              "calculation": "5 > 0",
+              "explanation": "5 מאיות גדול מ-0 מאיות"
+            }
+          ],
+          "finalAnswer": "0.45 > 0.405"
+        },
+        {
+          "id": "example-2-2",
+          "question": "עגל ל-0.7 למספר שלם הקרוב",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הספרה הקובעת",
+              "calculation": "הספרה אחרי הנקודה היא 7",
+              "explanation": "7 גדול מ-5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "עיגול כלפי מעלה",
+              "calculation": "1",
+              "explanation": "כיוון ש-7 ≥ 5, מעגלים למעלה"
+            }
+          ],
+          "finalAnswer": "1"
+        },
+        {
+          "id": "example-2-3",
+          "question": "המר את השבר העשרוני 0.375 לשבר רגיל",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כתיבה כשבר",
+              "calculation": "375/1000",
+              "explanation": "3 ספרות אחרי הנקודה = אלפיות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "375/1000 = 3/8",
+              "explanation": "מצמצמים ב-125"
+            }
+          ],
+          "finalAnswer": "3/8"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-2-1",
+          "question": "מה הערך המקומי של הספרה 7 במספר 34.572?",
+          "options": [
+            {"id": "opt-1", "text": "7 מאיות", "isCorrect": true},
+            {"id": "opt-2", "text": "7 עשיריות", "isCorrect": false},
+            {"id": "opt-3", "text": "7 אלפיות", "isCorrect": false},
+            {"id": "opt-4", "text": "7 שלמים", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הספרה 7 נמצאת במקום המאיות (שני מקומות אחרי הנקודה)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי המיקום",
+              "calculation": "34.572",
+              "explanation": "7 במקום השני אחרי הנקודה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "קביעת הערך",
+              "calculation": "7 מאיות = 0.07",
+              "explanation": "המקום השני אחרי הנקודה הוא מאיות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-2",
+          "question": "איזה מספר הכי גדול: 0.6, 0.59, 0.601, 0.61?",
+          "options": [
+            {"id": "opt-1", "text": "0.61", "isCorrect": true},
+            {"id": "opt-2", "text": "0.601", "isCorrect": false},
+            {"id": "opt-3", "text": "0.6", "isCorrect": false},
+            {"id": "opt-4", "text": "0.59", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "0.61 הוא הגדול ביותר כי יש לו 6 עשיריות ו-1 מאית",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "השוואת עשיריות",
+              "calculation": "כולם מתחילים ב-0.5 או 0.6",
+              "explanation": "0.59 הכי קטן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "השוואת מאיות",
+              "calculation": "0.6 = 0.60, 0.601, 0.61",
+              "explanation": "0.61 הכי גדול"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-3",
+          "question": "עגל את 3.48 למספר שלם הקרוב",
+          "options": [
+            {"id": "opt-1", "text": "3", "isCorrect": true},
+            {"id": "opt-2", "text": "4", "isCorrect": false},
+            {"id": "opt-3", "text": "3.5", "isCorrect": false},
+            {"id": "opt-4", "text": "2", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הספרה אחרי הנקודה היא 4, קטנה מ-5, לכן מעגלים כלפי מטה",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "בדיקת הספרה",
+              "calculation": "4 < 5",
+              "explanation": "הספרה הראשונה אחרי הנקודה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "עיגול",
+              "calculation": "3",
+              "explanation": "עיגול כלפי מטה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-4",
+          "question": "המר 0.8 לשבר רגיל",
+          "options": [
+            {"id": "opt-1", "text": "4/5", "isCorrect": true},
+            {"id": "opt-2", "text": "8/10", "isCorrect": false},
+            {"id": "opt-3", "text": "1/8", "isCorrect": false},
+            {"id": "opt-4", "text": "8/100", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "0.8 = 8/10 = 4/5 (לאחר צמצום)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כתיבה כשבר",
+              "calculation": "8/10",
+              "explanation": "ספרה אחת אחרי הנקודה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "8/10 = 4/5",
+              "explanation": "מצמצמים ב-2"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-5",
+          "question": "עגל 7.856 לעשיריות",
+          "options": [
+            {"id": "opt-1", "text": "7.9", "isCorrect": true},
+            {"id": "opt-2", "text": "7.8", "isCorrect": false},
+            {"id": "opt-3", "text": "8.0", "isCorrect": false},
+            {"id": "opt-4", "text": "7.86", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "המאיות הן 5, לכן מעגלים את העשיריות כלפי מעלה",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הספרה",
+              "calculation": "5 ≥ 5",
+              "explanation": "המאיות קובעות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "עיגול",
+              "calculation": "7.9",
+              "explanation": "8 + 1 = 9 עשיריות"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-6",
+          "question": "מה הערך של 0.004?",
+          "options": [
+            {"id": "opt-1", "text": "4 אלפיות", "isCorrect": true},
+            {"id": "opt-2", "text": "4 מאיות", "isCorrect": false},
+            {"id": "opt-3", "text": "4 עשיריות", "isCorrect": false},
+            {"id": "opt-4", "text": "4 עשר-אלפיות", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הספרה 4 נמצאת במקום השלישי אחרי הנקודה - אלפיות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "ספירת מקומות",
+              "calculation": "0.004",
+              "explanation": "3 מקומות אחרי הנקודה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "קביעת הערך",
+              "calculation": "4/1000",
+              "explanation": "4 אלפיות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-7",
+          "question": "סדר מהקטן לגדול: 0.5, 0.05, 0.505, 0.055",
+          "options": [
+            {"id": "opt-1", "text": "0.05, 0.055, 0.5, 0.505", "isCorrect": true},
+            {"id": "opt-2", "text": "0.5, 0.505, 0.05, 0.055", "isCorrect": false},
+            {"id": "opt-3", "text": "0.05, 0.5, 0.055, 0.505", "isCorrect": false},
+            {"id": "opt-4", "text": "0.055, 0.05, 0.5, 0.505", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "תחילה משווים עשיריות, ואז מאיות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי קבוצות",
+              "calculation": "0.0x < 0.5x",
+              "explanation": "0 עשיריות קטן מ-5 עשיריות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "סידור",
+              "calculation": "0.05 < 0.055 < 0.5 < 0.505",
+              "explanation": "סידור מהקטן לגדול"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-2-8",
+          "question": "המר 0.125 לשבר רגיל",
+          "options": [
+            {"id": "opt-1", "text": "1/8", "isCorrect": true},
+            {"id": "opt-2", "text": "125/1000", "isCorrect": false},
+            {"id": "opt-3", "text": "1/125", "isCorrect": false},
+            {"id": "opt-4", "text": "5/8", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "0.125 = 125/1000 = 1/8",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כתיבה כשבר",
+              "calculation": "125/1000",
+              "explanation": "3 ספרות אחרי הנקודה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "125/1000 = 1/8",
+              "explanation": "מצמצמים ב-125"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-9",
+          "question": "עגל 12.345 למאיות",
+          "options": [
+            {"id": "opt-1", "text": "12.35", "isCorrect": true},
+            {"id": "opt-2", "text": "12.34", "isCorrect": false},
+            {"id": "opt-3", "text": "12.3", "isCorrect": false},
+            {"id": "opt-4", "text": "12.4", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "האלפיות הן 5, לכן מעגלים את המאיות כלפי מעלה",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הספרה",
+              "calculation": "5 ≥ 5",
+              "explanation": "האלפיות קובעות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "עיגול",
+              "calculation": "12.35",
+              "explanation": "4 + 1 = 5 מאיות"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-10",
+          "question": "כמה אלפיות יש ב-0.7?",
+          "options": [
+            {"id": "opt-1", "text": "700", "isCorrect": true},
+            {"id": "opt-2", "text": "70", "isCorrect": false},
+            {"id": "opt-3", "text": "7", "isCorrect": false},
+            {"id": "opt-4", "text": "7000", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "0.7 = 0.700 = 700 אלפיות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "0.7 = 0.700",
+              "explanation": "הוספת אפסים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ספירה",
+              "calculation": "700 אלפיות",
+              "explanation": "7 עשיריות = 700 אלפיות"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "bookId": "grade-6-shevilim-plus-16",
+      "order": 3,
+      "name": "חלק מכמות בשברים",
+      "description": "חישוב חלק מכמות נתונה באמצעות שברים",
+      "subSections": [
+        "מציאת חלק מכמות",
+        "מציאת הכמות השלמה",
+        "יישומים בעיות מילוליות",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-3-1",
+          "title": "מציאת חלק מכמות",
+          "content": "כדי למצוא חלק מכמות, כופלים את הכמות בשבר המבוטא את החלק.",
+          "formula": "\\frac{a}{b} \\text{ מ-}n = \\frac{a}{b} \\times n",
+          "order": 1
+        },
+        {
+          "id": "concept-3-2",
+          "title": "מציאת הכמות השלמה",
+          "content": "אם ידוע חלק מהכמות, ניתן למצוא את הכמות השלמה על ידי חילוק בשבר (או כפל בהופכי).",
+          "formula": "\\text{אם } \\frac{a}{b} \\text{ מ-}x = n, \\text{ אז } x = n \\div \\frac{a}{b}",
+          "order": 2
+        },
+        {
+          "id": "concept-3-3",
+          "title": "שבר מכמות בעיות מילוליות",
+          "content": "בעיות מילוליות דורשות זיהוי של הכמות השלמה והשבר שמבטא את החלק הנדרש.",
+          "order": 3
+        },
+        {
+          "id": "concept-3-4",
+          "title": "שברים שווים ליחידה",
+          "content": "סכום כל החלקים יחד חייב להיות שווה ליחידה שלמה אחת (או 100%).",
+          "formula": "\\frac{a}{b} + \\frac{c}{b} = \\frac{a+c}{b}",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-3-1",
+          "question": "חשב 2/5 מ-30",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל בשבר",
+              "calculation": "2/5 × 30",
+              "explanation": "כופלים את הכמות בשבר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "(2 × 30) / 5 = 60/5 = 12",
+              "explanation": "פתרון הכפל"
+            }
+          ],
+          "finalAnswer": "12"
+        },
+        {
+          "id": "example-3-2",
+          "question": "3/4 מכמות היא 18. מה הכמות?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כתיבת משוואה",
+              "calculation": "3/4 × x = 18",
+              "explanation": "x היא הכמות המלאה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חילוק בשבר",
+              "calculation": "x = 18 ÷ 3/4",
+              "explanation": "מחלקים ב-3/4"
+            },
+            {
+              "stepNumber": 3,
+              "description": "כפל בהופכי",
+              "calculation": "x = 18 × 4/3 = 72/3 = 24",
+              "explanation": "פתרון הכפל"
+            }
+          ],
+          "finalAnswer": "24"
+        },
+        {
+          "id": "example-3-3",
+          "question": "בכיתה 30 תלמידים. 2/5 מהם בנים. כמה בנות בכיתה?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מספר הבנים",
+              "calculation": "2/5 × 30 = 12",
+              "explanation": "12 בנים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב מספר הבנות",
+              "calculation": "30 - 12 = 18",
+              "explanation": "השאר הן בנות"
+            }
+          ],
+          "finalAnswer": "18 בנות"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-3-1",
+          "question": "חשב 1/2 מ-40",
+          "options": [
+            {"id": "opt-1", "text": "20", "isCorrect": true},
+            {"id": "opt-2", "text": "10", "isCorrect": false},
+            {"id": "opt-3", "text": "40", "isCorrect": false},
+            {"id": "opt-4", "text": "80", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1/2 × 40 = 40/2 = 20",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "1/2 × 40 = 40/2",
+              "explanation": "כופלים את הכמות בשבר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "40/2 = 20",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-2",
+          "question": "חשב 3/4 מ-24",
+          "options": [
+            {"id": "opt-1", "text": "18", "isCorrect": true},
+            {"id": "opt-2", "text": "6", "isCorrect": false},
+            {"id": "opt-3", "text": "12", "isCorrect": false},
+            {"id": "opt-4", "text": "8", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3/4 × 24 = 72/4 = 18",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "3/4 × 24 = (3 × 24)/4",
+              "explanation": "כופלים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "72/4 = 18",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-3",
+          "question": "2/3 מכמות היא 10. מה הכמות?",
+          "options": [
+            {"id": "opt-1", "text": "15", "isCorrect": true},
+            {"id": "opt-2", "text": "6", "isCorrect": false},
+            {"id": "opt-3", "text": "20", "isCorrect": false},
+            {"id": "opt-4", "text": "12", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "10 ÷ 2/3 = 10 × 3/2 = 15",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק בשבר",
+              "calculation": "10 ÷ 2/3",
+              "explanation": "מחלקים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל בהופכי",
+              "calculation": "10 × 3/2 = 30/2 = 15",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-4",
+          "question": "חשב 1/5 מ-35",
+          "options": [
+            {"id": "opt-1", "text": "7", "isCorrect": true},
+            {"id": "opt-2", "text": "5", "isCorrect": false},
+            {"id": "opt-3", "text": "30", "isCorrect": false},
+            {"id": "opt-4", "text": "175", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1/5 × 35 = 35/5 = 7",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "1/5 × 35",
+              "explanation": "כופלים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "35/5 = 7",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-5",
+          "question": "בספרייה 60 ספרים. 1/3 מהם ספרי ילדים. כמה ספרי ילדים יש?",
+          "options": [
+            {"id": "opt-1", "text": "20", "isCorrect": true},
+            {"id": "opt-2", "text": "30", "isCorrect": false},
+            {"id": "opt-3", "text": "40", "isCorrect": false},
+            {"id": "opt-4", "text": "15", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1/3 × 60 = 60/3 = 20",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הנתונים",
+              "calculation": "1/3 מ-60",
+              "explanation": "הכמות והשבר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "60/3 = 20",
+              "explanation": "20 ספרי ילדים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-6",
+          "question": "3/5 מכמות היא 21. מה הכמות?",
+          "options": [
+            {"id": "opt-1", "text": "35", "isCorrect": true},
+            {"id": "opt-2", "text": "15", "isCorrect": false},
+            {"id": "opt-3", "text": "42", "isCorrect": false},
+            {"id": "opt-4", "text": "28", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "21 ÷ 3/5 = 21 × 5/3 = 105/3 = 35",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "21 ÷ 3/5",
+              "explanation": "מחלקים בשבר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל בהופכי",
+              "calculation": "21 × 5/3 = 35",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-3-7",
+          "question": "חשב 2/3 מ-27",
+          "options": [
+            {"id": "opt-1", "text": "18", "isCorrect": true},
+            {"id": "opt-2", "text": "9", "isCorrect": false},
+            {"id": "opt-3", "text": "13", "isCorrect": false},
+            {"id": "opt-4", "text": "24", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2/3 × 27 = 54/3 = 18",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "2/3 × 27 = (2 × 27)/3",
+              "explanation": "כופלים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "54/3 = 18",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-8",
+          "question": "יש לי 45 שקלים. הוצאתי 2/5 מהם. כמה כסף נשאר?",
+          "options": [
+            {"id": "opt-1", "text": "27 שקלים", "isCorrect": true},
+            {"id": "opt-2", "text": "18 שקלים", "isCorrect": false},
+            {"id": "opt-3", "text": "30 שקלים", "isCorrect": false},
+            {"id": "opt-4", "text": "15 שקלים", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הוצאתי 2/5 × 45 = 18. נשאר 45 - 18 = 27",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב ההוצאה",
+              "calculation": "2/5 × 45 = 18",
+              "explanation": "הוצאתי 18 שקלים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הנותר",
+              "calculation": "45 - 18 = 27",
+              "explanation": "נשאר 27 שקלים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-3-9",
+          "question": "חשב 3/8 מ-32",
+          "options": [
+            {"id": "opt-1", "text": "12", "isCorrect": true},
+            {"id": "opt-2", "text": "8", "isCorrect": false},
+            {"id": "opt-3", "text": "16", "isCorrect": false},
+            {"id": "opt-4", "text": "24", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3/8 × 32 = 96/8 = 12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "3/8 × 32 = (3 × 32)/8",
+              "explanation": "כופלים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "96/8 = 12",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-10",
+          "question": "5/6 מכמות היא 25. מה הכמות?",
+          "options": [
+            {"id": "opt-1", "text": "30", "isCorrect": true},
+            {"id": "opt-2", "text": "20", "isCorrect": false},
+            {"id": "opt-3", "text": "36", "isCorrect": false},
+            {"id": "opt-4", "text": "24", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "25 ÷ 5/6 = 25 × 6/5 = 150/5 = 30",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "25 ÷ 5/6",
+              "explanation": "מחלקים בשבר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל בהופכי",
+              "calculation": "25 × 6/5 = 30",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "bookId": "grade-6-shevilim-plus-16",
+      "order": 4,
+      "name": "שוב חישוב - חילוק במספרים טבעיים",
+      "description": "חזרה והעמקה בפעולת החילוק במספרים טבעיים",
+      "subSections": [
+        "חילוק ארוך - חזרה",
+        "חילוק עם שארית",
+        "בדיקת נכונות פעולת חילוק",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-4-1",
+          "title": "חילוק ארוך",
+          "content": "חילוק ארוך הוא שיטה לחלוקת מספר גדול במספר קטן יותר, תוך ביצוע הפעולה שלב אחר שלב.",
+          "formula": "a \\div b = q \\text{ שארית } r",
+          "order": 1
+        },
+        {
+          "id": "concept-4-2",
+          "title": "חילוק עם שארית",
+          "content": "כאשר המחלק אינו מחלק במדויק את המחולק, נותרת שארית. השארית תמיד קטנה מהמחלק.",
+          "formula": "a = b \\times q + r, \\quad 0 \\leq r < b",
+          "order": 2
+        },
+        {
+          "id": "concept-4-3",
+          "title": "בדיקת נכונות",
+          "content": "לבדיקת נכונות חילוק: כופלים את המנה במחלק ומוסיפים את השארית. התוצאה צריכה להיות שווה למחולק.",
+          "formula": "\\text{מחולק} = \\text{מחלק} \\times \\text{מנה} + \\text{שארית}",
+          "order": 3
+        },
+        {
+          "id": "concept-4-4",
+          "title": "קשר בין חילוק לכפל",
+          "content": "חילוק וכפל הן פעולות הפוכות. אם a ÷ b = c, אז b × c = a.",
+          "formula": "a \\div b = c \\Leftrightarrow b \\times c = a",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-4-1",
+          "question": "חשב: 156 ÷ 12",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "156 ÷ 12 = 13",
+              "explanation": "12 × 13 = 156"
+            },
+            {
+              "stepNumber": 2,
+              "description": "בדיקה",
+              "calculation": "12 × 13 = 156",
+              "explanation": "הפעולה נכונה, אין שארית"
+            }
+          ],
+          "finalAnswer": "13"
+        },
+        {
+          "id": "example-4-2",
+          "question": "חשב: 175 ÷ 8",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "175 ÷ 8 = 21 שארית 7",
+              "explanation": "8 × 21 = 168, 175 - 168 = 7"
+            },
+            {
+              "stepNumber": 2,
+              "description": "בדיקה",
+              "calculation": "8 × 21 + 7 = 168 + 7 = 175",
+              "explanation": "הפעולה נכונה"
+            }
+          ],
+          "finalAnswer": "21 שארית 7"
+        },
+        {
+          "id": "example-4-3",
+          "question": "בדוק אם החילוק נכון: 247 ÷ 13 = 19",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל לבדיקה",
+              "calculation": "13 × 19 = 247",
+              "explanation": "כופלים את המחלק במנה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "השוואה",
+              "calculation": "247 = 247",
+              "explanation": "התוצאה זהה למחולק"
+            }
+          ],
+          "finalAnswer": "החילוק נכון"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-4-1",
+          "question": "חשב: 144 ÷ 12",
+          "options": [
+            {"id": "opt-1", "text": "12", "isCorrect": true},
+            {"id": "opt-2", "text": "10", "isCorrect": false},
+            {"id": "opt-3", "text": "14", "isCorrect": false},
+            {"id": "opt-4", "text": "11", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "144 ÷ 12 = 12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "144 ÷ 12 = 12",
+              "explanation": "12 × 12 = 144"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-2",
+          "question": "חשב: 85 ÷ 7",
+          "options": [
+            {"id": "opt-1", "text": "12 שארית 1", "isCorrect": true},
+            {"id": "opt-2", "text": "12", "isCorrect": false},
+            {"id": "opt-3", "text": "11 שארית 8", "isCorrect": false},
+            {"id": "opt-4", "text": "13", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "85 ÷ 7 = 12 שארית 1 (7 × 12 = 84, 85 - 84 = 1)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "7 × 12 = 84",
+              "explanation": "המספר הקרוב ביותר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב שארית",
+              "calculation": "85 - 84 = 1",
+              "explanation": "השארית"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-3",
+          "question": "מה השארית של 100 ÷ 6?",
+          "options": [
+            {"id": "opt-1", "text": "4", "isCorrect": true},
+            {"id": "opt-2", "text": "2", "isCorrect": false},
+            {"id": "opt-3", "text": "5", "isCorrect": false},
+            {"id": "opt-4", "text": "3", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "100 ÷ 6 = 16 שארית 4 (6 × 16 = 96, 100 - 96 = 4)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "6 × 16 = 96",
+              "explanation": "המספר הקרוב"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שארית",
+              "calculation": "100 - 96 = 4",
+              "explanation": "השארית"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-4",
+          "question": "חשב: 96 ÷ 8",
+          "options": [
+            {"id": "opt-1", "text": "12", "isCorrect": true},
+            {"id": "opt-2", "text": "11", "isCorrect": false},
+            {"id": "opt-3", "text": "13", "isCorrect": false},
+            {"id": "opt-4", "text": "10", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "96 ÷ 8 = 12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "96 ÷ 8 = 12",
+              "explanation": "8 × 12 = 96"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-5",
+          "question": "בדוק: האם 117 ÷ 9 = 13 נכון?",
+          "options": [
+            {"id": "opt-1", "text": "כן", "isCorrect": true},
+            {"id": "opt-2", "text": "לא", "isCorrect": false},
+            {"id": "opt-3", "text": "יש שארית", "isCorrect": false},
+            {"id": "opt-4", "text": "לא ניתן לדעת", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "9 × 13 = 117, לכן החילוק נכון",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "בדיקה",
+              "calculation": "9 × 13 = 117",
+              "explanation": "כפל לבדיקה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מסקנה",
+              "calculation": "117 = 117",
+              "explanation": "החילוק נכון"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-6",
+          "question": "חשב: 250 ÷ 15",
+          "options": [
+            {"id": "opt-1", "text": "16 שארית 10", "isCorrect": true},
+            {"id": "opt-2", "text": "16", "isCorrect": false},
+            {"id": "opt-3", "text": "17 שארית 5", "isCorrect": false},
+            {"id": "opt-4", "text": "15 שארית 25", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "250 ÷ 15 = 16 שארית 10 (15 × 16 = 240, 250 - 240 = 10)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "15 × 16 = 240",
+              "explanation": "המספר הקרוב"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שארית",
+              "calculation": "250 - 240 = 10",
+              "explanation": "השארית"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-4-7",
+          "question": "חשב: 108 ÷ 9",
+          "options": [
+            {"id": "opt-1", "text": "12", "isCorrect": true},
+            {"id": "opt-2", "text": "11", "isCorrect": false},
+            {"id": "opt-3", "text": "13", "isCorrect": false},
+            {"id": "opt-4", "text": "10", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "108 ÷ 9 = 12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "108 ÷ 9 = 12",
+              "explanation": "9 × 12 = 108"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-8",
+          "question": "מה המנה של 143 ÷ 11?",
+          "options": [
+            {"id": "opt-1", "text": "13", "isCorrect": true},
+            {"id": "opt-2", "text": "12", "isCorrect": false},
+            {"id": "opt-3", "text": "14", "isCorrect": false},
+            {"id": "opt-4", "text": "11", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "143 ÷ 11 = 13 (11 × 13 = 143)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "143 ÷ 11 = 13",
+              "explanation": "11 × 13 = 143"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-9",
+          "question": "חשב: 200 ÷ 12",
+          "options": [
+            {"id": "opt-1", "text": "16 שארית 8", "isCorrect": true},
+            {"id": "opt-2", "text": "16", "isCorrect": false},
+            {"id": "opt-3", "text": "17 שארית 4", "isCorrect": false},
+            {"id": "opt-4", "text": "15 שארית 20", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "200 ÷ 12 = 16 שארית 8 (12 × 16 = 192, 200 - 192 = 8)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "12 × 16 = 192",
+              "explanation": "המספר הקרוב"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שארית",
+              "calculation": "200 - 192 = 8",
+              "explanation": "השארית"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-4-10",
+          "question": "אם 156 ÷ x = 13, מה ערך x?",
+          "options": [
+            {"id": "opt-1", "text": "12", "isCorrect": true},
+            {"id": "opt-2", "text": "11", "isCorrect": false},
+            {"id": "opt-3", "text": "13", "isCorrect": false},
+            {"id": "opt-4", "text": "14", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "x = 156 ÷ 13 = 12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "156 ÷ 13 = 12",
+              "explanation": "מחפשים את המחלק"
+            },
+            {
+              "stepNumber": 2,
+              "description": "בדיקה",
+              "calculation": "12 × 13 = 156",
+              "explanation": "אימות"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "bookId": "grade-6-shevilim-plus-16",
+      "order": 5,
+      "name": "חלק מכמות באחוזים",
+      "description": "הבנת משמעות האחוז וחישוב אחוזים מכמויות",
+      "subSections": [
+        "משמעות האחוז",
+        "מציאת אחוז מכמות",
+        "המרה בין אחוזים לשברים",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-5-1",
+          "title": "משמעות האחוז",
+          "content": "אחוז הוא שבר שהמכנה שלו הוא 100. הסימן % מייצג 'מתוך מאה'.",
+          "formula": "x\\% = \\frac{x}{100}",
+          "order": 1
+        },
+        {
+          "id": "concept-5-2",
+          "title": "מציאת אחוז מכמות",
+          "content": "כדי למצוא אחוז מכמות, מכפילים את הכמות בשבר המתאים (האחוז חלקי 100).",
+          "formula": "x\\% \\text{ מ-}n = \\frac{x}{100} \\times n",
+          "order": 2
+        },
+        {
+          "id": "concept-5-3",
+          "title": "המרה בין אחוזים לשברים",
+          "content": "ניתן להמיר אחוז לשבר על ידי כתיבתו עם מכנה 100 וצמצום. להמיר שבר לאחוז - כופלים ב-100.",
+          "formula": "\\frac{a}{b} = \\frac{a \\times 100}{b}\\%",
+          "order": 3
+        },
+        {
+          "id": "concept-5-4",
+          "title": "אחוזים נפוצים",
+          "content": "כדאי לזכור: 50% = 1/2, 25% = 1/4, 75% = 3/4, 10% = 1/10, 20% = 1/5",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-5-1",
+          "question": "חשב 25% מ-80",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר",
+              "calculation": "25% = 25/100 = 1/4",
+              "explanation": "25 אחוז זה רבע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל בכמות",
+              "calculation": "1/4 × 80 = 20",
+              "explanation": "רבע מ-80"
+            }
+          ],
+          "finalAnswer": "20"
+        },
+        {
+          "id": "example-5-2",
+          "question": "המר 3/5 לאחוזים",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-100",
+              "calculation": "3/5 × 100",
+              "explanation": "המרה לאחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "300/5 = 60%",
+              "explanation": "תוצאה"
+            }
+          ],
+          "finalAnswer": "60%"
+        },
+        {
+          "id": "example-5-3",
+          "question": "בכיתה 40 תלמידים. 30% מהם בנות. כמה בנות יש?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר",
+              "calculation": "30% = 30/100 = 3/10",
+              "explanation": "30 אחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "3/10 × 40 = 120/10 = 12",
+              "explanation": "מספר הבנות"
+            }
+          ],
+          "finalAnswer": "12 בנות"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-5-1",
+          "question": "חשב 50% מ-60",
+          "options": [
+            {"id": "opt-1", "text": "30", "isCorrect": true},
+            {"id": "opt-2", "text": "20", "isCorrect": false},
+            {"id": "opt-3", "text": "40", "isCorrect": false},
+            {"id": "opt-4", "text": "25", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "50% = 1/2, לכן 1/2 × 60 = 30",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "50% = 1/2",
+              "explanation": "50 אחוז זה מחצית"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "1/2 × 60 = 30",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-2",
+          "question": "המר 1/4 לאחוזים",
+          "options": [
+            {"id": "opt-1", "text": "25%", "isCorrect": true},
+            {"id": "opt-2", "text": "50%", "isCorrect": false},
+            {"id": "opt-3", "text": "20%", "isCorrect": false},
+            {"id": "opt-4", "text": "40%", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1/4 × 100 = 100/4 = 25%",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-100",
+              "calculation": "1/4 × 100",
+              "explanation": "המרה לאחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "100/4 = 25%",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-3",
+          "question": "חשב 10% מ-150",
+          "options": [
+            {"id": "opt-1", "text": "15", "isCorrect": true},
+            {"id": "opt-2", "text": "10", "isCorrect": false},
+            {"id": "opt-3", "text": "20", "isCorrect": false},
+            {"id": "opt-4", "text": "25", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "10% = 1/10, לכן 1/10 × 150 = 15",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "10% = 1/10",
+              "explanation": "10 אחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "150/10 = 15",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-4",
+          "question": "המר 75% לשבר",
+          "options": [
+            {"id": "opt-1", "text": "3/4", "isCorrect": true},
+            {"id": "opt-2", "text": "1/4", "isCorrect": false},
+            {"id": "opt-3", "text": "2/3", "isCorrect": false},
+            {"id": "opt-4", "text": "3/5", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "75% = 75/100 = 3/4",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כתיבה כשבר",
+              "calculation": "75/100",
+              "explanation": "75 מתוך 100"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "75/100 = 3/4",
+              "explanation": "מצמצמים ב-25"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-5",
+          "question": "חשב 20% מ-200",
+          "options": [
+            {"id": "opt-1", "text": "40", "isCorrect": true},
+            {"id": "opt-2", "text": "20", "isCorrect": false},
+            {"id": "opt-3", "text": "50", "isCorrect": false},
+            {"id": "opt-4", "text": "30", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "20% = 1/5, לכן 1/5 × 200 = 40",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "20% = 20/100 = 1/5",
+              "explanation": "20 אחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "200/5 = 40",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-6",
+          "question": "המר 2/5 לאחוזים",
+          "options": [
+            {"id": "opt-1", "text": "40%", "isCorrect": true},
+            {"id": "opt-2", "text": "25%", "isCorrect": false},
+            {"id": "opt-3", "text": "50%", "isCorrect": false},
+            {"id": "opt-4", "text": "60%", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2/5 × 100 = 200/5 = 40%",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-100",
+              "calculation": "2/5 × 100",
+              "explanation": "המרה לאחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "200/5 = 40%",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-7",
+          "question": "חשב 15% מ-80",
+          "options": [
+            {"id": "opt-1", "text": "12", "isCorrect": true},
+            {"id": "opt-2", "text": "10", "isCorrect": false},
+            {"id": "opt-3", "text": "15", "isCorrect": false},
+            {"id": "opt-4", "text": "8", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "15% = 15/100, לכן 15/100 × 80 = 1200/100 = 12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "15% = 15/100",
+              "explanation": "15 אחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "15/100 × 80 = 12",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-5-8",
+          "question": "בחנות היו 120 פריטים. נמכרו 25% מהם. כמה פריטים נותרו?",
+          "options": [
+            {"id": "opt-1", "text": "90", "isCorrect": true},
+            {"id": "opt-2", "text": "30", "isCorrect": false},
+            {"id": "opt-3", "text": "80", "isCorrect": false},
+            {"id": "opt-4", "text": "100", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "25% מ-120 = 30 נמכרו. נותרו 120 - 30 = 90",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב הנמכרים",
+              "calculation": "25% × 120 = 1/4 × 120 = 30",
+              "explanation": "30 פריטים נמכרו"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הנותרים",
+              "calculation": "120 - 30 = 90",
+              "explanation": "90 פריטים נותרו"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-5-9",
+          "question": "המר 1/2 לאחוזים",
+          "options": [
+            {"id": "opt-1", "text": "50%", "isCorrect": true},
+            {"id": "opt-2", "text": "25%", "isCorrect": false},
+            {"id": "opt-3", "text": "75%", "isCorrect": false},
+            {"id": "opt-4", "text": "100%", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1/2 × 100 = 50%",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-100",
+              "calculation": "1/2 × 100",
+              "explanation": "המרה לאחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "100/2 = 50%",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-10",
+          "question": "חשב 5% מ-300",
+          "options": [
+            {"id": "opt-1", "text": "15", "isCorrect": true},
+            {"id": "opt-2", "text": "10", "isCorrect": false},
+            {"id": "opt-3", "text": "20", "isCorrect": false},
+            {"id": "opt-4", "text": "25", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5% = 5/100 = 1/20, לכן 300/20 = 15",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "5% = 5/100 = 1/20",
+              "explanation": "5 אחוז"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "300/20 = 15",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "bookId": "grade-6-shevilim-plus-16",
+      "order": 6,
+      "name": "שוב חישוב - חיבור וחיסור",
+      "description": "חזרה והעמקה בפעולות חיבור וחיסור במספרים טבעיים ועשרוניים",
+      "subSections": [
+        "חיבור וחיסור מספרים טבעיים",
+        "חיבור וחיסור מספרים עשרוניים",
+        "בדיקת נכונות פעולות",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-6-1",
+          "title": "חיבור מספרים",
+          "content": "חיבור הוא צירוף של שתי כמויות או יותר. יש לשים לב להעברת עשרות בין המקומות.",
+          "formula": "a + b = c",
+          "order": 1
+        },
+        {
+          "id": "concept-6-2",
+          "title": "חיסור מספרים",
+          "content": "חיסור הוא הפחתה של כמות מכמות אחרת. יש לשים לב להשאלה בין המקומות.",
+          "formula": "a - b = c",
+          "order": 2
+        },
+        {
+          "id": "concept-6-3",
+          "title": "חיבור וחיסור עשרוניים",
+          "content": "בחיבור וחיסור עשרוניים יש להקפיד על יישור הנקודות העשרוניות אחת מתחת לשנייה.",
+          "order": 3
+        },
+        {
+          "id": "concept-6-4",
+          "title": "בדיקת נכונות",
+          "content": "ניתן לבדוק חיסור על ידי חיבור: אם a - b = c, אז b + c = a.",
+          "formula": "a - b = c \\Leftrightarrow b + c = a",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-6-1",
+          "question": "חשב: 3.45 + 2.78",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "יישור נקודות",
+              "calculation": "  3.45\n+ 2.78",
+              "explanation": "נקודות מיושרות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור",
+              "calculation": "6.23",
+              "explanation": "חיבור עמודות: 5+8=13, 4+7+1=12, 3+2+1=6"
+            }
+          ],
+          "finalAnswer": "6.23"
+        },
+        {
+          "id": "example-6-2",
+          "question": "חשב: 8.5 - 3.27",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "יישור והוספת אפס",
+              "calculation": "  8.50\n- 3.27",
+              "explanation": "נקודות מיושרות, 8.5 = 8.50"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור",
+              "calculation": "5.23",
+              "explanation": "חיסור עמודות עם השאלה"
+            }
+          ],
+          "finalAnswer": "5.23"
+        },
+        {
+          "id": "example-6-3",
+          "question": "חשב: 456 + 789",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "סידור עמודות",
+              "calculation": "  456\n+ 789",
+              "explanation": "יישור מקומות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור",
+              "calculation": "1245",
+              "explanation": "6+9=15, 5+8+1=14, 4+7+1=12"
+            }
+          ],
+          "finalAnswer": "1245"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-6-1",
+          "question": "חשב: 234 + 567",
+          "options": [
+            {"id": "opt-1", "text": "801", "isCorrect": true},
+            {"id": "opt-2", "text": "791", "isCorrect": false},
+            {"id": "opt-3", "text": "800", "isCorrect": false},
+            {"id": "opt-4", "text": "811", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "234 + 567 = 801",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור",
+              "calculation": "4+7=11, 3+6+1=10, 2+5+1=8",
+              "explanation": "חיבור עמודות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "801",
+              "explanation": "תוצאה סופית"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-2",
+          "question": "חשב: 500 - 237",
+          "options": [
+            {"id": "opt-1", "text": "263", "isCorrect": true},
+            {"id": "opt-2", "text": "273", "isCorrect": false},
+            {"id": "opt-3", "text": "363", "isCorrect": false},
+            {"id": "opt-4", "text": "253", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "500 - 237 = 263",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור עם השאלה",
+              "calculation": "0-7: שאלה, 10-7=3",
+              "explanation": "חיסור עמודות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "263",
+              "explanation": "תוצאה סופית"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-3",
+          "question": "חשב: 2.5 + 3.8",
+          "options": [
+            {"id": "opt-1", "text": "6.3", "isCorrect": true},
+            {"id": "opt-2", "text": "5.3", "isCorrect": false},
+            {"id": "opt-3", "text": "6.13", "isCorrect": false},
+            {"id": "opt-4", "text": "5.13", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2.5 + 3.8 = 6.3",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור",
+              "calculation": "5+8=13, עשירית 3 ו-1 עובר",
+              "explanation": "חיבור עשרוניים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "2+3+1=6, לכן 6.3",
+              "explanation": "תוצאה סופית"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-4",
+          "question": "חשב: 7.2 - 3.5",
+          "options": [
+            {"id": "opt-1", "text": "3.7", "isCorrect": true},
+            {"id": "opt-2", "text": "4.7", "isCorrect": false},
+            {"id": "opt-3", "text": "3.3", "isCorrect": false},
+            {"id": "opt-4", "text": "4.3", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "7.2 - 3.5 = 3.7",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור",
+              "calculation": "2-5: שאלה, 12-5=7",
+              "explanation": "חיסור עשרוניים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "7-3-1=3, לכן 3.7",
+              "explanation": "תוצאה סופית"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-5",
+          "question": "חשב: 1234 + 5678",
+          "options": [
+            {"id": "opt-1", "text": "6912", "isCorrect": true},
+            {"id": "opt-2", "text": "6812", "isCorrect": false},
+            {"id": "opt-3", "text": "7012", "isCorrect": false},
+            {"id": "opt-4", "text": "6902", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1234 + 5678 = 6912",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור עמודות",
+              "calculation": "4+8=12, 3+7+1=11, 2+6+1=9, 1+5=6",
+              "explanation": "חיבור עם העברות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "6912",
+              "explanation": "תוצאה סופית"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-6",
+          "question": "חשב: 1000 - 456",
+          "options": [
+            {"id": "opt-1", "text": "544", "isCorrect": true},
+            {"id": "opt-2", "text": "554", "isCorrect": false},
+            {"id": "opt-3", "text": "644", "isCorrect": false},
+            {"id": "opt-4", "text": "454", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1000 - 456 = 544",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור עם השאלות",
+              "calculation": "0-6: שאלה, 10-6=4",
+              "explanation": "חיסור עמודות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "544",
+              "explanation": "תוצאה סופית"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-6-7",
+          "question": "חשב: 4.75 + 2.38",
+          "options": [
+            {"id": "opt-1", "text": "7.13", "isCorrect": true},
+            {"id": "opt-2", "text": "6.13", "isCorrect": false},
+            {"id": "opt-3", "text": "7.03", "isCorrect": false},
+            {"id": "opt-4", "text": "6.23", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "4.75 + 2.38 = 7.13",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור",
+              "calculation": "5+8=13, 7+3+1=11, 4+2+1=7",
+              "explanation": "חיבור עשרוניים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "7.13",
+              "explanation": "תוצאה סופית"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-8",
+          "question": "חשב: 10 - 4.67",
+          "options": [
+            {"id": "opt-1", "text": "5.33", "isCorrect": true},
+            {"id": "opt-2", "text": "6.33", "isCorrect": false},
+            {"id": "opt-3", "text": "5.43", "isCorrect": false},
+            {"id": "opt-4", "text": "4.33", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "10.00 - 4.67 = 5.33",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הוספת נקודה ואפסים",
+              "calculation": "10.00 - 4.67",
+              "explanation": "יישור נקודות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור",
+              "calculation": "5.33",
+              "explanation": "חיסור עם השאלות"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-6-9",
+          "question": "חשב: 678 + 234 + 89",
+          "options": [
+            {"id": "opt-1", "text": "1001", "isCorrect": true},
+            {"id": "opt-2", "text": "991", "isCorrect": false},
+            {"id": "opt-3", "text": "1011", "isCorrect": false},
+            {"id": "opt-4", "text": "901", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "678 + 234 + 89 = 1001",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור שלב 1",
+              "calculation": "678 + 234 = 912",
+              "explanation": "חיבור שני המספרים הראשונים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור שלב 2",
+              "calculation": "912 + 89 = 1001",
+              "explanation": "חיבור המספר השלישי"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-6-10",
+          "question": "בדוק: האם 845 - 378 = 467?",
+          "options": [
+            {"id": "opt-1", "text": "כן", "isCorrect": true},
+            {"id": "opt-2", "text": "לא", "isCorrect": false},
+            {"id": "opt-3", "text": "התוצאה 457", "isCorrect": false},
+            {"id": "opt-4", "text": "התוצאה 477", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "בדיקה: 378 + 467 = 845, לכן נכון",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "בדיקה בחיבור",
+              "calculation": "378 + 467",
+              "explanation": "חיבור לבדיקה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "845 = 845",
+              "explanation": "החיסור נכון"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

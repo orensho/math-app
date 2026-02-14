@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    direction: rtl;
+  }
+
+  body {
+    @apply bg-neutral-50 text-neutral-900;
+  }
+
+  /* Hebrew number formatting */
+  .number-ltr {
+    direction: ltr;
+    display: inline-block;
+  }
+}
+
+@layer components {
+  /* Diagonal layout utilities */
+  .diagonal-section {
+    @apply relative overflow-hidden;
+  }
+
+  .diagonal-section::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-bl from-primary-50 to-transparent;
+    transform: skewY(-3deg);
+    transform-origin: top right;
+  }
+
+  /* Floating card */
+  .card-float {
+    @apply bg-white rounded-2xl shadow-float transition-all duration-300;
+  }
+
+  .card-float:hover {
+    @apply shadow-depth -translate-y-1;
+  }
+
+  /* Geometric overlay */
+  .geometric-overlay {
+    @apply absolute opacity-5 pointer-events-none;
+  }
+}
+
+@layer utilities {
+  /* RTL-aware spacing */
+  .ps-safe {
+    padding-inline-start: env(safe-area-inset-right);
+  }
+
+  .pe-safe {
+    padding-inline-end: env(safe-area-inset-left);
+  }
+}

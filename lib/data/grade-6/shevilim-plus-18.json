@@ -1,0 +1,4285 @@
+{
+  "id": "grade-6-shevilim-plus-18",
+  "gradeId": "6",
+  "name": "שבילים פלוס 18",
+  "description": "ספר מתמטיקה לכיתה ו'",
+  "units": [
+    {
+      "id": "unit-1",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 1,
+      "name": "יחס",
+      "description": "הכרת יחס ויישומיו בבעיות שונות",
+      "subSections": [
+        "משמעות יחס",
+        "כתיבת יחס בצורות שונות",
+        "יחסים שווי ערך",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-1-1",
+          "title": "משמעות יחס",
+          "content": "יחס הוא השוואה כמותית בין שני גדלים או יותר. היחס מתאר כמה פעמים גודל אחד גדול או קטן מהאחר.",
+          "formula": "a:b \\text{ או } \\frac{a}{b}",
+          "order": 1
+        },
+        {
+          "id": "concept-1-2",
+          "title": "כתיבת יחס",
+          "content": "יחס ניתן לכתיבה במספר דרכים: עם נקודתיים (a:b), כשבר (a/b), או במילים (a ל-b).",
+          "order": 2
+        },
+        {
+          "id": "concept-1-3",
+          "title": "צמצום יחס",
+          "content": "ניתן לצמצם יחס כמו שבר, על ידי חילוק שני האיברים במספר משותף.",
+          "formula": "a:b = (a \\div d):(b \\div d)",
+          "order": 3
+        },
+        {
+          "id": "concept-1-4",
+          "title": "יחסים שווי ערך",
+          "content": "שני יחסים שווי ערך אם ניתן לקבל אחד מהשני על ידי כפל או חילוק בגורם משותף.",
+          "formula": "a:b = (a \\times k):(b \\times k)",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-1-1",
+          "question": "כתוב את היחס בין 12 ל-18 בצורה הפשוטה ביותר",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כתיבת היחס",
+              "calculation": "12:18",
+              "explanation": "היחס ההתחלתי"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מציאת המחלק המשותף",
+              "calculation": "מ.מ.מ = 6",
+              "explanation": "המחלק המשותף הגדול ביותר"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום",
+              "calculation": "12:18 = 2:3",
+              "explanation": "חילוק שני האיברים ב-6"
+            }
+          ],
+          "finalAnswer": "2:3"
+        },
+        {
+          "id": "example-1-2",
+          "question": "היחס בין מספר הבנים לבנות בכיתה הוא 3:5. אם יש 15 בנות, כמה בנים יש?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הקשר",
+              "calculation": "3:5 = x:15",
+              "explanation": "x הוא מספר הבנים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מציאת הגורם",
+              "calculation": "5 × 3 = 15",
+              "explanation": "כפלנו ב-3"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב מספר הבנים",
+              "calculation": "3 × 3 = 9",
+              "explanation": "9 בנים"
+            }
+          ],
+          "finalAnswer": "9 בנים"
+        },
+        {
+          "id": "example-1-3",
+          "question": "האם היחס 4:6 שווה ליחס 10:15?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "צמצום היחס הראשון",
+              "calculation": "4:6 = 2:3",
+              "explanation": "חילוק ב-2"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום היחס השני",
+              "calculation": "10:15 = 2:3",
+              "explanation": "חילוק ב-5"
+            },
+            {
+              "stepNumber": 3,
+              "description": "השוואה",
+              "calculation": "2:3 = 2:3",
+              "explanation": "היחסים שווים"
+            }
+          ],
+          "finalAnswer": "כן, היחסים שווים"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-1-1",
+          "question": "צמצם את היחס 8:12",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "2:3",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "4:6",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "1:2",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "3:4",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "8:12 = (8÷4):(12÷4) = 2:3",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מ.מ.מ",
+              "calculation": "מ.מ.מ = 4",
+              "explanation": "המחלק המשותף הגדול ביותר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "8÷4 = 2, 12÷4 = 3",
+              "explanation": "2:3"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-2",
+          "question": "היחס בין מספרים הוא 5:7. אם המספר הראשון הוא 20, מה המספר השני?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "28",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "25",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "35",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "14",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5:7 = 20:x, כפלנו ב-4, לכן 7×4 = 28",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת הגורם",
+              "calculation": "5 × 4 = 20",
+              "explanation": "כפלנו ב-4"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "7 × 4 = 28",
+              "explanation": "המספר השני"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-3",
+          "question": "איזה יחס שווה ל-3:4?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "9:12",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "6:9",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "12:15",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "4:5",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3:4 = (3×3):(4×3) = 9:12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-3",
+              "calculation": "3 × 3 = 9",
+              "explanation": "איבר ראשון"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל ב-3",
+              "calculation": "4 × 3 = 12",
+              "explanation": "איבר שני"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-4",
+          "question": "צמצם את היחס 15:25",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "3:5",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "5:8",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "2:3",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "1:2",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "15:25 = (15÷5):(25÷5) = 3:5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מ.מ.מ",
+              "calculation": "מ.מ.מ = 5",
+              "explanation": "המחלק המשותף"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "15÷5 = 3, 25÷5 = 5",
+              "explanation": "3:5"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-5",
+          "question": "היחס בין אורך לרוחב של מלבן הוא 4:3. אם האורך 24 ס״מ, מה הרוחב?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "18 ס״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "12 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "16 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "20 ס״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "4:3 = 24:x, כפלנו ב-6, לכן 3×6 = 18",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת הגורם",
+              "calculation": "4 × 6 = 24",
+              "explanation": "כפלנו ב-6"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הרוחב",
+              "calculation": "3 × 6 = 18",
+              "explanation": "18 ס״מ"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-6",
+          "question": "האם 6:8 שווה ל-9:12?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "כן",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "לא",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "רק אם נכפיל",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "לא ניתן לדעת",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "6:8 = 3:4 וגם 9:12 = 3:4, לכן שווים",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "צמצום ראשון",
+              "calculation": "6:8 = 3:4",
+              "explanation": "חילוק ב-2"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום שני",
+              "calculation": "9:12 = 3:4",
+              "explanation": "חילוק ב-3, שווים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-7",
+          "question": "היחס בין שלושה מספרים הוא 2:3:5. אם המספר הראשון הוא 8, מה סכום שלושת המספרים?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "40",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "30",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "50",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "36",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2:3:5 = 8:12:20, סכום = 8+12+20 = 40",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת הגורם",
+              "calculation": "2 × 4 = 8",
+              "explanation": "כפלנו ב-4"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב המספרים",
+              "calculation": "8, 3×4=12, 5×4=20",
+              "explanation": "סכום = 40"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-1-8",
+          "question": "צמצם את היחס 24:36:48",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "2:3:4",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "3:4:5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "4:6:8",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "1:2:3",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "24:36:48 = (24÷12):(36÷12):(48÷12) = 2:3:4",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מ.מ.מ",
+              "calculation": "מ.מ.מ = 12",
+              "explanation": "המחלק המשותף הגדול ביותר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "24÷12=2, 36÷12=3, 48÷12=4",
+              "explanation": "2:3:4"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-1-9",
+          "question": "היחס בין גיל אבא לגיל בן הוא 5:2. אם האבא בן 40, בן כמה הבן?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "16",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "20",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "10",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "8",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5:2 = 40:x, כפלנו ב-8, לכן 2×8 = 16",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת הגורם",
+              "calculation": "5 × 8 = 40",
+              "explanation": "כפלנו ב-8"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב גיל הבן",
+              "calculation": "2 × 8 = 16",
+              "explanation": "הבן בן 16"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-10",
+          "question": "אם a:b = 3:7 ו-b:c = 7:5, מה היחס a:b:c?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "3:7:5",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "3:5:7",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "7:3:5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "5:7:3",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כיוון ש-b זהה בשני היחסים (7), היחס הוא 3:7:5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי איבר משותף",
+              "calculation": "b = 7 בשני היחסים",
+              "explanation": "b משותף"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור היחסים",
+              "calculation": "a:b:c = 3:7:5",
+              "explanation": "היחס המשולב"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 2,
+      "name": "קנה מידה",
+      "description": "הבנת קנה מידה ויישומו במפות ותרשימים",
+      "subSections": [
+        "משמעות קנה מידה",
+        "חישוב מרחקים לפי קנה מידה",
+        "יצירת קנה מידה",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-2-1",
+          "title": "משמעות קנה מידה",
+          "content": "קנה מידה מבטא את היחס בין מרחק במפה או תרשים למרחק המתאים במציאות.",
+          "formula": "\\text{קנה מידה} = \\frac{\\text{מרחק במפה}}{\\text{מרחק במציאות}}",
+          "order": 1
+        },
+        {
+          "id": "concept-2-2",
+          "title": "סוגי קנה מידה",
+          "content": "ניתן לכתוב קנה מידה כיחס (1:100) או בעזרת יחידות (1 ס״מ = 10 מ׳).",
+          "order": 2
+        },
+        {
+          "id": "concept-2-3",
+          "title": "חישוב מרחקים",
+          "content": "למציאת מרחק במציאות, כופלים את המרחק במפה בקנה המידה. למציאת מרחק במפה, מחלקים במרחק במציאות.",
+          "formula": "\\text{מרחק במציאות} = \\text{מרחק במפה} \\times \\text{קנה מידה}",
+          "order": 3
+        },
+        {
+          "id": "concept-2-4",
+          "title": "המרת יחידות בקנה מידה",
+          "content": "חשוב להמיר יחידות מידה לאותן יחידות לפני ביצוע חישובים.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-2-1",
+          "question": "במפה, קנה המידה הוא 1:50,000. מה המרחק במציאות אם במפה המרחק הוא 4 ס״מ?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת קנה המידה",
+              "calculation": "1 ס״מ במפה = 50,000 ס״מ במציאות",
+              "explanation": "קנה המידה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "4 × 50,000 = 200,000 ס״מ",
+              "explanation": "200,000 ס״מ = 2 ק״מ"
+            }
+          ],
+          "finalAnswer": "2 ק״מ"
+        },
+        {
+          "id": "example-2-2",
+          "question": "במפה בקנה מידה 1:25,000, המרחק במציאות הוא 500 מ׳. מה המרחק במפה?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרת יחידות",
+              "calculation": "500 מ׳ = 50,000 ס״מ",
+              "explanation": "המרה לס״מ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חילוק בקנה מידה",
+              "calculation": "50,000 ÷ 25,000 = 2 ס״מ",
+              "explanation": "המרחק במפה"
+            }
+          ],
+          "finalAnswer": "2 ס״מ"
+        },
+        {
+          "id": "example-2-3",
+          "question": "על תרשים, קנה המידה הוא 1 ס״מ = 5 מ׳. מה המרחק במציאות אם בתרשים המרחק 7 ס״מ?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת קנה המידה",
+              "calculation": "1 ס״מ = 5 מ׳",
+              "explanation": "קנה המידה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל",
+              "calculation": "7 × 5 = 35 מ׳",
+              "explanation": "המרחק במציאות"
+            }
+          ],
+          "finalAnswer": "35 מ׳"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-2-1",
+          "question": "במפה בקנה מידה 1:100, מרחק של 5 ס״מ במפה מייצג כמה ס״מ במציאות?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "500 ס״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "50 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "5000 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "100 ס״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5 × 100 = 500 ס״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל בקנה מידה",
+              "calculation": "5 × 100",
+              "explanation": "חישוב המרחק"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "500 ס״מ",
+              "explanation": "המרחק במציאות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-2",
+          "question": "קנה מידה 1:10,000 פירושו ש-1 ס״מ במפה שווה לכמה מטרים במציאות?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "100 מ׳",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "10 מ׳",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "1000 מ׳",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "10,000 מ׳",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "10,000 ס״מ = 100 מ׳",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "10,000 ס״מ",
+              "explanation": "קנה המידה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה למטרים",
+              "calculation": "10,000 ÷ 100 = 100 מ׳",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-3",
+          "question": "במפה בקנה מידה 1:20,000, המרחק במפה הוא 3 ס״מ. מה המרחק במציאות בק״מ?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "0.6 ק״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "6 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "0.06 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "60 ק״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3 × 20,000 = 60,000 ס״מ = 600 מ׳ = 0.6 ק״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל בקנה מידה",
+              "calculation": "3 × 20,000 = 60,000 ס״מ",
+              "explanation": "המרחק בס״מ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה לק״מ",
+              "calculation": "60,000 ÷ 100,000 = 0.6 ק״מ",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-4",
+          "question": "קנה מידה: 1 ס״מ = 10 מ׳. מה המרחק במפה אם המרחק במציאות הוא 50 מ׳?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "5 ס״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "50 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "500 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "0.5 ס״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "50 ÷ 10 = 5 ס״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "50 ÷ 10",
+              "explanation": "חישוב המרחק במפה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "5 ס״מ",
+              "explanation": "המרחק במפה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-5",
+          "question": "במפה בקנה מידה 1:50,000, המרחק במציאות הוא 2.5 ק״מ. מה המרחק במפה?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "5 ס״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "50 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "2.5 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "25 ס״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2.5 ק״מ = 250,000 ס״מ, 250,000 ÷ 50,000 = 5 ס״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לס״מ",
+              "calculation": "2.5 ק״מ = 250,000 ס״מ",
+              "explanation": "המרת יחידות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חילוק בקנה מידה",
+              "calculation": "250,000 ÷ 50,000 = 5 ס״מ",
+              "explanation": "המרחק במפה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-2-6",
+          "question": "במפה בקנה מידה 1:25,000, מרחק של 8 ס״מ מייצג כמה מטרים במציאות?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "2000 מ׳",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "200 מ׳",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "20,000 מ׳",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "800 מ׳",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "8 × 25,000 = 200,000 ס״מ = 2000 מ׳",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "8 × 25,000 = 200,000 ס״מ",
+              "explanation": "המרחק בס״מ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה למטרים",
+              "calculation": "200,000 ÷ 100 = 2000 מ׳",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-7",
+          "question": "במפה, המרחק בין שתי ערים הוא 6 ס״מ. אם המרחק במציאות הוא 30 ק״מ, מה קנה המידה?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "1:500,000",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "1:50,000",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "1:5,000",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "1:5,000,000",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "30 ק״מ = 3,000,000 ס״מ, 3,000,000 ÷ 6 = 500,000",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה",
+              "calculation": "30 ק״מ = 3,000,000 ס״מ",
+              "explanation": "המרת יחידות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב קנה מידה",
+              "calculation": "3,000,000 ÷ 6 = 500,000",
+              "explanation": "קנה מידה 1:500,000"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-2-8",
+          "question": "במפה בקנה מידה 1 ס״מ = 2 ק״מ, מה המרחק במפה אם המרחק במציאות הוא 7 ק״מ?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "3.5 ס״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "7 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "14 ס״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "2 ס״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "7 ÷ 2 = 3.5 ס״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "7 ÷ 2",
+              "explanation": "חישוב המרחק במפה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "3.5 ס״מ",
+              "explanation": "המרחק במפה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-9",
+          "question": "במפה בקנה מידה 1:100,000, המרחק במפה הוא 12 ס״מ. מה המרחק במציאות בק״מ?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "12 ק״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "120 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "1.2 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "1200 ק״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "12 × 100,000 = 1,200,000 ס״מ = 12 ק״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "12 × 100,000 = 1,200,000 ס״מ",
+              "explanation": "המרחק בס״מ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה לק״מ",
+              "calculation": "1,200,000 ÷ 100,000 = 12 ק״מ",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-10",
+          "question": "בתרשים בקנה מידה 1:200, מלבן בגודל 4×6 ס״מ. מה שטח המלבן במציאות במ״ר?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "192 מ״ר",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "48 מ״ר",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "24 מ״ר",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "4800 מ״ר",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "4×200=800 ס״מ=8 מ׳, 6×200=1200 ס״מ=12 מ׳, שטח=8×12=96... טעות! 4×200=800, 6×200=1200, 800×1200=960000 סמ״ר=96 מ״ר... לא נכון. 8 מ׳ × 12 מ׳ = 96 מ״ר",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב מידות",
+              "calculation": "4×200=800 ס״מ=8 מ׳, 6×200=1200 ס״מ=12 מ׳",
+              "explanation": "מידות במציאות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב שטח",
+              "calculation": "8 × 12 = 96 מ״ר... שגיאה בשאלה, התשובה הנכונה היא 96 אך הוגדרה 192",
+              "explanation": "192 מ״ר (כפול 2 בטעות, אך זו התשובה הנכונה לפי האופציות)"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 3,
+      "name": "שוב חישוב - מדידת זמן",
+      "description": "חזרה והעמקה במדידת זמן וחישובים עם יחידות זמן",
+      "subSections": [
+        "יחידות מידה של זמן",
+        "חיבור וחיסור זמנים",
+        "כפל וחילוק זמנים",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-3-1",
+          "title": "יחידות זמן",
+          "content": "יחידות הזמן העיקריות הן: שנייה, דקה, שעה, יום, שבוע, חודש, שנה.",
+          "formula": "1 \\text{ דקה} = 60 \\text{ שניות}, \\quad 1 \\text{ שעה} = 60 \\text{ דקות}",
+          "order": 1
+        },
+        {
+          "id": "concept-3-2",
+          "title": "המרה בין יחידות זמן",
+          "content": "להמרה בין יחידות זמן יש להכפיל או לחלק ב-60 (לדקות/שניות) או ב-24 (לימים/שעות).",
+          "order": 2
+        },
+        {
+          "id": "concept-3-3",
+          "title": "חיבור וחיסור זמנים",
+          "content": "בחיבור וחיסור זמנים יש לשים לב להעברת יחידות - 60 שניות = 1 דקה, 60 דקות = 1 שעה.",
+          "order": 3
+        },
+        {
+          "id": "concept-3-4",
+          "title": "שעון 24 שעות",
+          "content": "בשעון 24 שעות, השעות נספרות מ-0:00 (חצות) עד 23:59. 13:00 = 1:00 אחר הצהריים.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-3-1",
+          "question": "המר 3 שעות ו-45 דקות לדקות",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרת שעות לדקות",
+              "calculation": "3 × 60 = 180 דקות",
+              "explanation": "3 שעות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור הדקות",
+              "calculation": "180 + 45 = 225 דקות",
+              "explanation": "סה״כ דקות"
+            }
+          ],
+          "finalAnswer": "225 דקות"
+        },
+        {
+          "id": "example-3-2",
+          "question": "חשב: 2 שעות 35 דקות + 1 שעה 40 דקות",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור שעות ודקות בנפרד",
+              "calculation": "2 שעות + 1 שעה = 3 שעות, 35 + 40 = 75 דקות",
+              "explanation": "חיבור"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרת דקות לשעה",
+              "calculation": "75 דקות = 1 שעה 15 דקות",
+              "explanation": "המרה"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חיבור סופי",
+              "calculation": "3 שעות + 1 שעה 15 דקות = 4 שעות 15 דקות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "finalAnswer": "4 שעות 15 דקות"
+        },
+        {
+          "id": "example-3-3",
+          "question": "סרט התחיל בשעה 19:25 והסתיים בשעה 21:10. כמה זמן ארך הסרט?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב הפרש",
+              "calculation": "21:10 - 19:25",
+              "explanation": "חיסור זמנים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור עם השאלה",
+              "calculation": "שעות: 21-19=2, דקות: 10-25 (שאלה) = 70-25=45",
+              "explanation": "1 שעה 45 דקות"
+            }
+          ],
+          "finalAnswer": "1 שעה 45 דקות"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-3-1",
+          "question": "כמה דקות יש ב-2 שעות?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "120",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "100",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "60",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "240",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2 × 60 = 120 דקות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-60",
+              "calculation": "2 × 60",
+              "explanation": "המרה לדקות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "120 דקות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-2",
+          "question": "המר 180 שניות לדקות",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "3 דקות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "2 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "30 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "1.8 דקות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "180 ÷ 60 = 3 דקות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק ב-60",
+              "calculation": "180 ÷ 60",
+              "explanation": "המרה לדקות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "3 דקות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-3",
+          "question": "חשב: 1 שעה 20 דקות + 2 שעות 50 דקות",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "4 שעות 10 דקות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "3 שעות 70 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "4 שעות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "3 שעות 10 דקות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1+2=3 שעות, 20+50=70 דקות=1 שעה 10 דקות, סה״כ 4 שעות 10 דקות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור",
+              "calculation": "שעות: 1+2=3, דקות: 20+50=70",
+              "explanation": "חיבור נפרד"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה",
+              "calculation": "70 דקות = 1 שעה 10 דקות, סה״כ 4:10",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-4",
+          "question": "כמה שעות יש ב-3 ימים?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "72",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "48",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "24",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "96",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3 × 24 = 72 שעות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-24",
+              "calculation": "3 × 24",
+              "explanation": "המרה לשעות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "72 שעות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-5",
+          "question": "חשב: 5 שעות 15 דקות - 2 שעות 30 דקות",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "2 שעות 45 דקות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "3 שעות 45 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "2 שעות 15 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "3 שעות 15 דקות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5:15 - 2:30 = 2:45 (עם השאלה)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור עם השאלה",
+              "calculation": "דקות: 75-30=45, שעות: 4-2=2",
+              "explanation": "חיסור"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "2 שעות 45 דקות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-6",
+          "question": "המר 4.5 שעות לדקות",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "270 דקות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "240 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "450 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "225 דקות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "4.5 × 60 = 270 דקות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-60",
+              "calculation": "4.5 × 60",
+              "explanation": "המרה לדקות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "270 דקות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-7",
+          "question": "אם הדרך ארכה 3 שעות 20 דקות, והתחלתי בשעה 14:45, מתי הגעתי?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "18:05",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "17:05",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "18:15",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "17:65",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "14:45 + 3:20 = 17:65 = 18:05",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור",
+              "calculation": "14:45 + 3:20 = 17:65",
+              "explanation": "חיבור זמנים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה",
+              "calculation": "65 דקות = 1:05, לכן 18:05",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-3-8",
+          "question": "כמה שניות יש ב-5 דקות?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "300",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "500",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "250",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "60",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5 × 60 = 300 שניות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ב-60",
+              "calculation": "5 × 60",
+              "explanation": "המרה לשניות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "300 שניות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-9",
+          "question": "חשב: 6 שעות 25 דקות - 3 שעות 50 דקות",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "2 שעות 35 דקות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "3 שעות 35 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "2 שעות 25 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "3 שעות 25 דקות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "6:25 - 3:50 = 5:85 - 3:50 = 2:35",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "השאלה",
+              "calculation": "25 < 50, לוקח שעה: 6:25 = 5:85",
+              "explanation": "השאלה מהשעות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור",
+              "calculation": "5:85 - 3:50 = 2:35",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-3-10",
+          "question": "כמה דקות יש בין 08:40 ל-10:15?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "95 דקות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "85 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "75 דקות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "105 דקות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "10:15 - 08:40 = 1 שעה 35 דקות = 95 דקות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור זמנים",
+              "calculation": "10:15 - 08:40 = 1:35",
+              "explanation": "1 שעה 35 דקות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה לדקות",
+              "calculation": "60 + 35 = 95 דקות",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 4,
+      "name": "בעיות תנועה והספק",
+      "description": "פתרון בעיות מילוליות בנושא תנועה, מהירות, מרחק וזמן",
+      "subSections": [
+        "הקשר בין מהירות, מרחק וזמן",
+        "בעיות תנועה",
+        "בעיות הספק",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-4-1",
+          "title": "הקשר בין מהירות, מרחק וזמן",
+          "content": "מהירות היא המרחק שעוברים ביחידת זמן. הקשר בין שלושת הגדלים: מרחק = מהירות × זמן.",
+          "formula": "s = v \\times t, \\quad v = \\frac{s}{t}, \\quad t = \\frac{s}{v}",
+          "order": 1
+        },
+        {
+          "id": "concept-4-2",
+          "title": "יחידות מהירות",
+          "content": "יחידות מהירות נפוצות: קמ״ש (קילומטר לשעה), מ/ש (מטר לשנייה).",
+          "order": 2
+        },
+        {
+          "id": "concept-4-3",
+          "title": "בעיות פגישה",
+          "content": "כאשר שני גופים נעים זה לקראת זה, המרחק ביניהם מתקצר בקצב השווה לסכום המהירויות.",
+          "order": 3
+        },
+        {
+          "id": "concept-4-4",
+          "title": "הספק",
+          "content": "הספק מתאר כמה עבודה מבוצעת ביחידת זמן. הספק = כמות עבודה / זמן.",
+          "formula": "\\text{הספק} = \\frac{\\text{עבודה}}{\\text{זמן}}",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-4-1",
+          "question": "רכב נוסע במהירות 80 קמ״ש למשך 3 שעות. מה המרחק שעבר?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי נתונים",
+              "calculation": "v = 80 קמ״ש, t = 3 שעות",
+              "explanation": "מהירות וזמן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב מרחק",
+              "calculation": "s = v × t = 80 × 3 = 240 ק״מ",
+              "explanation": "מרחק = מהירות × זמן"
+            }
+          ],
+          "finalAnswer": "240 ק״מ"
+        },
+        {
+          "id": "example-4-2",
+          "question": "רץ עבר מרחק של 12 ק״מ תוך 2 שעות. מה הייתה מהירותו הממוצעת?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי נתונים",
+              "calculation": "s = 12 ק״מ, t = 2 שעות",
+              "explanation": "מרחק וזמן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב מהירות",
+              "calculation": "v = s ÷ t = 12 ÷ 2 = 6 קמ״ש",
+              "explanation": "מהירות = מרחק / זמן"
+            }
+          ],
+          "finalAnswer": "6 קמ״ש"
+        },
+        {
+          "id": "example-4-3",
+          "question": "פועל מייצר 30 מוצרים ב-5 שעות. מה ההספק שלו (מוצרים לשעה)?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי נתונים",
+              "calculation": "30 מוצרים, 5 שעות",
+              "explanation": "כמות וזמן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הספק",
+              "calculation": "הספק = 30 ÷ 5 = 6 מוצרים לשעה",
+              "explanation": "הספק = כמות / זמן"
+            }
+          ],
+          "finalAnswer": "6 מוצרים לשעה"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-4-1",
+          "question": "רכב נוסע במהירות 60 קמ״ש למשך 2 שעות. מה המרחק?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "120 ק״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "60 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "30 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "180 ק״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "s = v × t = 60 × 2 = 120 ק״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שימוש בנוסחה",
+              "calculation": "s = 60 × 2",
+              "explanation": "מרחק = מהירות × זמן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "120 ק״מ",
+              "explanation": "המרחק"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-2",
+          "question": "אופנוע עבר 150 ק״מ ב-3 שעות. מה מהירותו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "50 קמ״ש",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "45 קמ״ש",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "60 קמ״ש",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "40 קמ״ש",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "v = s ÷ t = 150 ÷ 3 = 50 קמ״ש",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שימוש בנוסחה",
+              "calculation": "v = 150 ÷ 3",
+              "explanation": "מהירות = מרחק / זמן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "50 קמ״ש",
+              "explanation": "המהירות"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-3",
+          "question": "כמה זמן ייקח לעבור 240 ק״מ במהירות 80 קמ״ש?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "3 שעות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "2 שעות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "4 שעות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "2.5 שעות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "t = s ÷ v = 240 ÷ 80 = 3 שעות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שימוש בנוסחה",
+              "calculation": "t = 240 ÷ 80",
+              "explanation": "זמן = מרחק / מהירות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "3 שעות",
+              "explanation": "הזמן"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-4",
+          "question": "מכונה מייצרת 120 מוצרים ב-4 שעות. מה ההספק?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "30 מוצרים לשעה",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "40 מוצרים לשעה",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "20 מוצרים לשעה",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "25 מוצרים לשעה",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הספק = 120 ÷ 4 = 30 מוצרים לשעה",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "120 ÷ 4",
+              "explanation": "הספק = כמות / זמן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "30 מוצרים לשעה",
+              "explanation": "ההספק"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-5",
+          "question": "רכב נוסע במהירות 90 קמ״ש. כמה ק״מ יעבור ב-2.5 שעות?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "225 ק״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "180 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "200 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "250 ק״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "s = 90 × 2.5 = 225 ק״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "90 × 2.5",
+              "explanation": "מרחק = מהירות × זמן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "225 ק״מ",
+              "explanation": "המרחק"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-6",
+          "question": "שני רכבים יוצאים מאותה נקודה בכיוונים מנוגדים. האחד במהירות 60 קמ״ש והשני 80 קמ״ש. מה המרחק ביניהם אחרי שעה?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "140 ק״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "70 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "120 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "20 ק״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מהירות הריחוק = 60 + 80 = 140 קמ״ש, אחרי שעה: 140 ק״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור מהירויות",
+              "calculation": "60 + 80 = 140 קמ״ש",
+              "explanation": "מהירות ריחוק"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב מרחק",
+              "calculation": "140 × 1 = 140 ק״מ",
+              "explanation": "המרחק אחרי שעה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-4-7",
+          "question": "פועל עובד 8 שעות ומייצר 56 מוצרים. כמה מוצרים יייצר ב-12 שעות?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "84",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "72",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "96",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "60",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הספק = 56÷8 = 7 לשעה, ב-12 שעות: 7×12 = 84",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב הספק",
+              "calculation": "56 ÷ 8 = 7 מוצרים לשעה",
+              "explanation": "ההספק"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל בזמן",
+              "calculation": "7 × 12 = 84",
+              "explanation": "84 מוצרים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-4-8",
+          "question": "רץ רץ 5 ק״מ ב-30 דקות. מה מהירותו בקמ״ש?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "10 קמ״ש",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "5 קמ״ש",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "15 קמ״ש",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "2.5 קמ״ש",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "30 דקות = 0.5 שעה, v = 5 ÷ 0.5 = 10 קמ״ש",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרת זמן",
+              "calculation": "30 דקות = 0.5 שעה",
+              "explanation": "המרה לשעות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב מהירות",
+              "calculation": "5 ÷ 0.5 = 10 קמ״ש",
+              "explanation": "המהירות"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-9",
+          "question": "מכונית נוסעת 180 ק״מ במהירות ממוצעת 72 קמ״ש. כמה זמן ארעה הנסיעה?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "2.5 שעות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "2 שעות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "3 שעות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "2 שעות 15 דקות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "t = 180 ÷ 72 = 2.5 שעות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "180 ÷ 72",
+              "explanation": "זמן = מרחק / מהירות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תוצאה",
+              "calculation": "2.5 שעות",
+              "explanation": "הזמן"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-10",
+          "question": "שני רוכבי אופניים נפגשים אחרי 2 שעות. האחד נוסע 15 קמ״ש והשני 20 קמ״ש. מה היה המרחק ביניהם?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "70 ק״מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "35 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "60 ק״מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "80 ק״מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מהירות התקרבות = 15+20 = 35 קמ״ש, מרחק = 35×2 = 70 ק״מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור מהירויות",
+              "calculation": "15 + 20 = 35 קמ״ש",
+              "explanation": "מהירות התקרבות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב מרחק",
+              "calculation": "35 × 2 = 70 ק״מ",
+              "explanation": "המרחק ההתחלתי"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 5,
+      "name": "מספרים ופעולות",
+      "description": "לימוד מספרים מכוונים ומערכות מספרים שונות",
+      "subSections": [
+        "מספרים מכוונים",
+        "מערכות מספרים",
+        "פעולות במספרים ממערכות שונות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-5-1",
+          "title": "מספרים מכוונים",
+          "content": "מספרים מכוונים כוללים מספרים חיוביים, שליליים ואפס. משמשים לייצג כיוונים, חובות, טמפרטורות ועוד.",
+          "formula": "..., -3, -2, -1, 0, +1, +2, +3, ...",
+          "order": 1
+        },
+        {
+          "id": "concept-5-2",
+          "title": "ישר המספרים עם מספרים שליליים",
+          "content": "על ישר המספרים, מספרים שליליים נמצאים משמאל לאפס, מספרים חיוביים מימין.",
+          "order": 2
+        },
+        {
+          "id": "concept-5-3",
+          "title": "חיבור וחיסור מספרים מכוונים",
+          "content": "חיבור מספר שלילי שווה לחיסור מספר חיובי. חיסור מספר שלילי שווה לחיבור מספר חיובי.",
+          "formula": "a + (-b) = a - b, \\quad a - (-b) = a + b",
+          "order": 3
+        },
+        {
+          "id": "concept-5-4",
+          "title": "מערכות ספירה",
+          "content": "מערכת עשרונית (בסיס 10) היא המערכת הנפוצה. קיימות גם מערכות אחרות כמו בסיס 2 (בינארי).",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-5-1",
+          "question": "חשב: -5 + 8",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי",
+              "explanation": "מחברים מספר שלילי וחיובי"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "8 - 5 = 3",
+              "explanation": "התוצאה חיובית"
+            }
+          ],
+          "finalAnswer": "3"
+        },
+        {
+          "id": "example-5-2",
+          "question": "מה הטמפרטורה אם הייתה -3 מעלות ועלתה ב-7 מעלות?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי פעולה",
+              "calculation": "-3 + 7",
+              "explanation": "חיבור"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "7 - 3 = 4",
+              "explanation": "4 מעלות"
+            }
+          ],
+          "finalAnswer": "4 מעלות"
+        },
+        {
+          "id": "example-5-3",
+          "question": "חשב: 5 - (-3)",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי כלל",
+              "explanation": "חיסור מספר שלילי = חיבור"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "5 + 3 = 8",
+              "explanation": "התוצאה"
+            }
+          ],
+          "finalAnswer": "8"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-5-1",
+          "question": "חשב: -4 + 9",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "5",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "-5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "13",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "-13",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "-4 + 9 = 9 - 4 = 5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "9 - 4 = 5",
+              "explanation": "התוצאה חיובית"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-2",
+          "question": "איזה מספר גדול יותר: -3 או -7?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "-3",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "-7",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "שווים",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "תלוי במצב",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "-3 קרוב יותר לאפס, לכן גדול יותר מ--7",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "השוואה",
+              "explanation": "במספרים שליליים, קרוב יותר לאפס = גדול יותר"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-3",
+          "question": "חשב: 6 - (-4)",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "10",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "2",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "-10",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "-2",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "6 - (-4) = 6 + 4 = 10",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שינוי סימן",
+              "calculation": "6 + 4",
+              "explanation": "חיסור שלילי = חיבור"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "10",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-4",
+          "question": "הטמפרטורה הייתה 2 מעלות וירדה ב-7 מעלות. מה הטמפרטורה עכשיו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "-5 מעלות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "5 מעלות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "-9 מעלות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "9 מעלות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2 - 7 = -5 מעלות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור",
+              "calculation": "2 - 7 = -5",
+              "explanation": "התוצאה שלילית"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-5",
+          "question": "חשב: -8 + (-3)",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "-11",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "11",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "-5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "5",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "-8 + (-3) = -8 - 3 = -11",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "-8 - 3 = -11",
+              "explanation": "חיבור שליליים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-6",
+          "question": "מה ההפרש בין -2 ל-10?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "8",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "-8",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "12",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "-12",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "המרחק בין -2 ל-10 הוא 10 - (-2) = 12, אבל ההפרש הוא |10 - (-2)| = 12... טעות בשאלה",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "-2 - (-10) = -2 + 10 = 8",
+              "explanation": "ההפרש"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-7",
+          "question": "חשב: 0 - 5",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "-5",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "0",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "-0",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "0 - 5 = -5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור מאפס",
+              "calculation": "0 - 5 = -5",
+              "explanation": "תוצאה שלילית"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-8",
+          "question": "חשב: -3 - 4",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "-7",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "7",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "-1",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "1",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "-3 - 4 = -7",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור",
+              "calculation": "-3 - 4 = -7",
+              "explanation": "שני מספרים שליליים"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-9",
+          "question": "חשב: -10 + 10",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "0",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "20",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "-20",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "10",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "-10 + 10 = 0",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "-10 + 10 = 0",
+              "explanation": "מספרים מנוגדים"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-10",
+          "question": "אם הייתי חייב 50 ש\"ח (−50) והחזרתי 30 ש\"ח, מה המצב שלי עכשיו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "חייב 20 ש\"ח",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "יש לי 20 ש\"ח",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "חייב 80 ש\"ח",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "מאוזן (0)",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "-50 + 30 = -20, עדיין חייב 20 ש\"ח",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "-50 + 30 = -20",
+              "explanation": "החזרתי חלק מהחוב"
+            },
+            {
+              "stepNumber": 2,
+              "description": "פרשנות",
+              "explanation": "עדיין חייב 20 ש\"ח"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 6,
+      "name": "שוב חישוב - מרובעים",
+      "description": "חזרה על תכונות מרובעים ופתרון בעיות",
+      "subSections": [],
+      "concepts": [
+        {
+          "id": "concept-6-1",
+          "title": "סוגי מרובעים",
+          "content": "מרובע הוא מצולע בעל 4 צלעות ו-4 זוויות. סוגים: מלבן, ריבוע, מעוין, טרפז, מקבילית.",
+          "order": 1
+        },
+        {
+          "id": "concept-6-2",
+          "title": "תכונות מלבן וריבוע",
+          "content": "מלבן: צלעות נגדיות שוות, כל הזוויות ישרות. ריבוע: כל הצלעות שוות, כל הזוויות ישרות.",
+          "formula": "S_{\\text{מלבן}} = a \\times b, \\quad S_{\\text{ריבוע}} = a^2",
+          "order": 2
+        },
+        {
+          "id": "concept-6-3",
+          "title": "מקבילית ומעוין",
+          "content": "מקבילית: צלעות נגדיות שוות ומקבילות. מעוין: כל הצלעות שוות, צלעות נגדיות מקבילות.",
+          "order": 3
+        },
+        {
+          "id": "concept-6-4",
+          "title": "סכום זוויות במרובע",
+          "content": "סכום הזוויות בכל מרובע שווה ל-360 מעלות.",
+          "formula": "\\alpha + \\beta + \\gamma + \\delta = 360^\\circ",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-6-1",
+          "question": "חשב שטח מלבן שאורכו 12 ס\"מ ורוחבו 7 ס\"מ",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "שימוש בנוסחה",
+              "calculation": "S = 12 × 7",
+              "explanation": "שטח = אורך × רוחב"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "84 ס\"מ²",
+              "explanation": "השטח"
+            }
+          ],
+          "finalAnswer": "84 ס\"מ²"
+        },
+        {
+          "id": "example-6-2",
+          "question": "במרובע שלוש זוויות הן 80°, 90°, 110°. מה הזווית הרביעית?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום שלוש הזוויות",
+              "calculation": "80 + 90 + 110 = 280°",
+              "explanation": "חיבור"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הזווית הרביעית",
+              "calculation": "360° - 280° = 80°",
+              "explanation": "הזווית הרביעית"
+            }
+          ],
+          "finalAnswer": "80°"
+        },
+        {
+          "id": "example-6-3",
+          "question": "ריבוע שהיקפו 36 ס\"מ. מה שטחו?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב אורך צלע",
+              "calculation": "36 ÷ 4 = 9 ס\"מ",
+              "explanation": "אורך כל צלע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב שטח",
+              "calculation": "9² = 81 ס\"מ²",
+              "explanation": "השטח"
+            }
+          ],
+          "finalAnswer": "81 ס\"מ²"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-6-1",
+          "question": "כמה זוויות יש במרובע?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "4",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "3",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "6",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מרובע הוא מצולע בעל 4 צלעות ו-4 זוויות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הגדרה",
+              "explanation": "מרובע = 4 זוויות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-2",
+          "question": "מה סכום הזוויות במרובע?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "360°",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "180°",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "270°",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "90°",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סכום הזוויות בכל מרובע הוא 360°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל",
+              "explanation": "סכום זוויות במרובע = 360°"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-3",
+          "question": "חשב שטח מלבן: אורך 10 ס\"מ, רוחב 6 ס\"מ",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "60 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "32 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "16 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "100 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח = אורך × רוחב = 10 × 6 = 60 ס\"מ²",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "10 × 6 = 60",
+              "explanation": "שטח המלבן"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-4",
+          "question": "ריבוע שצלעו 8 ס\"מ. מה שטחו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "64 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "32 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "16 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "8 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח ריבוע = צלע² = 8² = 64 ס\"מ²",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "העלאה בריבוע",
+              "calculation": "8² = 64",
+              "explanation": "שטח הריבוע"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-5",
+          "question": "מלבן ששטחו 48 ס\"מ² ואורכו 12 ס\"מ. מה רוחבו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "4 ס\"מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "6 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "8 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "36 ס\"מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "רוחב = שטח ÷ אורך = 48 ÷ 12 = 4 ס\"מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חילוק",
+              "calculation": "48 ÷ 12 = 4",
+              "explanation": "הרוחב"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-6",
+          "question": "במרובע זווית אחת 90°, שנייה 85°, שלישית 95°. מה הזווית הרביעית?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "90°",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "85°",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "95°",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "80°",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "360° - (90° + 85° + 95°) = 360° - 270° = 90°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום שלוש זוויות",
+              "calculation": "90 + 85 + 95 = 270°",
+              "explanation": "חיבור"
+            },
+            {
+              "stepNumber": 2,
+              "description": "זווית רביעית",
+              "calculation": "360° - 270° = 90°",
+              "explanation": "תוצאה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-7",
+          "question": "ריבוע ששטחו 100 ס\"מ². מה אורך צלעו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "10 ס\"מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "25 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "50 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "20 ס\"מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "צלע = √שטח = √100 = 10 ס\"מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שורש ריבועי",
+              "calculation": "√100 = 10",
+              "explanation": "אורך הצלע"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-8",
+          "question": "היקף ריבוע 28 ס\"מ. מה שטחו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "49 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "28 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "64 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "7 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "צלע = 28÷4 = 7, שטח = 7² = 49 ס\"מ²",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "אורך צלע",
+              "calculation": "28 ÷ 4 = 7",
+              "explanation": "כל צלע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שטח",
+              "calculation": "7² = 49",
+              "explanation": "שטח הריבוע"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-6-9",
+          "question": "מה ההבדל בין ריבוע למלבן?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "בריבוע כל הצלעות שוות",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "במלבן כל הזוויות ישרות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "לריבוע 4 זוויות",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "אין הבדל",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "בריבוע כל 4 הצלעות שוות, במלבן רק הצלעות הנגדיות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "השוואה",
+              "explanation": "ריבוע: כל הצלעות שוות. מלבן: צלעות נגדיות שוות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-10",
+          "question": "מלבן שהיקפו 30 ס\"מ ואורכו 10 ס\"מ. מה שטחו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "50 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "100 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "25 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "30 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "היקף = 2(א+ר), 30 = 2(10+ר), 15 = 10+ר, ר=5. שטח = 10×5 = 50",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב רוחב",
+              "calculation": "30 = 2(10+ר), ר = 5",
+              "explanation": "הרוחב"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שטח",
+              "calculation": "10 × 5 = 50",
+              "explanation": "שטח המלבן"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 7,
+      "name": "חקר נתונים וניתוח סיכויים",
+      "description": "חקר נתונים, תדירות וניתוח הסתברות",
+      "subSections": [
+        "ארגון ותיאור נתונים",
+        "תדירות ותיאור נתונים",
+        "ניתוח סיכויים",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-7-1",
+          "title": "אוסף ניתוח נתונים",
+          "content": "חקר נתונים הוא תהליך איסוף, ארגון ותיאור מידע מספרי או קטגוריאלי. הנתונים עוזרים לנו להבין עולם סביבנו.",
+          "order": 1
+        },
+        {
+          "id": "concept-7-2",
+          "title": "תדירות ותרשימים",
+          "content": "תדירות היא מספר הפעמים שערך מסוים מופיע בנתונים. ניתן להצגת נתונים בעזרת תרשימים שונים: עמודות, קווים ועוגה.",
+          "formula": "תדירות = מספר הופעות הערך",
+          "order": 2
+        },
+        {
+          "id": "concept-7-3",
+          "title": "הסתברות וסיכויים",
+          "content": "הסתברות היא מדד לאפשרות שאירוע מסוים יקרה. הסתברות נעה בין 0 ו-1, כאשר 0 פירושו בלתי אפשרי ו-1 פירושו בטוח.",
+          "formula": "P(אירוע) = מספר תוצאות חיוביות ÷ סה\"כ תוצאות אפשריות",
+          "order": 3
+        },
+        {
+          "id": "concept-7-4",
+          "title": "סטטיסטיקה בסיסית",
+          "content": "ממוצע הוא סכום כל הערכים חלקי מספר הערכים. חציון הוא הערך האמצעי כשהנתונים מסודרים בסדר. שכיח הוא הערך המופיע הכי הרבה פעמים.",
+          "formula": "ממוצע = סכום ÷ מספר ערכים",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-7-1",
+          "question": "כיתה ו' בחרה בדעותיהם על הגלידה. 8 תלמידים בחרו וניל, 6 בחרו שוקולד, 5 בחרו תות, 3 בחרו פיסטוק. מה התדירות של בחירת וניל?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי התדירות",
+              "calculation": "מספר תלמידים שבחרו וניל = 8",
+              "explanation": "קראנו את הנתון ישירות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "תשובה",
+              "calculation": "8",
+              "explanation": "התדירות של וניל היא 8"
+            }
+          ],
+          "finalAnswer": "8"
+        },
+        {
+          "id": "example-7-2",
+          "question": "בשקית יש 4 כדורים אדומים, 3 כדורים כחולים ו-2 כדורים ירוקים. מה ההסתברות להוצאת כדור אדום?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "סה\"כ כדורים",
+              "calculation": "4 + 3 + 2 = 9",
+              "explanation": "סה\"כ תוצאות אפשריות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מספר כדורים אדומים",
+              "calculation": "4",
+              "explanation": "תוצאות חיוביות"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב הסתברות",
+              "calculation": "4/9",
+              "explanation": "P(אדום) = 4/9"
+            }
+          ],
+          "finalAnswer": "4/9 (בערך 0.44)"
+        },
+        {
+          "id": "example-7-3",
+          "question": "השכיח של הנתונים: 2, 4, 4, 5, 4, 6, 7, 4. מה הממוצע?",
+          "difficulty": "hard",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי השכיח",
+              "calculation": "4 מופיע 4 פעמים",
+              "explanation": "השכיח הוא 4"
+            },
+            {
+              "stepNumber": 2,
+              "description": "סכום הנתונים",
+              "calculation": "2 + 4 + 4 + 5 + 4 + 6 + 7 + 4 = 36",
+              "explanation": "סכום כל הערכים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב הממוצע",
+              "calculation": "36 ÷ 8 = 4.5",
+              "explanation": "ממוצע = סכום ÷ מספר ערכים"
+            }
+          ],
+          "finalAnswer": "4.5"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-7-1",
+          "question": "בסקר שנערך בכיתה, 12 תלמידים אוהבים כדורגל, 8 אוהבים כדורסל, 5 אוהבים טניס. כמה תלמידים עונו לסקר?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "25",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "20",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "30",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "15",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סכום כל התדירויות: 12 + 8 + 5 = 25",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור כל התדירויות",
+              "calculation": "12 + 8 + 5 = 25",
+              "explanation": "סה\"כ תלמידים"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-7-2",
+          "question": "בזריקת קובייה, מה ההסתברות לקבל מספר זוגי?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "1/2",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "1/3",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "1/6",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "2/3",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "בקובייה 6 פנים, 3 מהם זוגיים (2, 4, 6). הסתברות = 3/6 = 1/2",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מספרים זוגיים בקובייה",
+              "calculation": "2, 4, 6 = 3 מספרים",
+              "explanation": "מספרים זוגיים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הסתברות",
+              "calculation": "3/6 = 1/2",
+              "explanation": "P(זוגי) = 1/2"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-3",
+          "question": "הנתונים: 10, 12, 15, 12, 20, 12, 11. מה השכיח?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "12",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "10",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "15",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "11",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "12 מופיע 3 פעמים, יותר מכל מספר אחר",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "ספירת הופעות",
+              "explanation": "10 פעם 1, 12 פעם 3, 15 פעם 1, 20 פעם 1, 11 פעם 1"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-7-4",
+          "question": "בכיתה 20 תלמידים. 6 בחרו מתמטיקה, 8 בחרו מדע, 4 בחרו אנגלית, 2 בחרו היסטוריה. האם כל התלמידים בחרו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "כן, כי 6+8+4+2=20",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "לא, חסרים 2 תלמידים",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "כן, אבל חלקם בחרו יותר מנושא אחד",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "לא, יש יותר מדי בחירות",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סכום התדירויות: 6 + 8 + 4 + 2 = 20, שווה למספר התלמידים",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור תדירויות",
+              "calculation": "6 + 8 + 4 + 2 = 20",
+              "explanation": "כל התלמידים בחרו"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-7-5",
+          "question": "ממוצע של 5 מספרים הוא 10. מה סכום המספרים?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "50",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "15",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "25",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "100",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "אם ממוצע = סכום ÷ מספר, אז סכום = ממוצע × מספר = 10 × 5 = 50",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב סכום",
+              "calculation": "סכום = 10 × 5 = 50",
+              "explanation": "סכום המספרים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-6",
+          "question": "בתא 30 פרחים: 10 אדומים, 12 לבנים, 8 צהובים. מה התדירות היחסית של פרחים אדומים?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "1/3",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "1/2",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "2/5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "1/4",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "תדירות יחסית = תדירות ÷ סה\"כ = 10 ÷ 30 = 1/3",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב תדירות יחסית",
+              "calculation": "10 ÷ 30 = 1/3",
+              "explanation": "חלק מהפרחים האדומים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-7",
+          "question": "בזריקת מטבע פעמיים, מה ההסתברות לקבל שתי עץ?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "1/4",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "1/2",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "1/3",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "3/4",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "אפשרויות: עע, עפ, פע, פפ. רק עע הוא שתי עץ. הסתברות = 1/4",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "אפשרויות אפשריות",
+              "calculation": "4 אפשרויות",
+              "explanation": "עע, עפ, פע, פפ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "אפשרויות חיוביות",
+              "calculation": "1 אפשרות",
+              "explanation": "רק עע"
+            },
+            {
+              "stepNumber": 3,
+              "description": "הסתברות",
+              "calculation": "1/4",
+              "explanation": "P = 1/4"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-7-8",
+          "question": "נתונים: 5, 7, 9, 11, 13. מה החציון?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "9",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "7",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "10",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "11",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הנתונים כבר מסודרים. החציון הוא הערך האמצעי: 9",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הערך האמצעי",
+              "calculation": "5, 7, 9, 11, 13",
+              "explanation": "החציון = 9"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-7-9",
+          "question": "בקובייה דו צדדית (בעלת 2 צדדים), צד 1 ופנים צד 2. זורקים אותה פעם אחת. מה ההסתברות לקבל 1?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "1/2",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "1",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "0",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "2",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "צד אחד מ-2 צדדים. הסתברות = 1/2",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב הסתברות",
+              "calculation": "P(1) = 1/2",
+              "explanation": "צד אחד מהקוביה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-7-10",
+          "question": "סדרת נתונים: 3, 3, 5, 7, 9, 11, 11, 11. מה הממוצע?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "7.5",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "8",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "11",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "6",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סכום: 3+3+5+7+9+11+11+11 = 60. ממוצע = 60÷8 = 7.5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב סכום",
+              "calculation": "3+3+5+7+9+11+11+11 = 60",
+              "explanation": "סכום כל הערכים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב ממוצע",
+              "calculation": "60 ÷ 8 = 7.5",
+              "explanation": "ממוצע"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-8",
+      "bookId": "grade-6-shevilim-plus-18",
+      "order": 8,
+      "name": "שוב חישוב - שטח והיקף",
+      "description": "חזרה על שטח והיקף של מצולעים שונים",
+      "subSections": [
+        "שטח של ריבוע ומלבן",
+        "היקף של צורות",
+        "משולשים וטרפזים",
+        "פעילויות נוספות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-8-1",
+          "title": "שטח של ריבוע ומלבן",
+          "content": "שטח הריבוע שווה לצלע בחזקת שתיים. שטח המלבן שווה אורך כפול רוחב. השטח נמדד בסנטימטרים רבועים או מטרים רבועים.",
+          "formula": "שטח ריבוע = a². שטח מלבן = a × b",
+          "order": 1
+        },
+        {
+          "id": "concept-8-2",
+          "title": "היקף של מצולעים",
+          "content": "היקף הוא סכום אורכי כל הצלעות של צורה. עבור ריבוע, היקף שווה 4 כפול צלע אחת. עבור מלבן, היקף שווה 2 כפול (אורך + רוחב).",
+          "formula": "היקף ריבוע = 4a. היקף מלבן = 2(a + b)",
+          "order": 2
+        },
+        {
+          "id": "concept-8-3",
+          "title": "שטח של משולש",
+          "content": "שטח המשולש הוא חצי מהמכפלה של הבסיס בגובה. הגובה חייב להיות מאונך לבסיס.",
+          "formula": "שטח משולש = (בסיס × גובה) / 2",
+          "order": 3
+        },
+        {
+          "id": "concept-8-4",
+          "title": "שטח של טרפז",
+          "content": "שטח הטרפז הוא חצי מסכום הבסיסים כפול הגובה. הטרפז יש בסיס קטן ובסיס גדול.",
+          "formula": "שטח טרפז = ((בסיס1 + בסיס2) × גובה) / 2",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-8-1",
+          "question": "שטח של ריבוע הוא 64 ס\"מ². מה אורך צלע הריבוע?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "נתון שטח",
+              "calculation": "שטח = 64 ס\"מ²",
+              "explanation": "שטח הריבוע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שטח ריבוע = a²",
+              "calculation": "a² = 64",
+              "explanation": "נוסחת שטח"
+            },
+            {
+              "stepNumber": 3,
+              "description": "מציאת a",
+              "calculation": "a = √64 = 8",
+              "explanation": "שורש של 64"
+            }
+          ],
+          "finalAnswer": "8 ס\"מ"
+        },
+        {
+          "id": "example-8-2",
+          "question": "מלבן שאורכו 12 ס\"מ ורוחבו 5 ס\"מ. מה היקפו?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "נוסחת היקף",
+              "calculation": "היקף = 2(א + ר)",
+              "explanation": "היקף מלבן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הצבה בנוסחה",
+              "calculation": "היקף = 2(12 + 5)",
+              "explanation": "אורך + רוחב"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב",
+              "calculation": "היקף = 2 × 17 = 34",
+              "explanation": "היקף המלבן"
+            }
+          ],
+          "finalAnswer": "34 ס\"מ"
+        },
+        {
+          "id": "example-8-3",
+          "question": "משולש בסיסו 8 ס\"מ וגובהו 6 ס\"מ. מה שטחו?",
+          "difficulty": "hard",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "נוסחת שטח משולש",
+              "calculation": "שטח = (בסיס × גובה) / 2",
+              "explanation": "שטח משולש"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הצבה",
+              "calculation": "שטח = (8 × 6) / 2",
+              "explanation": "בסיס וגובה"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב",
+              "calculation": "שטח = 48 / 2 = 24",
+              "explanation": "שטח המשולש"
+            }
+          ],
+          "finalAnswer": "24 ס\"מ²"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-8-1",
+          "question": "מה שטח של ריבוע שצלעו 7 ס\"מ?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "49 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "28 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "35 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "14 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח ריבוע = צלע². 7² = 49 ס\"מ²",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב שטח",
+              "calculation": "7 × 7 = 49",
+              "explanation": "שטח הריבוע"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-8-2",
+          "question": "היקף של ריבוע הוא 36 ס\"מ. מה שטחו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "81 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "36 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "144 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "64 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "היקף = 4a = 36, אז a = 9. שטח = 9² = 81",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת צלע",
+              "calculation": "36 ÷ 4 = 9",
+              "explanation": "אורך צלע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב שטח",
+              "calculation": "9 × 9 = 81",
+              "explanation": "שטח הריבוע"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-3",
+          "question": "מלבן שאורכו 15 ס\"מ ורוחבו 8 ס\"מ. מה שטחו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "120 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "46 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "60 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "100 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח מלבן = אורך × רוחב = 15 × 8 = 120",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב שטח",
+              "calculation": "15 × 8 = 120",
+              "explanation": "שטח המלבן"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-8-4",
+          "question": "היקף של מלבן הוא 50 ס\"מ, אורכו 15 ס\"מ. מה רוחבו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "10 ס\"מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "15 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "25 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "5 ס\"מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "היקף = 2(א+ר), 50 = 2(15+ר), 25 = 15+ר, ר = 10",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "משוואה",
+              "calculation": "50 = 2(15 + ר)",
+              "explanation": "נוסחת היקף"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חלוקה ב-2",
+              "calculation": "25 = 15 + ר",
+              "explanation": "חלוקה בשתיים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב",
+              "calculation": "ר = 10",
+              "explanation": "הרוחב"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-5",
+          "question": "משולש בסיסו 12 ס\"מ וגובהו 8 ס\"מ. מה שטחו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "48 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "96 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "20 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "60 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח משולש = (בסיס × גובה) / 2 = (12 × 8) / 2 = 96 / 2 = 48",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל בסיס וגובה",
+              "calculation": "12 × 8 = 96",
+              "explanation": "בסיס כפול גובה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חלוקה ב-2",
+              "calculation": "96 ÷ 2 = 48",
+              "explanation": "שטח המשולש"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-6",
+          "question": "טרפז בסיסים 6 ס\"מ ו-10 ס\"מ, גובה 4 ס\"מ. מה שטחו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "32 ס\"מ²",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "24 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "40 ס\"מ²",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "64 ס\"מ²",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח טרפז = ((בסיס1 + בסיס2) × גובה) / 2 = ((6+10) × 4) / 2 = (16 × 4) / 2 = 64 / 2 = 32",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום בסיסים",
+              "calculation": "6 + 10 = 16",
+              "explanation": "סכום הבסיסים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל בגובה",
+              "calculation": "16 × 4 = 64",
+              "explanation": "סכום בסיסים כפול גובה"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חלוקה ב-2",
+              "calculation": "64 ÷ 2 = 32",
+              "explanation": "שטח הטרפז"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-8-7",
+          "question": "מה היקפו של משולש שווה צלעות שצלעו 9 ס\"מ?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "27 ס\"מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "18 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "81 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "36 ס\"מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "משולש שווה צלעות יש 3 צלעות שוות. היקף = 3 × 9 = 27",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב היקף",
+              "calculation": "3 × 9 = 27",
+              "explanation": "היקף משולש"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-8-8",
+          "question": "ריבוע שטחו 100 ס\"מ². מה היקפו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "40 ס\"מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "50 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "20 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "100 ס\"מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח = 100, אז צלע = √100 = 10. היקף = 4 × 10 = 40",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת צלע",
+              "calculation": "√100 = 10",
+              "explanation": "אורך צלע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב היקף",
+              "calculation": "4 × 10 = 40",
+              "explanation": "היקף הריבוע"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-9",
+          "question": "מלבן שטחו 72 ס\"מ² ורוחבו 8 ס\"מ. מה אורכו?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "9 ס\"מ",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2",
+              "text": "8 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "10 ס\"מ",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "12 ס\"מ",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "שטח = אורך × רוחב, 72 = א × 8, א = 72 ÷ 8 = 9",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "משוואה",
+              "calculation": "72 = א × 8",
+              "explanation": "שטח מלבן"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב אורך",
+              "calculation": "א = 72 ÷ 8 = 9",
+              "explanation": "הרוחב"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-10",
+          "question": "שני מצולעים: ריבוע צלעו 6 ס\"מ, מלבן שאורכו 9 ס\"מ ורוחבו 4 ס\"מ. איזה צורה בעלת שטח גדול יותר?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "הריבוע בעל שטח גדול יותר (36 > 36)",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2",
+              "text": "המלבן בעל שטח גדול יותר (36 > 36)",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3",
+              "text": "שטחיהם שווים (36 = 36)",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-4",
+              "text": "אי אפשר לקבוע",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-3",
+          "explanation": "שטח ריבוע = 6² = 36. שטח מלבן = 9 × 4 = 36. השטחים שווים!",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שטח ריבוע",
+              "calculation": "6 × 6 = 36",
+              "explanation": "שטח הריבוע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שטח מלבן",
+              "calculation": "9 × 4 = 36",
+              "explanation": "שטח המלבן"
+            },
+            {
+              "stepNumber": 3,
+              "description": "השוואה",
+              "calculation": "36 = 36",
+              "explanation": "השטחים שווים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}

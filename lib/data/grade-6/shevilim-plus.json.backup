@@ -1,0 +1,348 @@
+{
+  "id": "grade-6-shevilim-plus",
+  "gradeId": "6",
+  "name": "שבילים פלוס",
+  "description": "ספר מתמטיקה לכיתה ו'",
+  "units": [
+    {
+      "id": "unit-1",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 1,
+      "name": "שברים ומספרים עשרוניים על ישר המספרים",
+      "description": "לימוד ייצוג שברים ומספרים עשרוניים על ישר המספרים והבנת צפיפות המספרים",
+      "subSections": [
+        "מספרים עשרוניים על ישר המספרים",
+        "שברים ומספרים עשרוניים על ישר המספרים",
+        "צפיפות מספרים"
+      ],
+      "concepts": [
+        {
+          "id": "concept-1-1",
+          "title": "ישר המספרים",
+          "content": "ישר המספרים הוא קו ישר שעליו מסומנים מספרים לפי סדר עולה מימין לשמאל (בקריאה עברית). על ישר המספרים ניתן לייצג מספרים שלמים, שברים ומספרים עשרוניים.",
+          "order": 1
+        },
+        {
+          "id": "concept-1-2",
+          "title": "ייצוג שברים על ישר המספרים",
+          "content": "כדי לייצג שבר על ישר המספרים, מחלקים את הקטע בין שני מספרים שלמים לחלקים שווים לפי המכנה. לדוגמה: לייצוג שבר עם מכנה 4, נחלק כל קטע ל-4 חלקים שווים.",
+          "formula": "\\frac{a}{b}",
+          "order": 2
+        },
+        {
+          "id": "concept-1-3",
+          "title": "ייצוג מספרים עשרוניים",
+          "content": "מספרים עשרוניים מיוצגים על ישר המספרים בדיוק כמו שברים עשרוניים. לדוגמה: 0.5 = 5/10 נמצא במחצית הדרך בין 0 ל-1.",
+          "order": 3
+        },
+        {
+          "id": "concept-1-4",
+          "title": "צפיפות מספרים",
+          "content": "בין כל שני מספרים שונים על ישר המספרים, תמיד קיימים אינסוף מספרים נוספים. תכונה זו נקראת צפיפות המספרים.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-1-1",
+          "question": "ייצג את השבר 3/4 על ישר המספרים",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי המכנה",
+              "explanation": "המכנה הוא 4, לכן נחלק את הקטע בין 0 ל-1 ל-4 חלקים שווים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ספירת המונה",
+              "explanation": "המונה הוא 3, לכן נספור 3 חלקים מ-0 לכיוון 1"
+            },
+            {
+              "stepNumber": 3,
+              "description": "סימון הנקודה",
+              "explanation": "נסמן את הנקודה בחלק השלישי מתוך 4"
+            }
+          ],
+          "finalAnswer": "השבר 3/4 נמצא במרחק של 3 חלקים מ-0, כאשר הקטע מ-0 עד 1 מחולק ל-4 חלקים שווים"
+        },
+        {
+          "id": "example-1-2",
+          "question": "ייצג את המספר העשרוני 0.6 על ישר המספרים",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר",
+              "calculation": "0.6 = 6/10",
+              "explanation": "המספר העשרוני 0.6 שווה לשבר 6/10"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חלוקת הישר",
+              "explanation": "נחלק את הקטע בין 0 ל-1 ל-10 חלקים שווים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "מציאת המיקום",
+              "explanation": "נספור 6 חלקים מ-0 ונסמן את הנקודה"
+            }
+          ],
+          "finalAnswer": "המספר 0.6 נמצא ב-6/10 מהדרך בין 0 ל-1"
+        },
+        {
+          "id": "example-1-3",
+          "question": "מצא מספר אחד הנמצא בין 0.3 ל-0.4",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת הבעיה",
+              "explanation": "עלינו למצוא מספר כלשהו שנמצא בין 0.3 ל-0.4 על ישר המספרים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "בחירת אסטרטגיה",
+              "explanation": "נוכל למצוא את נקודת האמצע או כל מספר אחר ביניהם"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב נקודת האמצע",
+              "calculation": "(0.3 + 0.4) / 2 = 0.7 / 2 = 0.35",
+              "explanation": "נקודת האמצע בין 0.3 ל-0.4 היא 0.35"
+            }
+          ],
+          "finalAnswer": "0.35 הוא מספר הנמצא בין 0.3 ל-0.4 (ישנם אינסוף מספרים נוספים כמו 0.31, 0.32, 0.33 וכו')"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-1-1",
+          "question": "איזה שבר מיוצג בנקודה A על ישר המספרים, כאשר הקטע בין 0 ל-1 מחולק ל-5 חלקים שווים והנקודה A נמצאת בחלק השלישי?",
+          "options": [
+            {
+              "id": "opt-1-1",
+              "text": "3/5",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-1-2",
+              "text": "2/5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-1-3",
+              "text": "3/4",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-1-4",
+              "text": "5/3",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1-1",
+          "explanation": "כאשר הקטע בין 0 ל-1 מחולק ל-5 חלקים שווים, כל חלק מייצג 1/5. אם הנקודה A נמצאת בחלק השלישי, היא מייצגת 3/5.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי המכנה",
+              "explanation": "הקטע מחולק ל-5 חלקים, לכן המכנה הוא 5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מניית החלקים",
+              "explanation": "הנקודה A נמצאת בחלק השלישי מתחילת הקטע"
+            },
+            {
+              "stepNumber": 3,
+              "description": "כתיבת השבר",
+              "calculation": "3/5",
+              "explanation": "המונה הוא 3 (מספר החלקים) והמכנה הוא 5 (סך כל החלקים)"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-2",
+          "question": "איזה מספר עשרוני שווה לשבר 7/10?",
+          "options": [
+            {
+              "id": "opt-2-1",
+              "text": "0.7",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2-2",
+              "text": "0.07",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2-3",
+              "text": "7.0",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2-4",
+              "text": "0.71",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-2-1",
+          "explanation": "השבר 7/10 מייצג 7 עשיריות, שזה 0.7 במספר עשרוני.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת השבר",
+              "explanation": "7/10 פירושו 7 חלקים מתוך 10"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה למספר עשרוני",
+              "calculation": "7/10 = 0.7",
+              "explanation": "כל חלק מתוך 10 שווה ל-0.1, ולכן 7 חלקים = 0.7"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-3",
+          "question": "כמה מספרים שלמים נמצאים בין 2.3 ל-5.8?",
+          "options": [
+            {
+              "id": "opt-3-1",
+              "text": "3",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-3-2",
+              "text": "2",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3-3",
+              "text": "4",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3-4",
+              "text": "5",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-3-1",
+          "explanation": "המספרים השלמים בין 2.3 ל-5.8 הם: 3, 4, 5. סה\"כ 3 מספרים.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הטווח",
+              "explanation": "אנחנו מחפשים מספרים שלמים גדולים מ-2.3 וקטנים מ-5.8"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מציאת המספרים",
+              "explanation": "המספרים השלמים בטווח זה הם: 3, 4, 5"
+            },
+            {
+              "stepNumber": 3,
+              "description": "ספירה",
+              "calculation": "3 מספרים",
+              "explanation": "סה\"כ יש 3 מספרים שלמים בטווח הנתון"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 2,
+      "name": "שוב חישוב – חיבור וחיסור שברים",
+      "description": "חזרה ותרגול על פעולות חיבור וחיסור עם שברים",
+      "concepts": [],
+      "examples": [],
+      "quizQuestions": []
+    },
+    {
+      "id": "unit-3",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 3,
+      "name": "כפל וחילוק שברים - חלק ב",
+      "description": "המשך לימוד פעולות כפל וחילוק עם שברים",
+      "subSections": [
+        "פעילות פתיחה",
+        "כפל שבר בשבר",
+        "חילוק שברים",
+        "פעילויות סיכום והעמקה"
+      ],
+      "concepts": [],
+      "examples": [],
+      "quizQuestions": []
+    },
+    {
+      "id": "unit-4",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 4,
+      "name": "שוב חישוב - משולשים",
+      "description": "חזרה על תכונות משולשים ופתרון בעיות",
+      "concepts": [],
+      "examples": [],
+      "quizQuestions": []
+    },
+    {
+      "id": "unit-5",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 5,
+      "name": "כפל וחילוק מספרים עשרוניים",
+      "description": "לימוד פעולות כפל וחילוק עם מספרים עשרוניים",
+      "subSections": [
+        "כפל מספרים עשרוניים ב־10, ב־100 וב־1,000",
+        "חילוק מספרים עשרוניים ב־10, ב־100 וב־1,000",
+        "כפל מספרים עשרוניים",
+        "חילוק מספרים עשרוניים",
+        "כתיבת שבר כמספר עשרוני"
+      ],
+      "concepts": [],
+      "examples": [],
+      "quizQuestions": []
+    },
+    {
+      "id": "unit-6",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 6,
+      "name": "שוב חישוב - זוויות",
+      "description": "חזרה על מדידה וחישוב זוויות",
+      "concepts": [],
+      "examples": [],
+      "quizQuestions": []
+    },
+    {
+      "id": "unit-7",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 7,
+      "name": "בעיות כוללות",
+      "description": "פתרון בעיות מילוליות מורכבות",
+      "subSections": [
+        "בעיות דו־שלביות ובעיות רב־שלביות",
+        "בעיות כוללות"
+      ],
+      "concepts": [],
+      "examples": [],
+      "quizQuestions": []
+    },
+    {
+      "id": "unit-8",
+      "bookId": "grade-6-shevilim-plus",
+      "order": 8,
+      "name": "שוב חישוב - ממוצע וחציון",
+      "description": "חזרה על חישוב ממוצע וחציון",
+      "concepts": [],
+      "examples": [],
+      "quizQuestions": []
+    }
+  ]
+}

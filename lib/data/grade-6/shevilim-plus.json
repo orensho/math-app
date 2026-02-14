@@ -1,0 +1,3203 @@
+{
+  "id": "grade-6-shevilim-plus-17",
+  "gradeId": "6",
+  "name": "שבילים פלוס 17",
+  "description": "ספר מתמטיקה לכיתה ו'",
+  "units": [
+    {
+      "id": "unit-1",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 1,
+      "name": "שברים ומספרים עשרוניים על ישר המספרים",
+      "description": "לימוד ייצוג שברים ומספרים עשרוניים על ישר המספרים והבנת צפיפות המספרים",
+      "subSections": [
+        "מספרים עשרוניים על ישר המספרים",
+        "שברים ומספרים עשרוניים על ישר המספרים",
+        "צפיפות מספרים"
+      ],
+      "concepts": [
+        {
+          "id": "concept-1-1",
+          "title": "ישר המספרים",
+          "content": "ישר המספרים הוא קו ישר שעליו מסומנים מספרים לפי סדר עולה מימין לשמאל (בקריאה עברית). על ישר המספרים ניתן לייצג מספרים שלמים, שברים ומספרים עשרוניים.",
+          "order": 1
+        },
+        {
+          "id": "concept-1-2",
+          "title": "ייצוג שברים על ישר המספרים",
+          "content": "כדי לייצג שבר על ישר המספרים, מחלקים את הקטע בין שני מספרים שלמים לחלקים שווים לפי המכנה. לדוגמה: לייצוג שבר עם מכנה 4, נחלק כל קטע ל-4 חלקים שווים.",
+          "formula": "\\frac{a}{b}",
+          "order": 2
+        },
+        {
+          "id": "concept-1-3",
+          "title": "ייצוג מספרים עשרוניים",
+          "content": "מספרים עשרוניים מיוצגים על ישר המספרים בדיוק כמו שברים עשרוניים. לדוגמה: 0.5 = 5/10 נמצא במחצית הדרך בין 0 ל-1.",
+          "order": 3
+        },
+        {
+          "id": "concept-1-4",
+          "title": "צפיפות מספרים",
+          "content": "בין כל שני מספרים שונים על ישר המספרים, תמיד קיימים אינסוף מספרים נוספים. תכונה זו נקראת צפיפות המספרים.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-1-1",
+          "question": "ייצג את השבר 3/4 על ישר המספרים",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי המכנה",
+              "explanation": "המכנה הוא 4, לכן נחלק את הקטע בין 0 ל-1 ל-4 חלקים שווים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ספירת המונה",
+              "explanation": "המונה הוא 3, לכן נספור 3 חלקים מ-0 לכיוון 1"
+            },
+            {
+              "stepNumber": 3,
+              "description": "סימון הנקודה",
+              "explanation": "נסמן את הנקודה בחלק השלישי מתוך 4"
+            }
+          ],
+          "finalAnswer": "השבר 3/4 נמצא במרחק של 3 חלקים מ-0, כאשר הקטע מ-0 עד 1 מחולק ל-4 חלקים שווים"
+        },
+        {
+          "id": "example-1-2",
+          "question": "ייצג את המספר העשרוני 0.6 על ישר המספרים",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר",
+              "calculation": "0.6 = 6/10",
+              "explanation": "המספר העשרוני 0.6 שווה לשבר 6/10"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חלוקת הישר",
+              "explanation": "נחלק את הקטע בין 0 ל-1 ל-10 חלקים שווים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "מציאת המיקום",
+              "explanation": "נספור 6 חלקים מ-0 ונסמן את הנקודה"
+            }
+          ],
+          "finalAnswer": "המספר 0.6 נמצא ב-6/10 מהדרך בין 0 ל-1"
+        },
+        {
+          "id": "example-1-3",
+          "question": "מצא מספר אחד הנמצא בין 0.3 ל-0.4",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת הבעיה",
+              "explanation": "עלינו למצוא מספר כלשהו שנמצא בין 0.3 ל-0.4 על ישר המספרים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "בחירת אסטרטגיה",
+              "explanation": "נוכל למצוא את נקודת האמצע או כל מספר אחר ביניהם"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב נקודת האמצע",
+              "calculation": "(0.3 + 0.4) / 2 = 0.7 / 2 = 0.35",
+              "explanation": "נקודת האמצע בין 0.3 ל-0.4 היא 0.35"
+            }
+          ],
+          "finalAnswer": "0.35 הוא מספר הנמצא בין 0.3 ל-0.4 (ישנם אינסוף מספרים נוספים כמו 0.31, 0.32, 0.33 וכו')"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-1-1",
+          "question": "איזה שבר מיוצג בנקודה A על ישר המספרים, כאשר הקטע בין 0 ל-1 מחולק ל-5 חלקים שווים והנקודה A נמצאת בחלק השלישי?",
+          "options": [
+            {
+              "id": "opt-1-1",
+              "text": "3/5",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-1-2",
+              "text": "2/5",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-1-3",
+              "text": "3/4",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-1-4",
+              "text": "5/3",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-1-1",
+          "explanation": "כאשר הקטע בין 0 ל-1 מחולק ל-5 חלקים שווים, כל חלק מייצג 1/5. אם הנקודה A נמצאת בחלק השלישי, היא מייצגת 3/5.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי המכנה",
+              "explanation": "הקטע מחולק ל-5 חלקים, לכן המכנה הוא 5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מניית החלקים",
+              "explanation": "הנקודה A נמצאת בחלק השלישי מתחילת הקטע"
+            },
+            {
+              "stepNumber": 3,
+              "description": "כתיבת השבר",
+              "calculation": "3/5",
+              "explanation": "המונה הוא 3 (מספר החלקים) והמכנה הוא 5 (סך כל החלקים)"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-2",
+          "question": "איזה מספר עשרוני שווה לשבר 7/10?",
+          "options": [
+            {
+              "id": "opt-2-1",
+              "text": "0.7",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-2-2",
+              "text": "0.07",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2-3",
+              "text": "7.0",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2-4",
+              "text": "0.71",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-2-1",
+          "explanation": "השבר 7/10 מייצג 7 עשיריות, שזה 0.7 במספר עשרוני.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת השבר",
+              "explanation": "7/10 פירושו 7 חלקים מתוך 10"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה למספר עשרוני",
+              "calculation": "7/10 = 0.7",
+              "explanation": "כל חלק מתוך 10 שווה ל-0.1, ולכן 7 חלקים = 0.7"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-3",
+          "question": "כמה מספרים שלמים נמצאים בין 2.3 ל-5.8?",
+          "options": [
+            {
+              "id": "opt-3-1",
+              "text": "3",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-3-2",
+              "text": "2",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3-3",
+              "text": "4",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-3-4",
+              "text": "5",
+              "isCorrect": false
+            }
+          ],
+          "correctAnswerId": "opt-3-1",
+          "explanation": "המספרים השלמים בין 2.3 ל-5.8 הם: 3, 4, 5. סה\"כ 3 מספרים.",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הטווח",
+              "explanation": "אנחנו מחפשים מספרים שלמים גדולים מ-2.3 וקטנים מ-5.8"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מציאת המספרים",
+              "explanation": "המספרים השלמים בטווח זה הם: 3, 4, 5"
+            },
+            {
+              "stepNumber": 3,
+              "description": "ספירה",
+              "calculation": "3 מספרים",
+              "explanation": "סה\"כ יש 3 מספרים שלמים בטווח הנתון"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-4",
+          "question": "איזה שבר גדול יותר: 2/3 או 3/4?",
+          "options": [
+            {"id": "opt-4-1", "text": "3/4", "isCorrect": true},
+            {"id": "opt-4-2", "text": "2/3", "isCorrect": false},
+            {"id": "opt-4-3", "text": "שווים", "isCorrect": false},
+            {"id": "opt-4-4", "text": "אי אפשר לדעת", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-4-1",
+          "explanation": "להשוואה: 2/3 = 8/12 ו-3/4 = 9/12. לכן 3/4 > 2/3",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מכנה משותף",
+              "explanation": "המכנה המשותף של 3 ו-4 הוא 12"
+            },
+            {
+              "stepNumber": 2,
+              "description": "המרה למכנה משותף",
+              "calculation": "2/3 = 8/12, 3/4 = 9/12",
+              "explanation": "מרחיבים את השברים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "השוואה",
+              "calculation": "9/12 > 8/12",
+              "explanation": "3/4 גדול יותר"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-5",
+          "question": "מהו המספר העשרוני שמתאים לשבר 1/2?",
+          "options": [
+            {"id": "opt-5-1", "text": "0.5", "isCorrect": true},
+            {"id": "opt-5-2", "text": "0.2", "isCorrect": false},
+            {"id": "opt-5-3", "text": "2.0", "isCorrect": false},
+            {"id": "opt-5-4", "text": "0.12", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-5-1",
+          "explanation": "1/2 = 5/10 = 0.5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר עשרוני",
+              "calculation": "1/2 = 5/10",
+              "explanation": "מרחיבים ב-5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבה עשרונית",
+              "calculation": "5/10 = 0.5",
+              "explanation": "5 עשיריות = 0.5"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-6",
+          "question": "באיזה סדר עולה נכון למספרים: 0.3, 1/4, 0.6?",
+          "options": [
+            {"id": "opt-6-1", "text": "1/4, 0.3, 0.6", "isCorrect": true},
+            {"id": "opt-6-2", "text": "0.3, 1/4, 0.6", "isCorrect": false},
+            {"id": "opt-6-3", "text": "0.6, 0.3, 1/4", "isCorrect": false},
+            {"id": "opt-6-4", "text": "1/4, 0.6, 0.3", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-6-1",
+          "explanation": "1/4 = 0.25, לכן הסדר: 0.25 < 0.3 < 0.6",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה למספרים עשרוניים",
+              "calculation": "1/4 = 0.25",
+              "explanation": "הופכים את 1/4 למספר עשרוני"
+            },
+            {
+              "stepNumber": 2,
+              "description": "השוואה",
+              "explanation": "0.25 < 0.3 < 0.6"
+            },
+            {
+              "stepNumber": 3,
+              "description": "כתיבת הסדר",
+              "calculation": "1/4, 0.3, 0.6",
+              "explanation": "הסדר מהקטן לגדול"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-1-7",
+          "question": "כמה עשיריות יש במספר 1.8?",
+          "options": [
+            {"id": "opt-7-1", "text": "18", "isCorrect": true},
+            {"id": "opt-7-2", "text": "8", "isCorrect": false},
+            {"id": "opt-7-3", "text": "1.8", "isCorrect": false},
+            {"id": "opt-7-4", "text": "10", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-7-1",
+          "explanation": "1.8 = 18/10, לכן יש 18 עשיריות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר",
+              "calculation": "1.8 = 18/10",
+              "explanation": "1.8 שווה ל-18 עשיריות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ספירת העשיריות",
+              "calculation": "18",
+              "explanation": "יש 18 עשיריות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-8",
+          "question": "מהו המספר שנמצא בדיוק באמצע בין 0.4 ל-0.8?",
+          "options": [
+            {"id": "opt-8-1", "text": "0.6", "isCorrect": true},
+            {"id": "opt-8-2", "text": "0.5", "isCorrect": false},
+            {"id": "opt-8-3", "text": "0.7", "isCorrect": false},
+            {"id": "opt-8-4", "text": "0.48", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-8-1",
+          "explanation": "נקודת האמצע: (0.4 + 0.8) ÷ 2 = 1.2 ÷ 2 = 0.6",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור המספרים",
+              "calculation": "0.4 + 0.8 = 1.2",
+              "explanation": "מחברים את שני המספרים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חילוק ב-2",
+              "calculation": "1.2 ÷ 2 = 0.6",
+              "explanation": "מחלקים ב-2 למציאת האמצע"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-1-9",
+          "question": "איזה מספר עשרוני מתאים לשבר 3/5?",
+          "options": [
+            {"id": "opt-9-1", "text": "0.6", "isCorrect": true},
+            {"id": "opt-9-2", "text": "0.35", "isCorrect": false},
+            {"id": "opt-9-3", "text": "0.53", "isCorrect": false},
+            {"id": "opt-9-4", "text": "0.3", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-9-1",
+          "explanation": "3/5 = 6/10 = 0.6",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הרחבה למכנה 10",
+              "calculation": "3/5 = 6/10",
+              "explanation": "מרחיבים ב-2"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבה עשרונית",
+              "calculation": "6/10 = 0.6",
+              "explanation": "6 עשיריות = 0.6"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-1-10",
+          "question": "כמה מספרים שלמים נמצאים בין 1.1 ל-6.9?",
+          "options": [
+            {"id": "opt-10-1", "text": "5", "isCorrect": true},
+            {"id": "opt-10-2", "text": "4", "isCorrect": false},
+            {"id": "opt-10-3", "text": "6", "isCorrect": false},
+            {"id": "opt-10-4", "text": "7", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-10-1",
+          "explanation": "המספרים השלמים בטווח: 2, 3, 4, 5, 6. סה\"כ 5 מספרים",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הטווח",
+              "explanation": "מחפשים מספרים גדולים מ-1.1 וקטנים מ-6.9"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מניית המספרים",
+              "calculation": "2, 3, 4, 5, 6",
+              "explanation": "המספרים השלמים בטווח"
+            },
+            {
+              "stepNumber": 3,
+              "description": "ספירה",
+              "calculation": "5 מספרים",
+              "explanation": "סה\"כ 5 מספרים שלמים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 2,
+      "name": "שוב חישוב – חיבור וחיסור שברים",
+      "description": "חזרה ותרגול על פעולות חיבור וחיסור עם שברים",
+      "concepts": [
+        {
+          "id": "concept-2-1",
+          "title": "חיבור שברים עם מכנה משותף",
+          "content": "כאשר לשני שברים יש מכנה זהה, מחברים את המונים ושומרים על אותו מכנה.",
+          "formula": "\\frac{a}{c} + \\frac{b}{c} = \\frac{a+b}{c}",
+          "order": 1
+        },
+        {
+          "id": "concept-2-2",
+          "title": "חיסור שברים עם מכנה משותף",
+          "content": "כאשר לשני שברים יש מכנה זהה, מחסרים את המונים ושומרים על אותו מכנה.",
+          "formula": "\\frac{a}{c} - \\frac{b}{c} = \\frac{a-b}{c}",
+          "order": 2
+        },
+        {
+          "id": "concept-2-3",
+          "title": "מכנה משותף",
+          "content": "כדי לחבר או לחסר שברים עם מכנים שונים, יש למצוא מכנה משותף - מספר שמתחלק בשני המכנים.",
+          "order": 3
+        },
+        {
+          "id": "concept-2-4",
+          "title": "הרחבה וצמצום שברים",
+          "content": "הרחבת שבר: כפל המונה והמכנה באותו מספר. צמצום שבר: חילוק המונה והמכנה באותו מספר. שני פעולות אלו אינן משנות את ערך השבר.",
+          "formula": "\\frac{a}{b} = \\frac{a \\times k}{b \\times k}",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-2-1",
+          "question": "חשב: 2/5 + 1/5",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "בדיקת המכנה",
+              "explanation": "שני השברים כבר בעלי מכנה משותף: 5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור המונים",
+              "calculation": "2 + 1 = 3",
+              "explanation": "מחברים את המונים: 2 + 1 = 3"
+            },
+            {
+              "stepNumber": 3,
+              "description": "כתיבת התוצאה",
+              "calculation": "3/5",
+              "explanation": "התוצאה היא 3/5, כאשר המכנה נשאר 5"
+            }
+          ],
+          "finalAnswer": "3/5"
+        },
+        {
+          "id": "example-2-2",
+          "question": "חשב: 1/2 + 1/4",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מכנה משותף",
+              "explanation": "המכנה המשותף הקטן ביותר של 2 ו-4 הוא 4"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הרחבת השבר הראשון",
+              "calculation": "1/2 = 2/4",
+              "explanation": "מרחיבים את 1/2 על ידי כפל ב-2: (1×2)/(2×2) = 2/4"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חיבור השברים",
+              "calculation": "2/4 + 1/4 = 3/4",
+              "explanation": "עכשיו שני השברים בעלי מכנה משותף ואפשר לחבר: 2/4 + 1/4 = 3/4"
+            }
+          ],
+          "finalAnswer": "3/4"
+        },
+        {
+          "id": "example-2-3",
+          "question": "חשב: 5/6 - 1/3",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מכנה משותף",
+              "explanation": "המכנה המשותף הקטן ביותר של 6 ו-3 הוא 6"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הרחבת השבר השני",
+              "calculation": "1/3 = 2/6",
+              "explanation": "מרחיבים את 1/3 על ידי כפל ב-2: (1×2)/(3×2) = 2/6"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חיסור השברים",
+              "calculation": "5/6 - 2/6 = 3/6",
+              "explanation": "עכשיו שני השברים בעלי מכנה משותף: 5/6 - 2/6 = 3/6"
+            },
+            {
+              "stepNumber": 4,
+              "description": "צמצום התוצאה",
+              "calculation": "3/6 = 1/2",
+              "explanation": "מצמצמים את התוצאה ב-3: 3/6 = 1/2"
+            }
+          ],
+          "finalAnswer": "1/2"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-2-1",
+          "question": "מה התוצאה של 3/7 + 2/7?",
+          "options": [
+            {"id": "opt-1", "text": "5/7", "isCorrect": true},
+            {"id": "opt-2", "text": "5/14", "isCorrect": false},
+            {"id": "opt-3", "text": "1", "isCorrect": false},
+            {"id": "opt-4", "text": "6/7", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כאשר המכנים זהים, מחברים את המונים: 3 + 2 = 5, והמכנה נשאר 7",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי מכנה משותף",
+              "explanation": "שני השברים כבר בעלי מכנה זהה: 7"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור המונים",
+              "calculation": "3 + 2 = 5",
+              "explanation": "מחברים רק את המונים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "כתיבת התוצאה",
+              "calculation": "5/7",
+              "explanation": "התשובה היא 5/7"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-2",
+          "question": "חשב: 1/3 + 1/6",
+          "options": [
+            {"id": "opt-1", "text": "1/2", "isCorrect": true},
+            {"id": "opt-2", "text": "2/9", "isCorrect": false},
+            {"id": "opt-3", "text": "1/9", "isCorrect": false},
+            {"id": "opt-4", "text": "2/6", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "יש למצוא מכנה משותף (6), להרחיב את 1/3 ל-2/6, ואז לחבר: 2/6 + 1/6 = 3/6 = 1/2",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת מכנה משותף",
+              "explanation": "המכנה המשותף של 3 ו-6 הוא 6"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הרחבה",
+              "calculation": "1/3 = 2/6",
+              "explanation": "מרחיבים את 1/3 ב-2"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חיבור",
+              "calculation": "2/6 + 1/6 = 3/6 = 1/2",
+              "explanation": "מחברים ומצמצמים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-3",
+          "question": "חשב: 7/8 - 3/8",
+          "options": [
+            {"id": "opt-1", "text": "1/2", "isCorrect": true},
+            {"id": "opt-2", "text": "4/8", "isCorrect": false},
+            {"id": "opt-3", "text": "4/0", "isCorrect": false},
+            {"id": "opt-4", "text": "10/8", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "7/8 - 3/8 = 4/8, ולאחר צמצום ב-4 מקבלים 1/2",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיסור המונים",
+              "calculation": "7 - 3 = 4",
+              "explanation": "המכנה זהה, מחסרים את המונים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כתיבת התוצאה",
+              "calculation": "4/8",
+              "explanation": "התוצאה היא 4/8"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום",
+              "calculation": "4/8 = 1/2",
+              "explanation": "מצמצמים ב-4"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-4",
+          "question": "חשב: 2/5 + 1/5",
+          "options": [
+            {"id": "opt-1", "text": "3/5", "isCorrect": true},
+            {"id": "opt-2", "text": "3/10", "isCorrect": false},
+            {"id": "opt-3", "text": "2/5", "isCorrect": false},
+            {"id": "opt-4", "text": "1/5", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כאשר המכנה זהה, מחברים את המונים: 2 + 1 = 3, והמכנה נשאר 5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי מכנה זהה",
+              "explanation": "שני השברים בעלי מכנה 5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיבור המונים",
+              "calculation": "2 + 1 = 3",
+              "explanation": "מחברים את המונים בלבד"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-2-5",
+          "question": "חשב: 1/2 + 1/3",
+          "options": [
+            {"id": "opt-1", "text": "5/6", "isCorrect": true},
+            {"id": "opt-2", "text": "2/5", "isCorrect": false},
+            {"id": "opt-3", "text": "1/6", "isCorrect": false},
+            {"id": "opt-4", "text": "2/6", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מכנה משותף: 6. הרחבה: 1/2 = 3/6, 1/3 = 2/6. חיבור: 3/6 + 2/6 = 5/6",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מכנה משותף",
+              "calculation": "המכנה המשותף הוא 6",
+              "explanation": "מוצאים מכנה משותף ל-2 ו-3"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הרחבה",
+              "calculation": "1/2 = 3/6, 1/3 = 2/6",
+              "explanation": "מרחיבים את שני השברים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חיבור",
+              "calculation": "3/6 + 2/6 = 5/6",
+              "explanation": "מחברים את המונים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-6",
+          "question": "חשב: 5/6 - 1/2",
+          "options": [
+            {"id": "opt-1", "text": "1/3", "isCorrect": true},
+            {"id": "opt-2", "text": "4/4", "isCorrect": false},
+            {"id": "opt-3", "text": "2/6", "isCorrect": false},
+            {"id": "opt-4", "text": "1/6", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מכנה משותף: 6. הרחבה: 1/2 = 3/6. חיסור: 5/6 - 3/6 = 2/6 = 1/3",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הרחבה",
+              "calculation": "1/2 = 3/6",
+              "explanation": "מרחיבים את 1/2 למכנה 6"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור",
+              "calculation": "5/6 - 3/6 = 2/6",
+              "explanation": "מחסרים את המונים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום",
+              "calculation": "2/6 = 1/3",
+              "explanation": "מצמצמים ב-2"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-7",
+          "question": "חשב: 3/4 + 1/8",
+          "options": [
+            {"id": "opt-1", "text": "7/8", "isCorrect": true},
+            {"id": "opt-2", "text": "4/12", "isCorrect": false},
+            {"id": "opt-3", "text": "1/2", "isCorrect": false},
+            {"id": "opt-4", "text": "5/8", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מכנה משותף: 8. הרחבה: 3/4 = 6/8. חיבור: 6/8 + 1/8 = 7/8",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מכנה משותף",
+              "explanation": "המכנה המשותף של 4 ו-8 הוא 8"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הרחבה",
+              "calculation": "3/4 = 6/8",
+              "explanation": "מרחיבים ב-2"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חיבור",
+              "calculation": "6/8 + 1/8 = 7/8",
+              "explanation": "מחברים את המונים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-8",
+          "question": "חשב: 11/12 - 1/3",
+          "options": [
+            {"id": "opt-1", "text": "7/12", "isCorrect": true},
+            {"id": "opt-2", "text": "10/9", "isCorrect": false},
+            {"id": "opt-3", "text": "1/4", "isCorrect": false},
+            {"id": "opt-4", "text": "8/12", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הרחבה: 1/3 = 4/12. חיסור: 11/12 - 4/12 = 7/12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הרחבה",
+              "calculation": "1/3 = 4/12",
+              "explanation": "מרחיבים את 1/3 למכנה 12"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור",
+              "calculation": "11/12 - 4/12 = 7/12",
+              "explanation": "מחסרים את המונים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-2-9",
+          "question": "חשב: 2/3 + 1/4 + 1/6",
+          "options": [
+            {"id": "opt-1", "text": "13/12", "isCorrect": true},
+            {"id": "opt-2", "text": "4/13", "isCorrect": false},
+            {"id": "opt-3", "text": "1", "isCorrect": false},
+            {"id": "opt-4", "text": "11/12", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מכנה משותף: 12. הרחבה: 2/3=8/12, 1/4=3/12, 1/6=2/12. חיבור: 8+3+2=13, תוצאה: 13/12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מכנה משותף",
+              "explanation": "המכנה המשותף של 3, 4, 6 הוא 12"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הרחבה",
+              "calculation": "2/3=8/12, 1/4=3/12, 1/6=2/12",
+              "explanation": "מרחיבים את כל השברים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חיבור",
+              "calculation": "8/12 + 3/12 + 2/12 = 13/12",
+              "explanation": "מחברים את כל המונים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-2-10",
+          "question": "חשב: 9/10 - 2/5",
+          "options": [
+            {"id": "opt-1", "text": "1/2", "isCorrect": true},
+            {"id": "opt-2", "text": "7/5", "isCorrect": false},
+            {"id": "opt-3", "text": "5/10", "isCorrect": false},
+            {"id": "opt-4", "text": "3/10", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "הרחבה: 2/5 = 4/10. חיסור: 9/10 - 4/10 = 5/10 = 1/2",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הרחבה",
+              "calculation": "2/5 = 4/10",
+              "explanation": "מרחיבים את 2/5 ב-2"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור",
+              "calculation": "9/10 - 4/10 = 5/10",
+              "explanation": "מחסרים את המונים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום",
+              "calculation": "5/10 = 1/2",
+              "explanation": "מצמצמים ב-5"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 3,
+      "name": "כפל וחילוק שברים - חלק ב",
+      "description": "המשך לימוד פעולות כפל וחילוק עם שברים",
+      "subSections": [
+        "פעילות פתיחה",
+        "כפל שבר בשבר",
+        "חילוק שברים",
+        "פעילויות סיכום והעמקה"
+      ],
+      "concepts": [
+        {
+          "id": "concept-3-1",
+          "title": "כפל שבר בשבר",
+          "content": "כדי לכפול שבר בשבר, כופלים את המונים ביניהם ואת המכנים ביניהם.",
+          "formula": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d}",
+          "order": 1
+        },
+        {
+          "id": "concept-3-2",
+          "title": "כפל מספר שלם בשבר",
+          "content": "מספר שלם ניתן להציג כשבר עם מכנה 1, ולאחר מכן לכפול בדרך הרגילה.",
+          "formula": "n \\times \\frac{a}{b} = \\frac{n}{1} \\times \\frac{a}{b} = \\frac{n \\times a}{b}",
+          "order": 2
+        },
+        {
+          "id": "concept-3-3",
+          "title": "שבר הופכי",
+          "content": "השבר ההופכי של a/b הוא b/a. מכפלת שבר בשבר ההופכי שלו שווה ל-1.",
+          "formula": "\\frac{a}{b} \\times \\frac{b}{a} = 1",
+          "order": 3
+        },
+        {
+          "id": "concept-3-4",
+          "title": "חילוק שברים",
+          "content": "כדי לחלק שבר בשבר, כופלים את השבר המחולק בשבר ההופכי של המחלק.",
+          "formula": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-3-1",
+          "question": "חשב: 2/3 × 3/4",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל המונים",
+              "calculation": "2 × 3 = 6",
+              "explanation": "כופלים את המונים: 2 × 3 = 6"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל המכנים",
+              "calculation": "3 × 4 = 12",
+              "explanation": "כופלים את המכנים: 3 × 4 = 12"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום",
+              "calculation": "6/12 = 1/2",
+              "explanation": "מצמצמים את 6/12 ב-6 ומקבלים 1/2"
+            }
+          ],
+          "finalAnswer": "1/2"
+        },
+        {
+          "id": "example-3-2",
+          "question": "חשב: 4 × 3/8",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "המרת המספר השלם לשבר",
+              "calculation": "4 = 4/1",
+              "explanation": "הופכים את 4 לשבר: 4/1"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל השברים",
+              "calculation": "4/1 × 3/8 = 12/8",
+              "explanation": "כופלים: (4×3)/(1×8) = 12/8"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום והמרה",
+              "calculation": "12/8 = 3/2 = 1½",
+              "explanation": "מצמצמים ב-4: 12/8 = 3/2 = 1½"
+            }
+          ],
+          "finalAnswer": "3/2 או 1½"
+        },
+        {
+          "id": "example-3-3",
+          "question": "חשב: 2/5 ÷ 3/4",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "מציאת השבר ההופכי",
+              "calculation": "השבר ההופכי של 3/4 הוא 4/3",
+              "explanation": "הופכים את 3/4 כדי לקבל 4/3"
+            },
+            {
+              "stepNumber": 2,
+              "description": "שינוי חילוק לכפל",
+              "calculation": "2/5 ÷ 3/4 = 2/5 × 4/3",
+              "explanation": "חילוק הופך לכפל בשבר ההופכי"
+            },
+            {
+              "stepNumber": 3,
+              "description": "כפל השברים",
+              "calculation": "(2×4)/(5×3) = 8/15",
+              "explanation": "כופלים את השברים: 8/15"
+            }
+          ],
+          "finalAnswer": "8/15"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-3-1",
+          "question": "מה התוצאה של 1/2 × 1/3?",
+          "options": [
+            {"id": "opt-1", "text": "1/6", "isCorrect": true},
+            {"id": "opt-2", "text": "2/5", "isCorrect": false},
+            {"id": "opt-3", "text": "1/5", "isCorrect": false},
+            {"id": "opt-4", "text": "2/6", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כופלים מונה במונה ומכנה במכנה: (1×1)/(2×3) = 1/6",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל המונים",
+              "calculation": "1 × 1 = 1",
+              "explanation": "כופלים את המונים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל המכנים",
+              "calculation": "2 × 3 = 6",
+              "explanation": "כופלים את המכנים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "התוצאה",
+              "calculation": "1/6",
+              "explanation": "התשובה היא 1/6"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-2",
+          "question": "מה השבר ההופכי של 5/7?",
+          "options": [
+            {"id": "opt-1", "text": "7/5", "isCorrect": true},
+            {"id": "opt-2", "text": "5/7", "isCorrect": false},
+            {"id": "opt-3", "text": "-5/7", "isCorrect": false},
+            {"id": "opt-4", "text": "7/7", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "השבר ההופכי מתקבל על ידי החלפת המונה והמכנה: 7/5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הגדרת שבר הופכי",
+              "explanation": "שבר הופכי מחליף בין המונה למכנה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "החלפה",
+              "calculation": "5/7 → 7/5",
+              "explanation": "המונה 5 הופך למכנה, והמכנה 7 הופך למונה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-3",
+          "question": "חשב: 3/4 ÷ 1/2",
+          "options": [
+            {"id": "opt-1", "text": "3/2", "isCorrect": true},
+            {"id": "opt-2", "text": "3/8", "isCorrect": false},
+            {"id": "opt-3", "text": "2/3", "isCorrect": false},
+            {"id": "opt-4", "text": "1/2", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מחלקים על ידי כפל בשבר ההופכי: 3/4 × 2/1 = 6/4 = 3/2",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שבר הופכי",
+              "calculation": "ההופכי של 1/2 הוא 2/1",
+              "explanation": "מוצאים את השבר ההופכי"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל",
+              "calculation": "3/4 × 2/1 = 6/4",
+              "explanation": "כופלים בשבר ההופכי"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום",
+              "calculation": "6/4 = 3/2",
+              "explanation": "מצמצמים ב-2"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-4",
+          "question": "חשב: 1/4 × 1/2",
+          "options": [
+            {"id": "opt-1", "text": "1/8", "isCorrect": true},
+            {"id": "opt-2", "text": "1/6", "isCorrect": false},
+            {"id": "opt-3", "text": "2/4", "isCorrect": false},
+            {"id": "opt-4", "text": "1/2", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כפל שברים: (1×1)/(4×2) = 1/8",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל מונים",
+              "calculation": "1 × 1 = 1",
+              "explanation": "כופלים את המונים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל מכנים",
+              "calculation": "4 × 2 = 8",
+              "explanation": "כופלים את המכנים"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-5",
+          "question": "חשב: 2 × 3/5",
+          "options": [
+            {"id": "opt-1", "text": "6/5", "isCorrect": true},
+            {"id": "opt-2", "text": "5/6", "isCorrect": false},
+            {"id": "opt-3", "text": "3/10", "isCorrect": false},
+            {"id": "opt-4", "text": "2/5", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "2 × 3/5 = 2/1 × 3/5 = 6/5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "המרה לשבר",
+              "calculation": "2 = 2/1",
+              "explanation": "הופכים את 2 לשבר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל",
+              "calculation": "2/1 × 3/5 = 6/5",
+              "explanation": "כופלים מונה במונה ומכנה במכנה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-6",
+          "question": "מהו השבר ההופכי של 4/9?",
+          "options": [
+            {"id": "opt-1", "text": "9/4", "isCorrect": true},
+            {"id": "opt-2", "text": "4/9", "isCorrect": false},
+            {"id": "opt-3", "text": "-4/9", "isCorrect": false},
+            {"id": "opt-4", "text": "9/9", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "השבר ההופכי מתקבל על ידי החלפת המונה והמכנה",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "החלפה",
+              "calculation": "4/9 → 9/4",
+              "explanation": "מחליפים מונה ומכנה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-7",
+          "question": "חשב: 2/3 × 5/6",
+          "options": [
+            {"id": "opt-1", "text": "5/9", "isCorrect": true},
+            {"id": "opt-2", "text": "10/18", "isCorrect": false},
+            {"id": "opt-3", "text": "7/9", "isCorrect": false},
+            {"id": "opt-4", "text": "10/9", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "(2×5)/(3×6) = 10/18 = 5/9 לאחר צמצום",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "(2×5)/(3×6) = 10/18",
+              "explanation": "כופלים מונים ומכנים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "10/18 = 5/9",
+              "explanation": "מצמצמים ב-2"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-8",
+          "question": "חשב: 1/2 ÷ 1/4",
+          "options": [
+            {"id": "opt-1", "text": "2", "isCorrect": true},
+            {"id": "opt-2", "text": "1/8", "isCorrect": false},
+            {"id": "opt-3", "text": "1/2", "isCorrect": false},
+            {"id": "opt-4", "text": "4", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שבר הופכי",
+              "calculation": "ההופכי של 1/4 הוא 4/1",
+              "explanation": "מוצאים שבר הופכי"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל",
+              "calculation": "1/2 × 4/1 = 4/2 = 2",
+              "explanation": "כופלים ומצמצמים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-3-9",
+          "question": "חשב: 3 × 2/9",
+          "options": [
+            {"id": "opt-1", "text": "2/3", "isCorrect": true},
+            {"id": "opt-2", "text": "6/9", "isCorrect": false},
+            {"id": "opt-3", "text": "5/9", "isCorrect": false},
+            {"id": "opt-4", "text": "3/9", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3 × 2/9 = 6/9 = 2/3 לאחר צמצום",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "3/1 × 2/9 = 6/9",
+              "explanation": "כופלים 3 ב-2/9"
+            },
+            {
+              "stepNumber": 2,
+              "description": "צמצום",
+              "calculation": "6/9 = 2/3",
+              "explanation": "מצמצמים ב-3"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-3-10",
+          "question": "חשב: 5/6 ÷ 2/3",
+          "options": [
+            {"id": "opt-1", "text": "5/4", "isCorrect": true},
+            {"id": "opt-2", "text": "10/18", "isCorrect": false},
+            {"id": "opt-3", "text": "3/4", "isCorrect": false},
+            {"id": "opt-4", "text": "15/12", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5/6 ÷ 2/3 = 5/6 × 3/2 = 15/12 = 5/4",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "שבר הופכי",
+              "calculation": "ההופכי של 2/3 הוא 3/2",
+              "explanation": "מוצאים שבר הופכי"
+            },
+            {
+              "stepNumber": 2,
+              "description": "כפל",
+              "calculation": "5/6 × 3/2 = 15/12",
+              "explanation": "כופלים בשבר ההופכי"
+            },
+            {
+              "stepNumber": 3,
+              "description": "צמצום",
+              "calculation": "15/12 = 5/4",
+              "explanation": "מצמצמים ב-3"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 4,
+      "name": "שוב חישוב - משולשים",
+      "description": "חזרה על תכונות משולשים ופתרון בעיות",
+      "concepts": [
+        {
+          "id": "concept-4-1",
+          "title": "סכום זוויות במשולש",
+          "content": "סכום הזוויות בכל משולש שווה ל-180 מעלות, ללא קשר לצורת המשולש.",
+          "formula": "\\alpha + \\beta + \\gamma = 180^\\circ",
+          "order": 1
+        },
+        {
+          "id": "concept-4-2",
+          "title": "סוגי משולשים לפי זוויות",
+          "content": "משולש חד-זווית: כל הזוויות קטנות מ-90°. משולש ישר-זווית: זווית אחת שווה ל-90°. משולש קהה-זווית: זווית אחת גדולה מ-90°.",
+          "order": 2
+        },
+        {
+          "id": "concept-4-3",
+          "title": "סוגי משולשים לפי צלעות",
+          "content": "משולש שווה-צלעות: כל הצלעות שוות. משולש שווה-שוקיים: שתי צלעות שוות. משולש שונה-צלעות: כל הצלעות שונות.",
+          "order": 3
+        },
+        {
+          "id": "concept-4-4",
+          "title": "היקף משולש",
+          "content": "היקף המשולש הוא סכום אורכי כל שלוש הצלעות.",
+          "formula": "P = a + b + c",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-4-1",
+          "question": "במשולש שתי זוויות הן 60° ו-70°. מה גודל הזווית השלישית?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום הזוויות הידועות",
+              "calculation": "60° + 70° = 130°",
+              "explanation": "מחברים את שתי הזוויות הידועות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חיסור מ-180°",
+              "calculation": "180° - 130° = 50°",
+              "explanation": "סכום כל הזוויות במשולש הוא 180°, לכן הזווית השלישית היא 180° - 130°"
+            }
+          ],
+          "finalAnswer": "50°"
+        },
+        {
+          "id": "example-4-2",
+          "question": "חשב את היקף משולש שצלעותיו 5 ס\"מ, 7 ס\"מ ו-9 ס\"מ",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הצלעות",
+              "explanation": "הצלעות הן: a=5, b=7, c=9"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב ההיקף",
+              "calculation": "5 + 7 + 9 = 21 ס\"מ",
+              "explanation": "מחברים את אורכי כל הצלעות"
+            }
+          ],
+          "finalAnswer": "21 ס\"מ"
+        },
+        {
+          "id": "example-4-3",
+          "question": "במשולש שווה-שוקיים שתי הצלעות השוות הן 8 ס\"מ כל אחת, וההיקף הוא 22 ס\"מ. מה אורך הבסיס?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי הנתונים",
+              "explanation": "שתי צלעות: 8 ס\"מ כל אחת. היקף: 22 ס\"מ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב סכום שתי הצלעות",
+              "calculation": "8 + 8 = 16 ס\"מ",
+              "explanation": "סכום שתי הצלעות השוות"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב הבסיס",
+              "calculation": "22 - 16 = 6 ס\"מ",
+              "explanation": "מחסרים מההיקף את סכום שתי הצלעות"
+            }
+          ],
+          "finalAnswer": "6 ס\"מ"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-4-1",
+          "question": "כמה מעלות יש בסכום זוויות של כל משולש?",
+          "options": [
+            {"id": "opt-1", "text": "180°", "isCorrect": true},
+            {"id": "opt-2", "text": "360°", "isCorrect": false},
+            {"id": "opt-3", "text": "90°", "isCorrect": false},
+            {"id": "opt-4", "text": "270°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זהו כלל בסיסי בגיאומטריה: סכום הזוויות בכל משולש תמיד שווה ל-180°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל בסיסי",
+              "explanation": "סכום זוויות במשולש הוא תמיד 180 מעלות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-2",
+          "question": "במשולש זווית אחת היא 90° וזווית שנייה היא 45°. מה גודל הזווית השלישית?",
+          "options": [
+            {"id": "opt-1", "text": "45°", "isCorrect": true},
+            {"id": "opt-2", "text": "90°", "isCorrect": false},
+            {"id": "opt-3", "text": "135°", "isCorrect": false},
+            {"id": "opt-4", "text": "60°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "90° + 45° = 135°, ולכן הזווית השלישית היא 180° - 135° = 45°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום שתי הזוויות",
+              "calculation": "90° + 45° = 135°",
+              "explanation": "מחברים את שתי הזוויות הידועות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הזווית השלישית",
+              "calculation": "180° - 135° = 45°",
+              "explanation": "מחסרים מ-180°"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-3",
+          "question": "מה ההיקף של משולש שווה-צלעות שכל צלע אורכה 6 ס\"מ?",
+          "options": [
+            {"id": "opt-1", "text": "18 ס\"מ", "isCorrect": true},
+            {"id": "opt-2", "text": "12 ס\"מ", "isCorrect": false},
+            {"id": "opt-3", "text": "24 ס\"מ", "isCorrect": false},
+            {"id": "opt-4", "text": "36 ס\"מ", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "במשולש שווה-צלעות כל הצלעות שוות, לכן: 6 + 6 + 6 = 18 ס\"מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי משולש שווה-צלעות",
+              "explanation": "כל שלוש הצלעות שוות ל-6 ס\"מ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב היקף",
+              "calculation": "6 + 6 + 6 = 18 ס\"מ",
+              "explanation": "מחברים את שלוש הצלעות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-4",
+          "question": "במשולש ABC זווית A היא 55° וזווית B היא 65°. מהי זווית C?",
+          "options": [
+            {"id": "opt-1", "text": "60°", "isCorrect": true},
+            {"id": "opt-2", "text": "70°", "isCorrect": false},
+            {"id": "opt-3", "text": "120°", "isCorrect": false},
+            {"id": "opt-4", "text": "50°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סכום זוויות במשולש: 180°. לכן: 180° - 55° - 65° = 60°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום שתי הזוויות",
+              "calculation": "55° + 65° = 120°",
+              "explanation": "מחברים את שתי הזוויות הידועות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הזווית השלישית",
+              "calculation": "180° - 120° = 60°",
+              "explanation": "מחסרים מ-180°"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-5",
+          "question": "איזה סוג משולש יש לו זווית של 95°?",
+          "options": [
+            {"id": "opt-1", "text": "משולש קהה-זווית", "isCorrect": true},
+            {"id": "opt-2", "text": "משולש חד-זווית", "isCorrect": false},
+            {"id": "opt-3", "text": "משולש ישר-זווית", "isCorrect": false},
+            {"id": "opt-4", "text": "משולש שווה-צלעות", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "משולש עם זווית גדולה מ-90° הוא משולש קהה-זווית",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "בדיקת הזווית",
+              "explanation": "95° > 90°"
+            },
+            {
+              "stepNumber": 2,
+              "description": "סיווג",
+              "calculation": "משולש קהה-זווית",
+              "explanation": "זווית גדולה מ-90°"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-6",
+          "question": "מה ההיקף של משולש שצלעותיו 7 ס\"מ, 9 ס\"מ ו-11 ס\"מ?",
+          "options": [
+            {"id": "opt-1", "text": "27 ס\"מ", "isCorrect": true},
+            {"id": "opt-2", "text": "20 ס\"מ", "isCorrect": false},
+            {"id": "opt-3", "text": "16 ס\"מ", "isCorrect": false},
+            {"id": "opt-4", "text": "693 ס\"מ", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "היקף = סכום הצלעות: 7 + 9 + 11 = 27 ס\"מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור הצלעות",
+              "calculation": "7 + 9 + 11 = 27",
+              "explanation": "מחברים את כל הצלעות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-7",
+          "question": "במשולש שווה-שוקיים היקף 24 ס\"מ. שתי הצלעות השוות הן 9 ס\"מ כל אחת. מה אורך הבסיס?",
+          "options": [
+            {"id": "opt-1", "text": "6 ס\"מ", "isCorrect": true},
+            {"id": "opt-2", "text": "15 ס\"מ", "isCorrect": false},
+            {"id": "opt-3", "text": "8 ס\"מ", "isCorrect": false},
+            {"id": "opt-4", "text": "18 ס\"מ", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "בסיס = היקף - שתי הצלעות: 24 - 9 - 9 = 6 ס\"מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום שתי הצלעות",
+              "calculation": "9 + 9 = 18 ס\"מ",
+              "explanation": "סכום שתי הצלעות השוות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הבסיס",
+              "calculation": "24 - 18 = 6 ס\"מ",
+              "explanation": "מחסרים מההיקף"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-8",
+          "question": "במשולש ישר-זווית זווית אחת היא 90° וזווית שנייה היא 35°. מהי הזווית השלישית?",
+          "options": [
+            {"id": "opt-1", "text": "55°", "isCorrect": true},
+            {"id": "opt-2", "text": "45°", "isCorrect": false},
+            {"id": "opt-3", "text": "125°", "isCorrect": false},
+            {"id": "opt-4", "text": "65°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "180° - 90° - 35° = 55°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום שתי הזוויות",
+              "calculation": "90° + 35° = 125°",
+              "explanation": "מחברים את שתי הזוויות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הזווית השלישית",
+              "calculation": "180° - 125° = 55°",
+              "explanation": "מחסרים מ-180°"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-4-9",
+          "question": "במשולש שווה-צלעות כל זווית היא:",
+          "options": [
+            {"id": "opt-1", "text": "60°", "isCorrect": true},
+            {"id": "opt-2", "text": "90°", "isCorrect": false},
+            {"id": "opt-3", "text": "45°", "isCorrect": false},
+            {"id": "opt-4", "text": "120°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "במשולש שווה-צלעות כל הזוויות שוות: 180° ÷ 3 = 60°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חלוקה שווה",
+              "calculation": "180° ÷ 3 = 60°",
+              "explanation": "שלוש זוויות שוות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-4-10",
+          "question": "משולש שצלעותיו 5 ס\"מ, 5 ס\"מ ו-7 ס\"מ הוא:",
+          "options": [
+            {"id": "opt-1", "text": "משולש שווה-שוקיים", "isCorrect": true},
+            {"id": "opt-2", "text": "משולש שווה-צלעות", "isCorrect": false},
+            {"id": "opt-3", "text": "משולש שונה-צלעות", "isCorrect": false},
+            {"id": "opt-4", "text": "משולש ישר-זווית", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "למשולש יש שתי צלעות שוות (5 ס\"מ) - זהו משולש שווה-שוקיים",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "ספירת צלעות שוות",
+              "explanation": "שתי צלעות בגודל 5 ס\"מ"
+            },
+            {
+              "stepNumber": 2,
+              "description": "סיווג",
+              "calculation": "משולש שווה-שוקיים",
+              "explanation": "שתי צלעות שוות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 5,
+      "name": "כפל וחילוק מספרים עשרוניים",
+      "description": "לימוד פעולות כפל וחילוק עם מספרים עשרוניים",
+      "subSections": [
+        "כפל מספרים עשרוניים ב־10, ב־100 וב־1,000",
+        "חילוק מספרים עשרוניים ב־10, ב־100 וב־1,000",
+        "כפל מספרים עשרוניים",
+        "חילוק מספרים עשרוניים",
+        "כתיבת שבר כמספר עשרוני"
+      ],
+      "concepts": [
+        {
+          "id": "concept-5-1",
+          "title": "כפל מספר עשרוני ב-10, 100, 1000",
+          "content": "כאשר כופלים מספר עשרוני ב-10, הנקודה העשרונית זז מקום אחד ימינה. כפל ב-100 מזיז שני מקומות, וכפל ב-1000 מזיז שלושה מקומות.",
+          "order": 1
+        },
+        {
+          "id": "concept-5-2",
+          "title": "חילוק מספר עשרוני ב-10, 100, 1000",
+          "content": "כאשר מחלקים מספר עשרוני ב-10, הנקודה העשרונית זז מקום אחד שמאלה. חילוק ב-100 מזיז שני מקומות, וחילוק ב-1000 מזיז שלושה מקומות.",
+          "order": 2
+        },
+        {
+          "id": "concept-5-3",
+          "title": "כפל מספרים עשרוניים",
+          "content": "לכפל מספרים עשרוניים: כופלים כמו מספרים שלמים, וסופרים כמה ספרות אחרי הנקודה בשני המספרים ביחד. זהו מספר הספרות אחרי הנקודה בתוצאה.",
+          "order": 3
+        },
+        {
+          "id": "concept-5-4",
+          "title": "חילוק מספרים עשרוניים",
+          "content": "כדי לחלק מספרים עשרוניים, מזיזים את הנקודה העשרונית במחלק ובמחולק כך שהמחלק יהפוך למספר שלם, ואז מבצעים חילוק רגיל.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-5-1",
+          "question": "חשב: 3.45 × 10",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הזזת הנקודה",
+              "explanation": "כפל ב-10 מזיז את הנקודה העשרונית מקום אחד ימינה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב התוצאה",
+              "calculation": "3.45 → 34.5",
+              "explanation": "הנקודה עברה ממקום 3.45 ל-34.5"
+            }
+          ],
+          "finalAnswer": "34.5"
+        },
+        {
+          "id": "example-5-2",
+          "question": "חשב: 0.6 × 0.4",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ללא נקודות",
+              "calculation": "6 × 4 = 24",
+              "explanation": "מתעלמים מהנקודות וכופלים: 6 × 4 = 24"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ספירת ספרות אחרי הנקודה",
+              "explanation": "0.6 יש ספרה אחת אחרי הנקודה, 0.4 יש ספרה אחת. סה\"כ: 1+1=2"
+            },
+            {
+              "stepNumber": 3,
+              "description": "הצבת הנקודה",
+              "calculation": "24 → 0.24",
+              "explanation": "מציבים נקודה כך שיהיו 2 ספרות אחריה: 0.24"
+            }
+          ],
+          "finalAnswer": "0.24"
+        },
+        {
+          "id": "example-5-3",
+          "question": "חשב: 4.8 ÷ 0.2",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הזזת נקודות",
+              "explanation": "מזיזים נקודה אחת ימינה בשני המספרים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "קבלת מספרים שלמים",
+              "calculation": "48 ÷ 2",
+              "explanation": "4.8 → 48 ו-0.2 → 2"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חילוק רגיל",
+              "calculation": "48 ÷ 2 = 24",
+              "explanation": "מחלקים מספרים שלמים: 24"
+            }
+          ],
+          "finalAnswer": "24"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-5-1",
+          "question": "מה התוצאה של 2.3 × 100?",
+          "options": [
+            {"id": "opt-1", "text": "230", "isCorrect": true},
+            {"id": "opt-2", "text": "23", "isCorrect": false},
+            {"id": "opt-3", "text": "2300", "isCorrect": false},
+            {"id": "opt-4", "text": "0.23", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כפל ב-100 מזיז את הנקודה העשרונית שני מקומות ימינה: 2.3 → 230",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל הכפל ב-100",
+              "explanation": "כפל ב-100 = הזזת נקודה שני מקומות ימינה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הזזת הנקודה",
+              "calculation": "2.3 → 2.30 → 23.0 → 230",
+              "explanation": "מזיזים שני מקומות ימינה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-2",
+          "question": "חשב: 0.5 × 0.8",
+          "options": [
+            {"id": "opt-1", "text": "0.4", "isCorrect": true},
+            {"id": "opt-2", "text": "0.04", "isCorrect": false},
+            {"id": "opt-3", "text": "4", "isCorrect": false},
+            {"id": "opt-4", "text": "0.13", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "5 × 8 = 40, ויש 2 ספרות אחרי הנקודה (1+1), לכן: 0.40 = 0.4",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ללא נקודות",
+              "calculation": "5 × 8 = 40",
+              "explanation": "כופלים 5 × 8"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ספירת ספרות",
+              "explanation": "1 ספרה אחרי נקודה ב-0.5 + 1 ב-0.8 = 2"
+            },
+            {
+              "stepNumber": 3,
+              "description": "הצבת נקודה",
+              "calculation": "40 → 0.40 = 0.4",
+              "explanation": "2 ספרות אחרי הנקודה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-3",
+          "question": "מה התוצאה של 12 ÷ 100?",
+          "options": [
+            {"id": "opt-1", "text": "0.12", "isCorrect": true},
+            {"id": "opt-2", "text": "1.2", "isCorrect": false},
+            {"id": "opt-3", "text": "120", "isCorrect": false},
+            {"id": "opt-4", "text": "0.012", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "חילוק ב-100 מזיז את הנקודה העשרונית שני מקומות שמאלה: 12 → 0.12",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל החילוק ב-100",
+              "explanation": "חילוק ב-100 = הזזת נקודה שני מקומות שמאלה"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הזזת הנקודה",
+              "calculation": "12.0 → 1.2 → 0.12",
+              "explanation": "מזיזים שני מקומות שמאלה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-4",
+          "question": "חשב: 1.5 × 10",
+          "options": [
+            {"id": "opt-1", "text": "15", "isCorrect": true},
+            {"id": "opt-2", "text": "1.5", "isCorrect": false},
+            {"id": "opt-3", "text": "0.15", "isCorrect": false},
+            {"id": "opt-4", "text": "150", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כפל ב-10 מזיז את הנקודה מקום אחד ימינה: 1.5 → 15",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הזזת נקודה",
+              "calculation": "1.5 → 15",
+              "explanation": "מקום אחד ימינה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-5",
+          "question": "חשב: 3.6 ÷ 10",
+          "options": [
+            {"id": "opt-1", "text": "0.36", "isCorrect": true},
+            {"id": "opt-2", "text": "36", "isCorrect": false},
+            {"id": "opt-3", "text": "3.6", "isCorrect": false},
+            {"id": "opt-4", "text": "0.036", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "חילוק ב-10 מזיז את הנקודה מקום אחד שמאלה: 3.6 → 0.36",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הזזת נקודה",
+              "calculation": "3.6 → 0.36",
+              "explanation": "מקום אחד שמאלה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-6",
+          "question": "חשב: 0.3 × 0.2",
+          "options": [
+            {"id": "opt-1", "text": "0.06", "isCorrect": true},
+            {"id": "opt-2", "text": "0.6", "isCorrect": false},
+            {"id": "opt-3", "text": "0.5", "isCorrect": false},
+            {"id": "opt-4", "text": "6", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "3 × 2 = 6, ויש 2 ספרות אחרי הנקודה (1+1), לכן: 0.06",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל ללא נקודות",
+              "calculation": "3 × 2 = 6",
+              "explanation": "כופלים 3 × 2"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הצבת נקודה",
+              "calculation": "6 → 0.06",
+              "explanation": "2 ספרות אחרי הנקודה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-7",
+          "question": "חשב: 4.5 × 1000",
+          "options": [
+            {"id": "opt-1", "text": "4500", "isCorrect": true},
+            {"id": "opt-2", "text": "450", "isCorrect": false},
+            {"id": "opt-3", "text": "45", "isCorrect": false},
+            {"id": "opt-4", "text": "0.0045", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "כפל ב-1000 מזיז את הנקודה 3 מקומות ימינה: 4.5 → 4500",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הזזת נקודה",
+              "calculation": "4.5 → 4.50 → 45.0 → 450 → 4500",
+              "explanation": "3 מקומות ימינה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-5-8",
+          "question": "חשב: 1.2 × 0.5",
+          "options": [
+            {"id": "opt-1", "text": "0.6", "isCorrect": true},
+            {"id": "opt-2", "text": "0.06", "isCorrect": false},
+            {"id": "opt-3", "text": "6", "isCorrect": false},
+            {"id": "opt-4", "text": "1.7", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "12 × 5 = 60, ויש 2 ספרות אחרי הנקודה, לכן: 0.60 = 0.6",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כפל",
+              "calculation": "12 × 5 = 60",
+              "explanation": "כופלים ללא נקודות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "הצבת נקודה",
+              "calculation": "60 → 0.60 = 0.6",
+              "explanation": "2 ספרות אחרי הנקודה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-5-9",
+          "question": "חשב: 6 ÷ 0.2",
+          "options": [
+            {"id": "opt-1", "text": "30", "isCorrect": true},
+            {"id": "opt-2", "text": "3", "isCorrect": false},
+            {"id": "opt-3", "text": "1.2", "isCorrect": false},
+            {"id": "opt-4", "text": "0.3", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "מזיזים נקודה: 60 ÷ 2 = 30",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הזזת נקודות",
+              "calculation": "6 → 60, 0.2 → 2",
+              "explanation": "מזיזים נקודה ימינה בשניהם"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חילוק",
+              "calculation": "60 ÷ 2 = 30",
+              "explanation": "חילוק מספרים שלמים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-5-10",
+          "question": "חשב: 250 ÷ 1000",
+          "options": [
+            {"id": "opt-1", "text": "0.25", "isCorrect": true},
+            {"id": "opt-2", "text": "2.5", "isCorrect": false},
+            {"id": "opt-3", "text": "25", "isCorrect": false},
+            {"id": "opt-4", "text": "0.025", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "חילוק ב-1000 מזיז את הנקודה 3 מקומות שמאלה: 250 → 0.25",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הזזת נקודה",
+              "calculation": "250 → 25.0 → 2.50 → 0.250 = 0.25",
+              "explanation": "3 מקומות שמאלה"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 6,
+      "name": "שוב חישוב - זוויות",
+      "description": "חזרה על מדידה וחישוב זוויות",
+      "concepts": [
+        {
+          "id": "concept-6-1",
+          "title": "סוגי זוויות",
+          "content": "זווית חדה: פחות מ-90°. זווית ישרה: בדיוק 90°. זווית קהה: בין 90° ל-180°. זווית שטוחה: בדיוק 180°.",
+          "order": 1
+        },
+        {
+          "id": "concept-6-2",
+          "title": "זוויות משלימות",
+          "content": "שתי זוויות הן משלימות אם סכומן שווה ל-90°.",
+          "formula": "\\alpha + \\beta = 90^\\circ",
+          "order": 2
+        },
+        {
+          "id": "concept-6-3",
+          "title": "זוויות משוכללות (או משלימות ל-180°)",
+          "content": "שתי זוויות הן משוכללות אם סכומן שווה ל-180°.",
+          "formula": "\\alpha + \\beta = 180^\\circ",
+          "order": 3
+        },
+        {
+          "id": "concept-6-4",
+          "title": "זוויות קודקודיות",
+          "content": "כאשר שני קווים נחתכים, נוצרות ארבע זוויות. זוויות קודקודיות (מנוגדות) הן שוות זו לזו.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-6-1",
+          "question": "זווית אחת היא 35°. מה גודל הזווית המשלימה לה?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת המשימה",
+              "explanation": "זוויות משלימות סכומן 90°"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הזווית המשלימה",
+              "calculation": "90° - 35° = 55°",
+              "explanation": "מחסרים את הזווית הנתונה מ-90°"
+            }
+          ],
+          "finalAnswer": "55°"
+        },
+        {
+          "id": "example-6-2",
+          "question": "זווית אחת היא 110°. מה גודל הזווית המשוכללת לה?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת המשימה",
+              "explanation": "זוויות משוכללות סכומן 180°"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הזווית המשוכללת",
+              "calculation": "180° - 110° = 70°",
+              "explanation": "מחסרים את הזווית הנתונה מ-180°"
+            }
+          ],
+          "finalAnswer": "70°"
+        },
+        {
+          "id": "example-6-3",
+          "question": "שני קווים נחתכים. אחת הזוויות היא 65°. מה גודל הזווית הקודקודית לה?",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל זוויות קודקודיות",
+              "explanation": "זוויות קודקודיות תמיד שוות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "קביעת התוצאה",
+              "calculation": "65°",
+              "explanation": "הזווית הקודקודית גם היא 65°"
+            }
+          ],
+          "finalAnswer": "65°"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-6-1",
+          "question": "איזו זווית נקראת זווית ישרה?",
+          "options": [
+            {"id": "opt-1", "text": "90°", "isCorrect": true},
+            {"id": "opt-2", "text": "180°", "isCorrect": false},
+            {"id": "opt-3", "text": "45°", "isCorrect": false},
+            {"id": "opt-4", "text": "60°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זווית ישרה היא זווית בת בדיוק 90 מעלות",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הגדרה",
+              "explanation": "זווית ישרה = 90°"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-2",
+          "question": "שתי זוויות משלימות. אחת מהן 40°. מה גודל השנייה?",
+          "options": [
+            {"id": "opt-1", "text": "50°", "isCorrect": true},
+            {"id": "opt-2", "text": "140°", "isCorrect": false},
+            {"id": "opt-3", "text": "60°", "isCorrect": false},
+            {"id": "opt-4", "text": "40°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זוויות משלימות סכומן 90°, לכן: 90° - 40° = 50°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל זוויות משלימות",
+              "explanation": "סכום = 90°"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "90° - 40° = 50°",
+              "explanation": "הזווית השנייה היא 50°"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-3",
+          "question": "זווית אחת היא 125°. מה גודל הזווית המשוכללת לה?",
+          "options": [
+            {"id": "opt-1", "text": "55°", "isCorrect": true},
+            {"id": "opt-2", "text": "125°", "isCorrect": false},
+            {"id": "opt-3", "text": "65°", "isCorrect": false},
+            {"id": "opt-4", "text": "235°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זוויות משוכללות סכומן 180°, לכן: 180° - 125° = 55°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל זוויות משוכללות",
+              "explanation": "סכום = 180°"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב",
+              "calculation": "180° - 125° = 55°",
+              "explanation": "הזווית המשוכללת היא 55°"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-4",
+          "question": "איזו זווית גדולה מ-90° וקטנה מ-180°?",
+          "options": [
+            {"id": "opt-1", "text": "זווית קהה", "isCorrect": true},
+            {"id": "opt-2", "text": "זווית חדה", "isCorrect": false},
+            {"id": "opt-3", "text": "זווית ישרה", "isCorrect": false},
+            {"id": "opt-4", "text": "זווית שטוחה", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זווית בין 90° ל-180° נקראת זווית קהה",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הגדרה",
+              "explanation": "זווית קהה: 90° < זווית < 180°"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-5",
+          "question": "שתי זוויות משלימות. אחת 25°. מה גודל השנייה?",
+          "options": [
+            {"id": "opt-1", "text": "65°", "isCorrect": true},
+            {"id": "opt-2", "text": "155°", "isCorrect": false},
+            {"id": "opt-3", "text": "75°", "isCorrect": false},
+            {"id": "opt-4", "text": "25°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זוויות משלימות סכומן 90°: 90° - 25° = 65°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "90° - 25° = 65°",
+              "explanation": "הזווית המשלימה"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-6",
+          "question": "זווית אחת היא 72°. מה גודל הזווית המשוכללת לה?",
+          "options": [
+            {"id": "opt-1", "text": "108°", "isCorrect": true},
+            {"id": "opt-2", "text": "18°", "isCorrect": false},
+            {"id": "opt-3", "text": "72°", "isCorrect": false},
+            {"id": "opt-4", "text": "288°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זוויות משוכללות סכומן 180°: 180° - 72° = 108°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב",
+              "calculation": "180° - 72° = 108°",
+              "explanation": "הזווית המשוכללת"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-6-7",
+          "question": "שני קווים נחתכים ויוצרים זווית של 50°. מה גודל הזווית הקודקודית?",
+          "options": [
+            {"id": "opt-1", "text": "50°", "isCorrect": true},
+            {"id": "opt-2", "text": "130°", "isCorrect": false},
+            {"id": "opt-3", "text": "40°", "isCorrect": false},
+            {"id": "opt-4", "text": "100°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זוויות קודקודיות תמיד שוות: 50°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "כלל",
+              "explanation": "זוויות קודקודיות שוות"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-8",
+          "question": "מהי זווית שטוחה?",
+          "options": [
+            {"id": "opt-1", "text": "180°", "isCorrect": true},
+            {"id": "opt-2", "text": "90°", "isCorrect": false},
+            {"id": "opt-3", "text": "360°", "isCorrect": false},
+            {"id": "opt-4", "text": "270°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זווית שטוחה היא בדיוק 180°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הגדרה",
+              "explanation": "זווית שטוחה = 180°"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-6-9",
+          "question": "שתי זוויות משלימות. אם אחת מהן 3 פעמים גדולה מהשנייה, מה גודל הזווית הקטנה?",
+          "options": [
+            {"id": "opt-1", "text": "22.5°", "isCorrect": true},
+            {"id": "opt-2", "text": "30°", "isCorrect": false},
+            {"id": "opt-3", "text": "45°", "isCorrect": false},
+            {"id": "opt-4", "text": "67.5°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "x + 3x = 90°, לכן 4x = 90°, x = 22.5°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "משוואה",
+              "calculation": "x + 3x = 90°",
+              "explanation": "סכום זוויות משלימות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "פתרון",
+              "calculation": "4x = 90°, x = 22.5°",
+              "explanation": "הזווית הקטנה"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-6-10",
+          "question": "זווית חדה היא זווית ש:",
+          "options": [
+            {"id": "opt-1", "text": "קטנה מ-90°", "isCorrect": true},
+            {"id": "opt-2", "text": "גדולה מ-90°", "isCorrect": false},
+            {"id": "opt-3", "text": "שווה ל-90°", "isCorrect": false},
+            {"id": "opt-4", "text": "שווה ל-180°", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "זווית חדה היא זווית קטנה מ-90°",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הגדרה",
+              "explanation": "זווית חדה: 0° < זווית < 90°"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 7,
+      "name": "בעיות כוללות",
+      "description": "פתרון בעיות מילוליות מורכבות",
+      "subSections": [
+        "בעיות דו־שלביות ובעיות רב־שלביות",
+        "בעיות כוללות"
+      ],
+      "concepts": [
+        {
+          "id": "concept-7-1",
+          "title": "בעיה דו-שלבית",
+          "content": "בעיה דו-שלבית היא בעיה שדורשת ביצוע שני שלבי חישוב או יותר כדי להגיע לפתרון. כל שלב תלוי בתוצאה של השלב הקודם.",
+          "order": 1
+        },
+        {
+          "id": "concept-7-2",
+          "title": "אסטרטגיות לפתרון בעיות",
+          "content": "כדי לפתור בעיה מילולית: קרא את הבעיה בעיון, זהה את הנתונים והשאלה, תכנן אסטרטגיית פתרון, בצע חישובים שלב אחר שלב, ובדוק סבירות התשובה.",
+          "order": 2
+        },
+        {
+          "id": "concept-7-3",
+          "title": "ארגון מידע בטבלה",
+          "content": "לעיתים כדאי לארגן את המידע בבעיה בטבלה או בדיאגרמה. זה עוזר לראות את הקשרים בין הנתונים ולתכנן את דרך הפתרון.",
+          "order": 3
+        },
+        {
+          "id": "concept-7-4",
+          "title": "בדיקת סבירות התשובה",
+          "content": "אחרי פתרון הבעיה, חשוב לבדוק האם התשובה הגיונית והאם היא עונה על השאלה שנשאלה. אפשר להשתמש באומדן או בחישוב הפוך לבדיקה.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-7-1",
+          "question": "לרונית היו 120 ש\"ח. היא קנתה 3 ספרים ב-25 ש\"ח כל אחד. כמה כסף נשאר לה?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב עלות הספרים",
+              "calculation": "3 × 25 = 75 ש\"ח",
+              "explanation": "עלות 3 ספרים היא 3 × 25 = 75 ש\"ח"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב הכסף שנשאר",
+              "calculation": "120 - 75 = 45 ש\"ח",
+              "explanation": "מחסרים את העלות מהסכום ההתחלתי: 120 - 75 = 45 ש\"ח"
+            },
+            {
+              "stepNumber": 3,
+              "description": "בדיקת סבירות",
+              "explanation": "התשובה הגיונית כי 45 < 120 והיא חיובית"
+            }
+          ],
+          "finalAnswer": "45 ש\"ח"
+        },
+        {
+          "id": "example-7-2",
+          "question": "בכיתה יש 28 תלמידים. 3/4 מהם הגיעו לטיול. כמה תלמידים הגיעו?",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "הבנת הבעיה",
+              "explanation": "צריך למצוא 3/4 מ-28"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב רבע מהתלמידים",
+              "calculation": "28 ÷ 4 = 7",
+              "explanation": "רבע מ-28 הוא 7 תלמידים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב 3/4",
+              "calculation": "7 × 3 = 21",
+              "explanation": "3/4 מהתלמידים הם 3 × 7 = 21 תלמידים"
+            }
+          ],
+          "finalAnswer": "21 תלמידים"
+        },
+        {
+          "id": "example-7-3",
+          "question": "גינה מלבנית שאורכה 12 מטר ורוחבה 8 מטר. מה שטח הגינה? כמה עולה גידור הגינה אם מטר גדר עולה 45 ש\"ח?",
+          "difficulty": "hard",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב השטח",
+              "calculation": "12 × 8 = 96 מ\"ר",
+              "explanation": "שטח המלבן = אורך × רוחב = 12 × 8 = 96 מטר רבוע"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב ההיקף",
+              "calculation": "(12 + 8) × 2 = 40 מטר",
+              "explanation": "היקף המלבן = 2 × (אורך + רוחב) = 2 × 20 = 40 מטר"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב עלות הגידור",
+              "calculation": "40 × 45 = 1,800 ש\"ח",
+              "explanation": "עלות הגידור = 40 מטר × 45 ש\"ח = 1,800 ש\"ח"
+            }
+          ],
+          "finalAnswer": "שטח הגינה: 96 מ\"ר, עלות הגידור: 1,800 ש\"ח"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-7-1",
+          "question": "יוסי קנה 4 מחברות ב-12 ש\"ח כל אחת. הוא שילם בשטר של 100 ש\"ח. כמה כסף החזירו לו?",
+          "options": [
+            {"id": "opt-1", "text": "52 ש\"ח", "isCorrect": true},
+            {"id": "opt-2", "text": "48 ש\"ח", "isCorrect": false},
+            {"id": "opt-3", "text": "88 ש\"ח", "isCorrect": false},
+            {"id": "opt-4", "text": "60 ש\"ח", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "עלות המחברות: 4 × 12 = 48 ש\"ח. כסף שהוחזר: 100 - 48 = 52 ש\"ח",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב עלות המחברות",
+              "calculation": "4 × 12 = 48 ש\"ח",
+              "explanation": "כופלים מספר המחברות במחיר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב העודף",
+              "calculation": "100 - 48 = 52 ש\"ח",
+              "explanation": "מחסרים את העלות מ-100 ש\"ח"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-2",
+          "question": "בספרייה יש 240 ספרים. 2/3 מהם ספרי ילדים והשאר ספרי מבוגרים. כמה ספרי מבוגרים יש?",
+          "options": [
+            {"id": "opt-1", "text": "80", "isCorrect": true},
+            {"id": "opt-2", "text": "160", "isCorrect": false},
+            {"id": "opt-3", "text": "120", "isCorrect": false},
+            {"id": "opt-4", "text": "60", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "ספרי ילדים: 240 × 2/3 = 160. ספרי מבוגרים: 240 - 160 = 80",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב ספרי ילדים",
+              "calculation": "240 × 2/3 = 160",
+              "explanation": "2/3 מ-240 הם 160 ספרים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב ספרי מבוגרים",
+              "calculation": "240 - 160 = 80",
+              "explanation": "השאר הם ספרי מבוגרים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-7-3",
+          "question": "מירי רצה 1.5 ק\"מ ביום ראשון, ביום שני רצה פי 2 יותר מביום ראשון. כמה רצה בסך הכל בשני הימים?",
+          "options": [
+            {"id": "opt-1", "text": "4.5 ק\"מ", "isCorrect": true},
+            {"id": "opt-2", "text": "3 ק\"מ", "isCorrect": false},
+            {"id": "opt-3", "text": "3.5 ק\"מ", "isCorrect": false},
+            {"id": "opt-4", "text": "6 ק\"מ", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "יום ראשון: 1.5 ק\"מ. יום שני: 1.5 × 2 = 3 ק\"מ. סה\"כ: 1.5 + 3 = 4.5 ק\"מ",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "ריצה ביום שני",
+              "calculation": "1.5 × 2 = 3 ק\"מ",
+              "explanation": "ביום שני רצה פי 2 יותר"
+            },
+            {
+              "stepNumber": 2,
+              "description": "סה\"כ ריצה",
+              "calculation": "1.5 + 3 = 4.5 ק\"מ",
+              "explanation": "מחברים את שני הימים"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-4",
+          "question": "בחנות קנה דני 5 עטים ב-8 ש\"ח כל אחד ו-3 מחברות ב-15 ש\"ח כל אחת. כמה שילם בסך הכל?",
+          "options": [
+            {"id": "opt-1", "text": "85 ש\"ח", "isCorrect": true},
+            {"id": "opt-2", "text": "40 ש\"ח", "isCorrect": false},
+            {"id": "opt-3", "text": "45 ש\"ח", "isCorrect": false},
+            {"id": "opt-4", "text": "23 ש\"ח", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "עטים: 5 × 8 = 40 ש\"ח. מחברות: 3 × 15 = 45 ש\"ח. סה\"כ: 40 + 45 = 85 ש\"ח",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "עלות העטים",
+              "calculation": "5 × 8 = 40 ש\"ח",
+              "explanation": "5 עטים במחיר 8 ש\"ח"
+            },
+            {
+              "stepNumber": 2,
+              "description": "עלות המחברות",
+              "calculation": "3 × 15 = 45 ש\"ח",
+              "explanation": "3 מחברות במחיר 15 ש\"ח"
+            },
+            {
+              "stepNumber": 3,
+              "description": "סה\"כ",
+              "calculation": "40 + 45 = 85 ש\"ח",
+              "explanation": "סכום הכל"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-5",
+          "question": "בכיתה 30 תלמידים. 2/5 מהם בנים. כמה בנות יש בכיתה?",
+          "options": [
+            {"id": "opt-1", "text": "18", "isCorrect": true},
+            {"id": "opt-2", "text": "12", "isCorrect": false},
+            {"id": "opt-3", "text": "15", "isCorrect": false},
+            {"id": "opt-4", "text": "20", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "בנים: 30 × 2/5 = 12. בנות: 30 - 12 = 18",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "מספר הבנים",
+              "calculation": "30 × 2/5 = 12",
+              "explanation": "2/5 מ-30 תלמידים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מספר הבנות",
+              "calculation": "30 - 12 = 18",
+              "explanation": "השאר הן בנות"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-6",
+          "question": "אמא קנתה 2.5 ק\"ג עגבניות ב-12 ש\"ח לק\"ג ו-1.5 ק\"ג מלפפונים ב-8 ש\"ח לק\"ג. כמה שילמה?",
+          "options": [
+            {"id": "opt-1", "text": "42 ש\"ח", "isCorrect": true},
+            {"id": "opt-2", "text": "30 ש\"ח", "isCorrect": false},
+            {"id": "opt-3", "text": "20 ש\"ח", "isCorrect": false},
+            {"id": "opt-4", "text": "52 ש\"ח", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "עגבניות: 2.5 × 12 = 30 ש\"ח. מלפפונים: 1.5 × 8 = 12 ש\"ח. סה\"כ: 30 + 12 = 42 ש\"ח",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "עלות עגבניות",
+              "calculation": "2.5 × 12 = 30 ש\"ח",
+              "explanation": "2.5 ק\"ג במחיר 12 ש\"ח"
+            },
+            {
+              "stepNumber": 2,
+              "description": "עלות מלפפונים",
+              "calculation": "1.5 × 8 = 12 ש\"ח",
+              "explanation": "1.5 ק\"ג במחיר 8 ש\"ח"
+            },
+            {
+              "stepNumber": 3,
+              "description": "סה\"כ",
+              "calculation": "30 + 12 = 42 ש\"ח",
+              "explanation": "סכום כולל"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-7-7",
+          "question": "למשה 48 בולים. הוא נתן לחברו 1/4 מהבולים. כמה בולים נשארו למשה?",
+          "options": [
+            {"id": "opt-1", "text": "36", "isCorrect": true},
+            {"id": "opt-2", "text": "12", "isCorrect": false},
+            {"id": "opt-3", "text": "24", "isCorrect": false},
+            {"id": "opt-4", "text": "40", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "נתן: 48 × 1/4 = 12. נשארו: 48 - 12 = 36",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "בולים שנתן",
+              "calculation": "48 × 1/4 = 12",
+              "explanation": "רבע מהבולים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "בולים שנשארו",
+              "calculation": "48 - 12 = 36",
+              "explanation": "השאר"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-7-8",
+          "question": "במגרש חנייה יש 6 שורות של 15 מקומות חניה בכל שורה. 2/3 מהמקומות תפוסים. כמה מקומות פנויים?",
+          "options": [
+            {"id": "opt-1", "text": "30", "isCorrect": true},
+            {"id": "opt-2", "text": "60", "isCorrect": false},
+            {"id": "opt-3", "text": "45", "isCorrect": false},
+            {"id": "opt-4", "text": "90", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סה\"כ מקומות: 6 × 15 = 90. תפוסים: 90 × 2/3 = 60. פנויים: 90 - 60 = 30",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סה\"כ מקומות",
+              "calculation": "6 × 15 = 90",
+              "explanation": "מכפלת שורות במקומות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מקומות תפוסים",
+              "calculation": "90 × 2/3 = 60",
+              "explanation": "2/3 מהמקומות"
+            },
+            {
+              "stepNumber": 3,
+              "description": "מקומות פנויים",
+              "calculation": "90 - 60 = 30",
+              "explanation": "השאר פנויים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-7-9",
+          "question": "שלושה חברים חילקו ביניהם 120 ש\"ח. הראשון קיבל 1/3, השני קיבל 1/4. כמה קיבל השלישי?",
+          "options": [
+            {"id": "opt-1", "text": "50 ש\"ח", "isCorrect": true},
+            {"id": "opt-2", "text": "40 ש\"ח", "isCorrect": false},
+            {"id": "opt-3", "text": "30 ש\"ח", "isCorrect": false},
+            {"id": "opt-4", "text": "60 ש\"ח", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "ראשון: 120 × 1/3 = 40. שני: 120 × 1/4 = 30. שלישי: 120 - 40 - 30 = 50",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "הראשון",
+              "calculation": "120 × 1/3 = 40 ש\"ח",
+              "explanation": "שליש מהסכום"
+            },
+            {
+              "stepNumber": 2,
+              "description": "השני",
+              "calculation": "120 × 1/4 = 30 ש\"ח",
+              "explanation": "רבע מהסכום"
+            },
+            {
+              "stepNumber": 3,
+              "description": "השלישי",
+              "calculation": "120 - 40 - 30 = 50 ש\"ח",
+              "explanation": "השאר"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-7-10",
+          "question": "גן מלבני שאורכו 18 מטר ורוחבו 12 מטר. מה היקף הגן?",
+          "options": [
+            {"id": "opt-1", "text": "60 מטר", "isCorrect": true},
+            {"id": "opt-2", "text": "30 מטר", "isCorrect": false},
+            {"id": "opt-3", "text": "216 מטר", "isCorrect": false},
+            {"id": "opt-4", "text": "36 מטר", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "היקף = 2 × (אורך + רוחב) = 2 × (18 + 12) = 2 × 30 = 60 מטר",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום אורך ורוחב",
+              "calculation": "18 + 12 = 30",
+              "explanation": "סכום הצלעות"
+            },
+            {
+              "stepNumber": 2,
+              "description": "היקף",
+              "calculation": "2 × 30 = 60 מטר",
+              "explanation": "כפל ב-2"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "unit-8",
+      "bookId": "grade-6-shevilim-plus-17",
+      "order": 8,
+      "name": "שוב חישוב - ממוצע וחציון",
+      "description": "חזרה על חישוב ממוצע וחציון",
+      "concepts": [
+        {
+          "id": "concept-8-1",
+          "title": "ממוצע חשבוני",
+          "content": "הממוצע החשבוני הוא סכום כל המספרים חלקי כמות המספרים. הממוצע מייצג ערך טיפוסי של קבוצת מספרים.",
+          "formula": "\\text{ממוצע} = \\frac{\\text{סכום המספרים}}{\\text{כמות המספרים}}",
+          "order": 1
+        },
+        {
+          "id": "concept-8-2",
+          "title": "חציון",
+          "content": "החציון הוא הערך האמצעי כאשר מסדרים את המספרים מהקטן לגדול. אם יש מספר זוגי של ערכים, החציון הוא הממוצע של שני הערכים האמצעיים.",
+          "order": 2
+        },
+        {
+          "id": "concept-8-3",
+          "title": "שכיחות (מודוס)",
+          "content": "השכיחות היא הערך שמופיע הכי הרבה פעמים בקבוצת מספרים. יכולה להיות יותר משכיחות אחת, או לא להיות כלל.",
+          "order": 3
+        },
+        {
+          "id": "concept-8-4",
+          "title": "שימושים בממוצע ובחציון",
+          "content": "הממוצע משמש לחישוב ציון ממוצע, טמפרטורה ממוצעת ועוד. החציון עוזר כאשר יש ערכים קיצוניים שעלולים לעוות את הממוצע.",
+          "order": 4
+        }
+      ],
+      "examples": [
+        {
+          "id": "example-8-1",
+          "question": "מצא את הממוצע של המספרים: 12, 15, 18, 20, 25",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חיבור כל המספרים",
+              "calculation": "12 + 15 + 18 + 20 + 25 = 90",
+              "explanation": "מחברים את כל המספרים: 90"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ספירת המספרים",
+              "explanation": "יש 5 מספרים"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב הממוצע",
+              "calculation": "90 ÷ 5 = 18",
+              "explanation": "מחלקים את הסכום במספר הערכים: 90 ÷ 5 = 18"
+            }
+          ],
+          "finalAnswer": "18"
+        },
+        {
+          "id": "example-8-2",
+          "question": "מצא את החציון של המספרים: 7, 3, 9, 5, 11",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "סידור המספרים",
+              "calculation": "3, 5, 7, 9, 11",
+              "explanation": "מסדרים את המספרים מהקטן לגדול"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מציאת הערך האמצעי",
+              "explanation": "יש 5 מספרים, הערך האמצעי הוא במקום ה-3"
+            },
+            {
+              "stepNumber": 3,
+              "description": "זיהוי החציון",
+              "calculation": "7",
+              "explanation": "הערך האמצעי הוא 7"
+            }
+          ],
+          "finalAnswer": "7"
+        },
+        {
+          "id": "example-8-3",
+          "question": "תלמיד קיבל בחמישה מבחנים: 85, 90, 78, 92, 85. מה הציון הממוצע? מה החציון? מה השכיחות?",
+          "difficulty": "hard",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב הממוצע",
+              "calculation": "(85 + 90 + 78 + 92 + 85) ÷ 5 = 430 ÷ 5 = 86",
+              "explanation": "הציון הממוצע הוא 86"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מציאת החציון",
+              "calculation": "78, 85, 85, 90, 92",
+              "explanation": "לאחר סידור, החציון הוא 85"
+            },
+            {
+              "stepNumber": 3,
+              "description": "מציאת השכיחות",
+              "calculation": "85",
+              "explanation": "85 מופיע פעמיים - זו השכיחות"
+            }
+          ],
+          "finalAnswer": "ממוצע: 86, חציון: 85, שכיחות: 85"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "quiz-8-1",
+          "question": "מה הממוצע של המספרים: 10, 20, 30, 40?",
+          "options": [
+            {"id": "opt-1", "text": "25", "isCorrect": true},
+            {"id": "opt-2", "text": "20", "isCorrect": false},
+            {"id": "opt-3", "text": "30", "isCorrect": false},
+            {"id": "opt-4", "text": "100", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סכום: 10 + 20 + 30 + 40 = 100. ממוצע: 100 ÷ 4 = 25",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום המספרים",
+              "calculation": "10 + 20 + 30 + 40 = 100",
+              "explanation": "מחברים את כל המספרים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב ממוצע",
+              "calculation": "100 ÷ 4 = 25",
+              "explanation": "מחלקים בכמות המספרים"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-8-2",
+          "question": "מה החציון של המספרים: 2, 8, 5, 9, 3?",
+          "options": [
+            {"id": "opt-1", "text": "5", "isCorrect": true},
+            {"id": "opt-2", "text": "8", "isCorrect": false},
+            {"id": "opt-3", "text": "3", "isCorrect": false},
+            {"id": "opt-4", "text": "5.4", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "לאחר סידור: 2, 3, 5, 8, 9. החציון הוא הערך האמצעי: 5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סידור המספרים",
+              "calculation": "2, 3, 5, 8, 9",
+              "explanation": "מסדרים מהקטן לגדול"
+            },
+            {
+              "stepNumber": 2,
+              "description": "בחירת הערך האמצעי",
+              "calculation": "5",
+              "explanation": "הערך האמצעי (השלישי מתוך 5) הוא 5"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-3",
+          "question": "תמר קיבלה בארבעה מבחנים: 80, 85, 80, 95. מה הציון השכיח ביותר?",
+          "options": [
+            {"id": "opt-1", "text": "80", "isCorrect": true},
+            {"id": "opt-2", "text": "85", "isCorrect": false},
+            {"id": "opt-3", "text": "95", "isCorrect": false},
+            {"id": "opt-4", "text": "85.5", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "80 מופיע פעמיים - יותר מכל ציון אחר. זו השכיחות (מודוס)",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "ספירת הופעות",
+              "explanation": "80 מופיע פעמיים, השאר פעם אחת"
+            },
+            {
+              "stepNumber": 2,
+              "description": "זיהוי השכיחות",
+              "calculation": "80",
+              "explanation": "הערך שמופיע הכי הרבה פעמים הוא 80"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-8-4",
+          "question": "מה החציון של המספרים: 4, 7, 2, 9?",
+          "options": [
+            {"id": "opt-1", "text": "5.5", "isCorrect": true},
+            {"id": "opt-2", "text": "7", "isCorrect": false},
+            {"id": "opt-3", "text": "4", "isCorrect": false},
+            {"id": "opt-4", "text": "6", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סידור: 2, 4, 7, 9. יש 4 מספרים (זוגי), לכן החציון הוא הממוצע של 4 ו-7: (4+7)÷2 = 5.5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סידור המספרים",
+              "calculation": "2, 4, 7, 9",
+              "explanation": "מסדרים מהקטן לגדול"
+            },
+            {
+              "stepNumber": 2,
+              "description": "זיהוי שני הערכים האמצעיים",
+              "explanation": "יש מספר זוגי של ערכים, האמצעיים הם 4 ו-7"
+            },
+            {
+              "stepNumber": 3,
+              "description": "חישוב ממוצע",
+              "calculation": "(4 + 7) ÷ 2 = 5.5",
+              "explanation": "החציון הוא הממוצע של שני הערכים האמצעיים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        },
+        {
+          "id": "quiz-8-5",
+          "question": "מה הממוצע של המספרים: 5, 8, 12, 15?",
+          "options": [
+            {"id": "opt-1", "text": "10", "isCorrect": true},
+            {"id": "opt-2", "text": "8", "isCorrect": false},
+            {"id": "opt-3", "text": "12", "isCorrect": false},
+            {"id": "opt-4", "text": "40", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סכום: 5 + 8 + 12 + 15 = 40. ממוצע: 40 ÷ 4 = 10",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום",
+              "calculation": "5 + 8 + 12 + 15 = 40",
+              "explanation": "מחברים את כל המספרים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ממוצע",
+              "calculation": "40 ÷ 4 = 10",
+              "explanation": "מחלקים ב-4"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-8-6",
+          "question": "מה החציון של המספרים: 11, 6, 8, 10, 12?",
+          "options": [
+            {"id": "opt-1", "text": "10", "isCorrect": true},
+            {"id": "opt-2", "text": "9", "isCorrect": false},
+            {"id": "opt-3", "text": "8", "isCorrect": false},
+            {"id": "opt-4", "text": "11", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "סידור: 6, 8, 10, 11, 12. החציון הוא הערך האמצעי: 10",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סידור",
+              "calculation": "6, 8, 10, 11, 12",
+              "explanation": "מסדרים מהקטן לגדול"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ערך אמצעי",
+              "calculation": "10",
+              "explanation": "הערך השלישי מתוך 5"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-7",
+          "question": "ציוני מבחן של 6 תלמידים: 75, 80, 85, 90, 85, 95. מהי השכיחות?",
+          "options": [
+            {"id": "opt-1", "text": "85", "isCorrect": true},
+            {"id": "opt-2", "text": "80", "isCorrect": false},
+            {"id": "opt-3", "text": "90", "isCorrect": false},
+            {"id": "opt-4", "text": "85 ו-80", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "85 מופיע פעמיים - יותר מכל ציון אחר",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "ספירה",
+              "explanation": "85 מופיע פעמיים, השאר פעם אחת"
+            }
+          ],
+          "points": 10,
+          "difficulty": "easy"
+        },
+        {
+          "id": "quiz-8-8",
+          "question": "תלמיד קיבל ציונים: 70, 85, 90, 75. מה הממוצע?",
+          "options": [
+            {"id": "opt-1", "text": "80", "isCorrect": true},
+            {"id": "opt-2", "text": "75", "isCorrect": false},
+            {"id": "opt-3", "text": "85", "isCorrect": false},
+            {"id": "opt-4", "text": "320", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "(70 + 85 + 90 + 75) ÷ 4 = 320 ÷ 4 = 80",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "סכום",
+              "calculation": "70 + 85 + 90 + 75 = 320",
+              "explanation": "סכום כל הציונים"
+            },
+            {
+              "stepNumber": 2,
+              "description": "ממוצע",
+              "calculation": "320 ÷ 4 = 80",
+              "explanation": "מחלקים ב-4"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-9",
+          "question": "מה החציון של המספרים: 15, 20, 25, 30, 35, 40?",
+          "options": [
+            {"id": "opt-1", "text": "27.5", "isCorrect": true},
+            {"id": "opt-2", "text": "25", "isCorrect": false},
+            {"id": "opt-3", "text": "30", "isCorrect": false},
+            {"id": "opt-4", "text": "27", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "יש 6 מספרים (זוגי), החציון הוא ממוצע של 25 ו-30: (25+30)÷2 = 27.5",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "זיהוי אמצעיים",
+              "explanation": "המספרים כבר מסודרים, האמצעיים הם 25 ו-30"
+            },
+            {
+              "stepNumber": 2,
+              "description": "חישוב ממוצע",
+              "calculation": "(25 + 30) ÷ 2 = 27.5",
+              "explanation": "החציון"
+            }
+          ],
+          "points": 15,
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-8-10",
+          "question": "בכיתה יש 5 תלמידים עם גבהים: 140, 145, 150, 145, 155 ס\"מ. מה הגובה הממוצע והשכיחות?",
+          "options": [
+            {"id": "opt-1", "text": "ממוצע: 147, שכיחות: 145", "isCorrect": true},
+            {"id": "opt-2", "text": "ממוצע: 145, שכיחות: 150", "isCorrect": false},
+            {"id": "opt-3", "text": "ממוצע: 150, שכיחות: 145", "isCorrect": false},
+            {"id": "opt-4", "text": "ממוצע: 147, שכיחות: 140", "isCorrect": false}
+          ],
+          "correctAnswerId": "opt-1",
+          "explanation": "ממוצע: (140+145+150+145+155)÷5 = 735÷5 = 147. שכיחות: 145 מופיע פעמיים",
+          "solutionSteps": [
+            {
+              "stepNumber": 1,
+              "description": "חישוב ממוצע",
+              "calculation": "735 ÷ 5 = 147",
+              "explanation": "סכום הגבהים חלקי 5"
+            },
+            {
+              "stepNumber": 2,
+              "description": "מציאת שכיחות",
+              "calculation": "145",
+              "explanation": "145 מופיע פעמיים"
+            }
+          ],
+          "points": 20,
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}
