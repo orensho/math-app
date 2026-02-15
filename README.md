@@ -241,9 +241,9 @@ npm run lint     # בדיקת קוד
 
 ![פתרון צעד אחר צעד](public/screenshots/solution-steps.png)
 
+
 </div>
 
-> 📸 **צילום מסכים:** להוספת צילומי מסך, הרץ `./take-screenshots.sh` או הוסף תמונות ידנית לתיקייה `public/screenshots/`
 
 ## 📚 תודות וייחוס
 
