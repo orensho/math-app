@@ -20,6 +20,25 @@
           "id": "concept-1-1",
           "title": "ישר המספרים",
           "content": "ישר המספרים הוא קו ישר שעליו מסומנים מספרים לפי סדר עולה מימין לשמאל (בקריאה עברית). על ישר המספרים ניתן לייצג מספרים שלמים, שברים ומספרים עשרוניים.",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 5,
+              "divisions": 5,
+              "markers": [
+                { "value": 0, "label": "0", "draggable": true, "color": "primary" },
+                { "value": 1, "label": "1", "draggable": true, "color": "accent" },
+                { "value": 2, "label": "2", "draggable": true, "color": "success" },
+                { "value": 3, "label": "3", "draggable": true, "color": "warning" }
+              ],
+              "showFractions": false,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 1
         },
         {
@@ -27,18 +46,73 @@
           "title": "ייצוג שברים על ישר המספרים",
           "content": "כדי לייצג שבר על ישר המספרים, מחלקים את הקטע בין שני מספרים שלמים לחלקים שווים לפי המכנה. לדוגמה: לייצוג שבר עם מכנה 4, נחלק כל קטע ל-4 חלקים שווים.",
           "formula": "\\frac{a}{b}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 8,
+              "markers": [
+                { "value": 0.25, "label": "1/4", "draggable": true, "color": "primary" },
+                { "value": 0.5, "label": "1/2", "draggable": true, "color": "accent" },
+                { "value": 0.75, "label": "3/4", "draggable": true, "color": "success" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 2
         },
         {
           "id": "concept-1-3",
           "title": "ייצוג מספרים עשרוניים",
           "content": "מספרים עשרוניים מיוצגים על ישר המספרים בדיוק כמו שברים עשרוניים. לדוגמה: 0.5 = 5/10 נמצא במחצית הדרך בין 0 ל-1.",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 10,
+              "markers": [
+                { "value": 0.3, "label": "0.3", "draggable": true, "color": "primary" },
+                { "value": 0.5, "label": "0.5", "draggable": true, "color": "accent" },
+                { "value": 0.7, "label": "0.7", "draggable": true, "color": "success" }
+              ],
+              "showFractions": true,
+              "showDecimals": true,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 3
         },
         {
           "id": "concept-1-4",
           "title": "צפיפות מספרים",
           "content": "בין כל שני מספרים שונים על ישר המספרים, תמיד קיימים אינסוף מספרים נוספים. תכונה זו נקראת צפיפות המספרים.",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0.3,
+              "max": 0.4,
+              "divisions": 10,
+              "markers": [
+                { "value": 0.3, "label": "0.3", "draggable": true, "color": "primary" },
+                { "value": 0.35, "label": "0.35", "draggable": true, "color": "accent" },
+                { "value": 0.37, "label": "0.37", "draggable": true, "color": "success" },
+                { "value": 0.4, "label": "0.4", "draggable": true, "color": "warning" }
+              ],
+              "showFractions": false,
+              "showDecimals": true,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 4
         }
       ],
@@ -480,6 +554,24 @@
           "title": "חיבור שברים עם מכנה משותף",
           "content": "כאשר לשני שברים יש מכנה זהה, מחברים את המונים ושומרים על אותו מכנה.",
           "formula": "\\frac{a}{c} + \\frac{b}{c} = \\frac{a+b}{c}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 5,
+              "markers": [
+                { "value": 0.4, "label": "2/5", "draggable": true, "color": "primary" },
+                { "value": 0.2, "label": "1/5", "draggable": true, "color": "accent" },
+                { "value": 0.6, "label": "2/5 + 1/5 = 3/5", "draggable": true, "color": "success" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 1
         },
         {
@@ -487,12 +579,48 @@
           "title": "חיסור שברים עם מכנה משותף",
           "content": "כאשר לשני שברים יש מכנה זהה, מחסרים את המונים ושומרים על אותו מכנה.",
           "formula": "\\frac{a}{c} - \\frac{b}{c} = \\frac{a-b}{c}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 4,
+              "markers": [
+                { "value": 0.75, "label": "3/4", "draggable": true, "color": "primary" },
+                { "value": 0.25, "label": "1/4", "draggable": true, "color": "accent" },
+                { "value": 0.5, "label": "3/4 - 1/4 = 2/4", "draggable": true, "color": "success" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 2
         },
         {
           "id": "concept-2-3",
           "title": "מכנה משותף",
           "content": "כדי לחבר או לחסר שברים עם מכנים שונים, יש למצוא מכנה משותף - מספר שמתחלק בשני המכנים.",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 12,
+              "markers": [
+                { "value": 0.333, "label": "1/3 = 4/12", "draggable": true, "color": "primary" },
+                { "value": 0.25, "label": "1/4 = 3/12", "draggable": true, "color": "accent" },
+                { "value": 0.583, "label": "4/12 + 3/12 = 7/12", "draggable": true, "color": "success" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 3
         },
         {
@@ -500,6 +628,24 @@
           "title": "הרחבה וצמצום שברים",
           "content": "הרחבת שבר: כפל המונה והמכנה באותו מספר. צמצום שבר: חילוק המונה והמכנה באותו מספר. שני פעולות אלו אינן משנות את ערך השבר.",
           "formula": "\\frac{a}{b} = \\frac{a \\times k}{b \\times k}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 8,
+              "markers": [
+                { "value": 0.5, "label": "1/2 = 2/4 = 4/8", "draggable": true, "color": "primary" },
+                { "value": 0.25, "label": "1/4 = 2/8", "draggable": true, "color": "accent" },
+                { "value": 0.75, "label": "3/4 = 6/8", "draggable": true, "color": "success" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 4
         }
       ],
@@ -2072,6 +2218,16 @@
           "id": "concept-6-1",
           "title": "סוגי זוויות",
           "content": "זווית חדה: פחות מ-90°. זווית ישרה: בדיוק 90°. זווית קהה: בין 90° ל-180°. זווית שטוחה: בדיוק 180°.",
+          "diagram": {
+            "type": "angle-visualizer",
+            "params": {
+              "angle1": 45,
+              "type": "single",
+              "editable": true
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 1
         },
         {
@@ -2079,6 +2235,17 @@
           "title": "זוויות משלימות",
           "content": "שתי זוויות הן משלימות אם סכומן שווה ל-90°.",
           "formula": "\\alpha + \\beta = 90^\\circ",
+          "diagram": {
+            "type": "angle-visualizer",
+            "params": {
+              "angle1": 35,
+              "type": "complementary",
+              "showComplementary": true,
+              "editable": true
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 2
         },
         {
@@ -2086,12 +2253,34 @@
           "title": "זוויות משוכללות (או משלימות ל-180°)",
           "content": "שתי זוויות הן משוכללות אם סכומן שווה ל-180°.",
           "formula": "\\alpha + \\beta = 180^\\circ",
+          "diagram": {
+            "type": "angle-visualizer",
+            "params": {
+              "angle1": 120,
+              "type": "supplementary",
+              "showSupplementary": true,
+              "editable": true
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 3
         },
         {
           "id": "concept-6-4",
           "title": "זוויות קודקודיות",
           "content": "כאשר שני קווים נחתכים, נוצרות ארבע זוויות. זוויות קודקודיות (מנוגדות) הן שוות זו לזו.",
+          "diagram": {
+            "type": "angle-visualizer",
+            "params": {
+              "angle1": 125,
+              "angle2": 55,
+              "type": "vertical",
+              "editable": true
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 4
         }
       ],

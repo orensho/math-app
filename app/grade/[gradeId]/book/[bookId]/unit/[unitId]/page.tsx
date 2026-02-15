@@ -55,7 +55,7 @@ export default async function UnitPage({
               href={`/grade/${gradeId}/book/${bookId}`}
               className="text-primary-600 hover:text-primary-700 inline-flex items-center gap-2 mb-4"
             >
-              ← חזרה לרשימת יחידות
+              חזרה לרשימת יחידות →
             </Link>
             <h1 className="text-4xl font-bold font-display text-neutral-900 mb-3">
               {unit.name}

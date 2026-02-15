@@ -26,12 +26,20 @@ export interface Unit {
   quizQuestions: QuizQuestion[]
 }
 
+export interface DiagramConfig {
+  type: 'number-line' | 'fraction-visualizer' | 'shape-builder' | 'angle-visualizer'
+  params: Record<string, any>
+  showControls?: boolean
+  height?: number
+}
+
 export interface Concept {
   id: string
   title: string
   content: string
   formula?: string
   visualAid?: string
+  diagram?: DiagramConfig
   order: number
 }
 
@@ -48,6 +56,7 @@ export interface SolutionStep {
   description: string
   calculation?: string
   explanation: string
+  diagram?: DiagramConfig
 }
 
 export interface QuizQuestion {

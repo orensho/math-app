@@ -22,12 +22,47 @@
           "title": "משמעות יחס",
           "content": "יחס הוא השוואה כמותית בין שני גדלים או יותר. היחס מתאר כמה פעמים גודל אחד גדול או קטן מהאחר.",
           "formula": "a:b \\text{ או } \\frac{a}{b}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 10,
+              "divisions": 10,
+              "markers": [
+                { "value": 2, "label": "2", "draggable": true, "color": "primary" },
+                { "value": 3, "label": "3", "draggable": true, "color": "accent" },
+                { "value": 5, "label": "יחס 2:3", "draggable": false, "color": "success" }
+              ],
+              "showFractions": false,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 1
         },
         {
           "id": "concept-1-2",
           "title": "כתיבת יחס",
           "content": "יחס ניתן לכתיבה במספר דרכים: עם נקודתיים (a:b), כשבר (a/b), או במילים (a ל-b).",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 8,
+              "divisions": 8,
+              "markers": [
+                { "value": 3, "label": "3", "draggable": true, "color": "primary" },
+                { "value": 5, "label": "5", "draggable": true, "color": "accent" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 2
         },
         {
@@ -35,6 +70,24 @@
           "title": "צמצום יחס",
           "content": "ניתן לצמצם יחס כמו שבר, על ידי חילוק שני האיברים במספר משותף.",
           "formula": "a:b = (a \\div d):(b \\div d)",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 12,
+              "divisions": 12,
+              "markers": [
+                { "value": 6, "label": "6", "draggable": true, "color": "primary" },
+                { "value": 9, "label": "9", "draggable": true, "color": "accent" },
+                { "value": 2, "label": "6:9 = 2:3", "draggable": false, "color": "success" }
+              ],
+              "showFractions": false,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 3
         },
         {
@@ -42,6 +95,25 @@
           "title": "יחסים שווי ערך",
           "content": "שני יחסים שווי ערך אם ניתן לקבל אחד מהשני על ידי כפל או חילוק בגורם משותף.",
           "formula": "a:b = (a \\times k):(b \\times k)",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 12,
+              "divisions": 12,
+              "markers": [
+                { "value": 2, "label": "2:3", "draggable": true, "color": "primary" },
+                { "value": 3, "label": "3", "draggable": true, "color": "primary" },
+                { "value": 4, "label": "4:6", "draggable": true, "color": "accent" },
+                { "value": 6, "label": "6", "draggable": true, "color": "accent" }
+              ],
+              "showFractions": false,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 4
         }
       ],

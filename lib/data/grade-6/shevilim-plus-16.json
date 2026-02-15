@@ -22,6 +22,23 @@
           "title": "כפל שבר במספר שלם",
           "content": "כדי לכפול שבר במספר שלם, כופלים את המונה במספר השלם ושומרים על המכנה.",
           "formula": "\\frac{a}{b} \\times n = \\frac{a \\times n}{b}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 2,
+              "divisions": 10,
+              "markers": [
+                { "value": 0.4, "label": "2/5", "draggable": true, "color": "primary" },
+                { "value": 1.2, "label": "2/5 × 3 = 6/5", "draggable": true, "color": "accent" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 1
         },
         {
@@ -29,6 +46,23 @@
           "title": "חילוק שבר במספר שלם",
           "content": "כדי לחלק שבר במספר שלם, כופלים את המכנה במספר השלם ושומרים על המונה, או כופלים בשבר ההופכי.",
           "formula": "\\frac{a}{b} \\div n = \\frac{a}{b \\times n}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 8,
+              "markers": [
+                { "value": 0.75, "label": "3/4", "draggable": true, "color": "primary" },
+                { "value": 0.375, "label": "3/4 ÷ 2 = 3/8", "draggable": true, "color": "accent" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 2
         },
         {
@@ -36,12 +70,46 @@
           "title": "מספר מעורב",
           "content": "מספר מעורב מורכב מחלק שלם וחלק שברי. ניתן להמיר אותו לשבר לא צרוף על ידי כפל החלק השלם במכנה וחיבור המונה.",
           "formula": "a\\frac{b}{c} = \\frac{a \\times c + b}{c}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 3,
+              "divisions": 3,
+              "markers": [
+                { "value": 1, "label": "1", "draggable": true, "color": "primary" },
+                { "value": 2.333, "label": "2⅓ = 7/3", "draggable": true, "color": "accent" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 3
         },
         {
           "id": "concept-1-4",
           "title": "כפל מספר מעורב במספר שלם",
           "content": "כדי לכפול מספר מעורב במספר שלם, ניתן להמיר למספר מעורב לשבר לא צרוף ואז לכפול, או לכפול בנפרד את החלק השלם והשבר.",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 10,
+              "divisions": 6,
+              "markers": [
+                { "value": 2.333, "label": "2⅓", "draggable": true, "color": "primary" },
+                { "value": 7, "label": "2⅓ × 3 = 7", "draggable": true, "color": "accent" }
+              ],
+              "showFractions": true,
+              "showDecimals": false,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 4
         }
       ],
@@ -426,18 +494,71 @@
           "title": "ערך מקומי במספרים עשרוניים",
           "content": "במערכת העשרונית, כל ספרה מייצגת ערך שונה בהתאם למיקומה. מימין לנקודה העשרונית נמצאים עשיריות, מאיות, אלפיות וכו'.",
           "formula": "0.abc = \\frac{a}{10} + \\frac{b}{100} + \\frac{c}{1000}",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 10,
+              "markers": [
+                { "value": 0.1, "label": "0.1 = 1/10", "draggable": true, "color": "primary" },
+                { "value": 0.25, "label": "0.25 = 25/100", "draggable": true, "color": "accent" },
+                { "value": 0.5, "label": "0.5 = 5/10", "draggable": true, "color": "success" }
+              ],
+              "showFractions": true,
+              "showDecimals": true,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 1
         },
         {
           "id": "concept-2-2",
           "title": "השוואת מספרים עשרוניים",
           "content": "להשוואת מספרים עשרוניים, משווים תחילה את החלק השלם, ואז את הספרות לפי סדר מימין לנקודה.",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 0,
+              "max": 1,
+              "divisions": 10,
+              "markers": [
+                { "value": 0.45, "label": "0.45", "draggable": true, "color": "primary" },
+                { "value": 0.47, "label": "0.47", "draggable": true, "color": "accent" },
+                { "value": 0.5, "label": "0.5", "draggable": true, "color": "success" }
+              ],
+              "showFractions": false,
+              "showDecimals": true,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 2
         },
         {
           "id": "concept-2-3",
           "title": "עיגול מספרים עשרוניים",
           "content": "לעיגול מספר עשרוני, בודקים את הספרה הבאה: אם היא 5 או יותר - מעגלים כלפי מעלה, אם היא פחות מ-5 - מעגלים כלפי מטה.",
+          "diagram": {
+            "type": "number-line",
+            "params": {
+              "min": 2,
+              "max": 3,
+              "divisions": 10,
+              "markers": [
+                { "value": 2.46, "label": "2.46 ≈ 2.5", "draggable": true, "color": "primary" },
+                { "value": 2.5, "label": "2.5", "draggable": true, "color": "success" }
+              ],
+              "showFractions": false,
+              "showDecimals": true,
+              "draggable": true
+            },
+            "showControls": true,
+            "height": 200
+          },
           "order": 3
         },
         {
@@ -1572,6 +1693,19 @@
           "title": "משמעות האחוז",
           "content": "אחוז הוא שבר שהמכנה שלו הוא 100. הסימן % מייצג 'מתוך מאה'.",
           "formula": "x\\% = \\frac{x}{100}",
+          "diagram": {
+            "type": "fraction-visualizer",
+            "params": {
+              "mode": "pie",
+              "numerator": 50,
+              "denominator": 100,
+              "showPercentage": true,
+              "editable": true,
+              "maxDenominator": 100
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 1
         },
         {
@@ -1579,6 +1713,19 @@
           "title": "מציאת אחוז מכמות",
           "content": "כדי למצוא אחוז מכמות, מכפילים את הכמות בשבר המתאים (האחוז חלקי 100).",
           "formula": "x\\% \\text{ מ-}n = \\frac{x}{100} \\times n",
+          "diagram": {
+            "type": "fraction-visualizer",
+            "params": {
+              "mode": "pie",
+              "numerator": 25,
+              "denominator": 100,
+              "showPercentage": true,
+              "editable": true,
+              "maxDenominator": 100
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 2
         },
         {
@@ -1586,12 +1733,38 @@
           "title": "המרה בין אחוזים לשברים",
           "content": "ניתן להמיר אחוז לשבר על ידי כתיבתו עם מכנה 100 וצמצום. להמיר שבר לאחוז - כופלים ב-100.",
           "formula": "\\frac{a}{b} = \\frac{a \\times 100}{b}\\%",
+          "diagram": {
+            "type": "fraction-visualizer",
+            "params": {
+              "mode": "pie",
+              "numerator": 3,
+              "denominator": 4,
+              "showPercentage": true,
+              "editable": true,
+              "maxDenominator": 10
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 3
         },
         {
           "id": "concept-5-4",
           "title": "אחוזים נפוצים",
           "content": "כדאי לזכור: 50% = 1/2, 25% = 1/4, 75% = 3/4, 10% = 1/10, 20% = 1/5",
+          "diagram": {
+            "type": "fraction-visualizer",
+            "params": {
+              "mode": "pie",
+              "numerator": 1,
+              "denominator": 2,
+              "showPercentage": true,
+              "editable": true,
+              "maxDenominator": 10
+            },
+            "showControls": true,
+            "height": 400
+          },
           "order": 4
         }
       ],

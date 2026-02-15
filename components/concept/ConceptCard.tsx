@@ -1,7 +1,16 @@
+'use client'
+
+import dynamic from 'next/dynamic'
 import Card from '../ui/Card'
 import Badge from '../ui/Badge'
 import MathFormula from './MathFormula'
 import { Concept } from '@/lib/types/curriculum'
+
+// Lazy load InteractiveDiagram for client-side only
+const InteractiveDiagram = dynamic(
+  () => import('@/components/interactive/InteractiveDiagram'),
+  { ssr: false }
+)
 
 interface ConceptCardProps {
   concept: Concept
@@ -30,6 +39,12 @@ export default function ConceptCard({ concept, index }: ConceptCardProps) {
           {concept.formula && (
             <div className="p-4 bg-neutral-50 rounded-lg border-2 border-primary-200 flex items-center justify-center">
               <MathFormula formula={concept.formula} displayMode={true} />
+            </div>
+          )}
+
+          {concept.diagram && (
+            <div className="mt-4">
+              <InteractiveDiagram config={concept.diagram} />
             </div>
           )}
 
