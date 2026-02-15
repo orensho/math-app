@@ -8,44 +8,44 @@ export default function Home() {
     <main className="min-h-screen relative flex items-center">
       <GeometricOverlay variant="circles" className="fixed inset-0" />
 
-      <div className="relative z-10 container mx-auto px-4 py-8">
+      <div className="relative z-10 container mx-auto px-4 py-4 sm:py-8">
         <div className="max-w-4xl mx-auto">
           {/* Hero */}
-          <div className="text-center mb-10">
-            <h1 className="text-6xl font-bold font-display text-neutral-900 mb-2 animate-fade-in">
+          <div className="text-center mb-6 sm:mb-10">
+            <h1 className="text-4xl sm:text-6xl font-bold font-display text-neutral-900 mb-2 animate-fade-in">
               מתמטיקול
             </h1>
-            <p className="text-xl text-primary-600 font-medium mb-3">
+            <p className="text-lg sm:text-xl text-primary-600 font-medium mb-3">
               ללמוד מתמטיקה בכיף!
             </p>
-            <p className="text-neutral-600 max-w-xl mx-auto">
+            <p className="text-sm sm:text-base text-neutral-600 max-w-xl mx-auto">
               אתר לימוד מתמטיקה חינמי בעברית לתלמידי בית ספר יסודי.
               {' '}מושגים, דוגמאות, איורים אינטראקטיביים וחידונים - הכל במקום אחד.
             </p>
           </div>
 
           {/* Benefits - compact row */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-10">
-            <div className="bg-white/80 rounded-xl p-4 text-center shadow-sm">
-              <span className="text-2xl">🆓</span>
-              <div className="text-sm font-bold text-neutral-900 mt-1">חינם לגמרי</div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-10">
+            <div className="bg-white/80 rounded-xl p-3 sm:p-4 text-center shadow-sm">
+              <span className="text-xl sm:text-2xl">🆓</span>
+              <div className="text-xs sm:text-sm font-bold text-neutral-900 mt-1">חינם לגמרי</div>
             </div>
-            <div className="bg-white/80 rounded-xl p-4 text-center shadow-sm">
-              <span className="text-2xl">🎨</span>
-              <div className="text-sm font-bold text-neutral-900 mt-1">איורים אינטראקטיביים</div>
+            <div className="bg-white/80 rounded-xl p-3 sm:p-4 text-center shadow-sm">
+              <span className="text-xl sm:text-2xl">🎨</span>
+              <div className="text-xs sm:text-sm font-bold text-neutral-900 mt-1">איורים אינטראקטיביים</div>
             </div>
-            <div className="bg-white/80 rounded-xl p-4 text-center shadow-sm">
-              <span className="text-2xl">✍️</span>
-              <div className="text-sm font-bold text-neutral-900 mt-1">פתרון צעד אחר צעד</div>
+            <div className="bg-white/80 rounded-xl p-3 sm:p-4 text-center shadow-sm">
+              <span className="text-xl sm:text-2xl">✍️</span>
+              <div className="text-xs sm:text-sm font-bold text-neutral-900 mt-1">פתרון צעד אחר צעד</div>
             </div>
-            <div className="bg-white/80 rounded-xl p-4 text-center shadow-sm">
-              <span className="text-2xl">🎯</span>
-              <div className="text-sm font-bold text-neutral-900 mt-1">חידונים עם ציון</div>
+            <div className="bg-white/80 rounded-xl p-3 sm:p-4 text-center shadow-sm">
+              <span className="text-xl sm:text-2xl">🎯</span>
+              <div className="text-xs sm:text-sm font-bold text-neutral-900 mt-1">חידונים עם ציון</div>
             </div>
           </div>
 
           {/* Basics + Grades side by side */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-10">
             <Link href="/basics">
               <Card className="p-6 group h-full flex items-center justify-center">
                 <div className="text-center">
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
 
           {/* Parents - compact */}
-          <div className="bg-white/80 rounded-xl p-6 shadow-sm max-w-2xl mx-auto">
+          <div className="bg-white/80 rounded-xl p-4 sm:p-6 shadow-sm max-w-2xl mx-auto">
             <h3 className="text-lg font-bold font-display text-neutral-900 mb-2 text-center">להורים</h3>
             <p className="text-neutral-600 text-sm text-center leading-relaxed">
               <strong>מתמטיקול</strong> הוא אתר חינמי המבוסס על תוכנית &quot;שבילים פלוס&quot; של משרד החינוך.

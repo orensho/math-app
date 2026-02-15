@@ -21,21 +21,21 @@ export default function QuizResult({
   const selectedOption = question.options.find((opt) => opt.id === selectedAnswer)
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       {/* Result Banner */}
       <div
-        className={`p-6 rounded-xl border-2 ${
+        className={`p-4 sm:p-6 rounded-xl border-2 ${
           isCorrect
             ? 'bg-green-50 border-green-500'
             : 'bg-red-50 border-red-500'
         }`}
       >
-        <div className="flex items-center gap-4">
-          <div className="text-4xl">
+        <div className="flex items-center gap-3 sm:gap-4">
+          <div className="text-2xl sm:text-4xl">
             {isCorrect ? '✓' : '✗'}
           </div>
           <div>
-            <h3 className="text-2xl font-bold mb-1">
+            <h3 className="text-xl sm:text-2xl font-bold mb-1">
               {isCorrect ? 'כל הכבוד! תשובה נכונה' : 'לא נכון, אבל זה בסדר'}
             </h3>
             <p className="text-neutral-700">
@@ -64,7 +64,7 @@ export default function QuizResult({
       </div>
 
       {/* Explanation */}
-      <div className="p-6 bg-white rounded-xl border-2 border-neutral-200">
+      <div className="p-4 sm:p-6 bg-white rounded-xl border-2 border-neutral-200">
         <h4 className="text-lg font-bold text-neutral-800 mb-3">הסבר:</h4>
         <p className="text-neutral-700 mb-4">{question.explanation}</p>
 

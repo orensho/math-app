@@ -179,15 +179,15 @@ export default function FractionVisualizer({
 
       {/* Controls */}
       {showControls && (
-        <div className="space-y-4 p-4 bg-neutral-50 rounded-lg border border-neutral-200">
+        <div className="space-y-3 sm:space-y-4 p-3 sm:p-4 bg-neutral-50 rounded-lg border border-neutral-200">
           {/* Mode selector */}
           <div className="flex gap-2">
             <button
               onClick={() => setMode('pie')}
-              className={`px-4 py-2 rounded-lg transition-colors ${
+              className={`px-3 py-2 sm:px-4 min-h-[44px] rounded-lg transition-colors ${
                 mode === 'pie'
                   ? 'bg-primary-500 text-white'
-                  : 'bg-white text-neutral-700 border border-neutral-300'
+                  : 'bg-white text-neutral-700 border border-neutral-300 active:bg-neutral-100'
               }`}
               disabled={!isActive}
             >
@@ -195,10 +195,10 @@ export default function FractionVisualizer({
             </button>
             <button
               onClick={() => setMode('bar')}
-              className={`px-4 py-2 rounded-lg transition-colors ${
+              className={`px-3 py-2 sm:px-4 min-h-[44px] rounded-lg transition-colors ${
                 mode === 'bar'
                   ? 'bg-primary-500 text-white'
-                  : 'bg-white text-neutral-700 border border-neutral-300'
+                  : 'bg-white text-neutral-700 border border-neutral-300 active:bg-neutral-100'
               }`}
               disabled={!isActive}
             >
@@ -206,10 +206,10 @@ export default function FractionVisualizer({
             </button>
             <button
               onClick={() => setMode('area')}
-              className={`px-4 py-2 rounded-lg transition-colors ${
+              className={`px-3 py-2 sm:px-4 min-h-[44px] rounded-lg transition-colors ${
                 mode === 'area'
                   ? 'bg-primary-500 text-white'
-                  : 'bg-white text-neutral-700 border border-neutral-300'
+                  : 'bg-white text-neutral-700 border border-neutral-300 active:bg-neutral-100'
               }`}
               disabled={!isActive}
             >

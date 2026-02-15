@@ -48,16 +48,16 @@ export default async function UnitPage({
     <main className="min-h-screen relative">
       <GeometricOverlay variant="circles" className="fixed inset-0" />
 
-      <div className="relative z-10 container mx-auto px-4 py-16">
+      <div className="relative z-10 container mx-auto px-4 py-8 sm:py-16">
         <div className="max-w-5xl mx-auto">
-          <div className="mb-12">
+          <div className="mb-6 sm:mb-12">
             <Link
               href={`/grade/${gradeId}/book/${bookId}`}
               className="text-primary-600 hover:text-primary-700 inline-flex items-center gap-2 mb-4"
             >
               חזרה לרשימת יחידות →
             </Link>
-            <h1 className="text-4xl font-bold font-display text-neutral-900 mb-3">
+            <h1 className="text-2xl sm:text-4xl font-bold font-display text-neutral-900 mb-3">
               {unit.name}
             </h1>
             <p className="text-lg text-neutral-600 mb-6">
@@ -65,7 +65,7 @@ export default async function UnitPage({
             </p>
 
             {unit.subSections && unit.subSections.length > 0 && (
-              <div className="p-6 bg-primary-50 rounded-xl">
+              <div className="p-4 sm:p-6 bg-primary-50 rounded-xl">
                 <h2 className="text-xl font-semibold mb-3">תתי נושאים:</h2>
                 <ul className="space-y-2">
                   {unit.subSections.map((section, index) => (
@@ -79,7 +79,7 @@ export default async function UnitPage({
             )}
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-4 sm:gap-6">
             {sections.map((section) => (
               <Link
                 key={section.href}

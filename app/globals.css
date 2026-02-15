@@ -5,10 +5,15 @@
 @layer base {
   html {
     direction: rtl;
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {
     @apply bg-neutral-50 text-neutral-900;
+  }
+
+  button, a, [role="button"] {
+    touch-action: manipulation;
   }
 
   /* Hebrew number formatting */

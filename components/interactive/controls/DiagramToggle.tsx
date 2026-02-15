@@ -32,14 +32,14 @@ export default function DiagramToggle({
         />
         <div
           className={clsx(
-            'w-11 h-6 rounded-full transition-colors duration-200',
+            'w-12 h-7 rounded-full transition-colors duration-200',
             'peer-focus:ring-2 peer-focus:ring-primary-500 peer-focus:ring-offset-2',
             checked ? 'bg-primary-500' : 'bg-neutral-300'
           )}
         />
         <div
           className={clsx(
-            'absolute right-1 top-1 bg-white w-4 h-4 rounded-full transition-transform duration-200',
+            'absolute right-1 top-1 bg-white w-5 h-5 rounded-full transition-transform duration-200',
             checked && 'translate-x-5'
           )}
         />

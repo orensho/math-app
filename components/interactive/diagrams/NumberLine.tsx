@@ -274,7 +274,7 @@ export default function NumberLine({ params, showControls = true, isActive = tru
 
       {/* Controls */}
       {showControls && (
-        <div className="flex flex-wrap items-center gap-4 p-4 bg-neutral-50 rounded-lg border border-neutral-200">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-4 p-3 sm:p-4 bg-neutral-50 rounded-lg border border-neutral-200">
           <DiagramToggle
             checked={showFractions}
             onChange={setShowFractions}

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Assistant, Heebo } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
@@ -16,6 +16,11 @@ const heebo = Heebo({
   weight: ['300', '400', '500', '700'],
   display: 'swap',
 })
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export const metadata: Metadata = {
   title: 'מתמטיקול - שבילים פלוס',

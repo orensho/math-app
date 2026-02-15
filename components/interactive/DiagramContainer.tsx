@@ -30,6 +30,7 @@ export default function DiagramContainer({
         'w-full rounded-lg border-2 border-primary-200 bg-white overflow-hidden',
         className
       )}
+      style={{ aspectRatio: `${width} / ${height}` }}
     >
       <svg
         width="100%"

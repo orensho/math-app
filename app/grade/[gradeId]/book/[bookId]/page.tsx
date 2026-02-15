@@ -22,19 +22,19 @@ export default async function BookPage({
     <main className="min-h-screen relative">
       <GeometricOverlay variant="hexagons" className="fixed inset-0" />
 
-      <div className="relative z-10 container mx-auto px-4 py-16">
+      <div className="relative z-10 container mx-auto px-4 py-8 sm:py-16">
         <div className="max-w-5xl mx-auto">
-          <div className="mb-12">
+          <div className="mb-6 sm:mb-12">
             <Link
               href={`/grade/${gradeId}`}
               className="text-primary-600 hover:text-primary-700 inline-flex items-center gap-2 mb-4"
             >
               ← חזרה לבחירת ספר
             </Link>
-            <h1 className="text-5xl font-bold font-display text-neutral-900 mb-3">
+            <h1 className="text-3xl sm:text-5xl font-bold font-display text-neutral-900 mb-3">
               {book.name}
             </h1>
-            <p className="text-xl text-neutral-600">
+            <p className="text-lg sm:text-xl text-neutral-600">
               {book.description}
             </p>
           </div>
@@ -42,10 +42,10 @@ export default async function BookPage({
           <div className="space-y-4">
             {book.units.map((unit) => (
               <Link key={unit.id} href={`/grade/${gradeId}/book/${bookId}/unit/${unit.id}`}>
-                <Card className="p-6 flex items-start gap-6">
+                <Card className="p-4 sm:p-6 flex items-start gap-3 sm:gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 rounded-full bg-primary-100 flex items-center justify-center">
-                      <span className="text-2xl font-bold text-primary-600">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-primary-100 flex items-center justify-center">
+                      <span className="text-xl sm:text-2xl font-bold text-primary-600">
                         {unit.order}
                       </span>
                     </div>

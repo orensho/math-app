@@ -48,10 +48,10 @@ export default async function ModulePage({
     <main className="min-h-screen relative">
       <GeometricOverlay variant="circles" className="fixed inset-0" />
 
-      <div className="relative z-10 container mx-auto px-4 py-12">
+      <div className="relative z-10 container mx-auto px-4 py-6 sm:py-12">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="mb-12">
+          <div className="mb-6 sm:mb-12">
             <Link
               href="/basics"
               className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 mb-6"
@@ -60,21 +60,21 @@ export default async function ModulePage({
               <span>חזרה ליסודות</span>
             </Link>
 
-            <h1 className="text-5xl font-bold font-display text-neutral-900 mb-4">
+            <h1 className="text-3xl sm:text-5xl font-bold font-display text-neutral-900 mb-4">
               {module.name}
             </h1>
-            <p className="text-xl text-neutral-600">
+            <p className="text-lg sm:text-xl text-neutral-600">
               {module.description}
             </p>
           </div>
 
           {/* Sections */}
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-4 sm:gap-6 md:grid-cols-3">
             {sections.map((section) => (
               <Link key={section.id} href={section.href}>
-                <Card className="p-6 group h-full">
+                <Card className="p-5 sm:p-6 group h-full">
                   <div className="text-center">
-                    <div className="text-5xl mb-4">{section.icon}</div>
+                    <div className="text-3xl sm:text-5xl mb-3 sm:mb-4">{section.icon}</div>
                     <h2 className="text-2xl font-bold font-display text-neutral-900 mb-2 group-hover:text-primary-600 transition-colors">
                       {section.title}
                     </h2>

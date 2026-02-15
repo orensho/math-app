@@ -22,7 +22,7 @@ export default function Card({
     bordered: 'border-2 border-neutral-200'
   }
 
-  const hoverStyles = hover ? 'hover:shadow-depth hover:-translate-y-1 cursor-pointer' : ''
+  const hoverStyles = hover ? 'hover:shadow-depth hover:-translate-y-1 active:scale-[0.98] cursor-pointer' : ''
 
   return (
     <div
