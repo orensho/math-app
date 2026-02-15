@@ -73,6 +73,7 @@ export function createViewBox(x: number, y: number, width: number, height: numbe
 
 /**
  * Convert polar coordinates to cartesian (for circles/arcs)
+ * Uses standard mathematical convention: 0° = right, 90° = up
  */
 export function polarToCartesian(
   centerX: number,
@@ -80,7 +81,7 @@ export function polarToCartesian(
   radius: number,
   angleInDegrees: number
 ): Point {
-  const angleInRadians = ((angleInDegrees - 90) * Math.PI) / 180
+  const angleInRadians = (angleInDegrees * Math.PI) / 180
 
   return {
     x: centerX + radius * Math.cos(angleInRadians),
