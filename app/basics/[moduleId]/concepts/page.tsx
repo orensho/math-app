@@ -40,8 +40,8 @@ export default async function ConceptsPage({
           </div>
 
           <div className="space-y-6">
-            {module.concepts.map((concept) => (
-              <ConceptCard key={concept.id} concept={concept} />
+            {module.concepts.map((concept, index) => (
+              <ConceptCard key={concept.id} concept={concept} index={index} />
             ))}
           </div>
         </div>

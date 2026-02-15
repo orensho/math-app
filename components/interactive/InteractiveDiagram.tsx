@@ -43,18 +43,18 @@ export default function InteractiveDiagram({ config, isActive = true }: Interact
     try {
       switch (type) {
         case 'number-line':
-          return <NumberLine params={params} showControls={showControls} isActive={isActive} />
+          return <NumberLine params={params as any} showControls={showControls} isActive={isActive} />
 
         case 'fraction-visualizer':
           return (
-            <FractionVisualizer params={params} showControls={showControls} isActive={isActive} />
+            <FractionVisualizer params={params as any} showControls={showControls} isActive={isActive} />
           )
 
         case 'shape-builder':
-          return <ShapeBuilder params={params} showControls={showControls} isActive={isActive} />
+          return <ShapeBuilder params={params as any} showControls={showControls} isActive={isActive} />
 
         case 'angle-visualizer':
-          return <AngleVisualizer params={params} showControls={showControls} isActive={isActive} />
+          return <AngleVisualizer params={params as any} showControls={showControls} isActive={isActive} />
 
         default:
           return <ErrorFallback />

@@ -71,7 +71,7 @@ export const BASICS_MODULES = [
 
 export async function getBasicsModule(moduleId: string): Promise<BasicsModule | null> {
   if (moduleId === 'multiplication-tables') {
-    return multiplicationTables as BasicsModule
+    return multiplicationTables as unknown as BasicsModule
   }
   return null
 }

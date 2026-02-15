@@ -46,7 +46,7 @@ export default async function ModulePage({
 
   return (
     <main className="min-h-screen relative">
-      <GeometricOverlay variant="dots" className="fixed inset-0" />
+      <GeometricOverlay variant="circles" className="fixed inset-0" />
 
       <div className="relative z-10 container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">

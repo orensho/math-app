@@ -2,12 +2,9 @@ import { QuizQuestion, SolutionStep } from '../types/curriculum'
 import { shuffle } from './shuffle'
 
 /**
- * Generates a random multiplication quiz question
+ * Builds a quiz question from two given numbers
  */
-function generateQuestion(id: string): QuizQuestion {
-  // Random numbers between 0-12 for multiplication
-  const num1 = Math.floor(Math.random() * 13)
-  const num2 = Math.floor(Math.random() * 13)
+function buildQuestion(id: string, num1: number, num2: number): QuizQuestion {
   const correctAnswer = num1 * num2
 
   // Generate plausible wrong answers
@@ -40,7 +37,8 @@ function generateQuestion(id: string): QuizQuestion {
 
   const options = shuffledAnswers.map((answer, index) => ({
     id: String.fromCharCode(97 + index), // a, b, c, d
-    text: String(answer)
+    text: String(answer),
+    isCorrect: answer === correctAnswer
   }))
 
   const correctAnswerId = options.find(opt => opt.text === String(correctAnswer))!.id
@@ -157,13 +155,72 @@ function generateQuestion(id: string): QuizQuestion {
 }
 
 /**
- * Generates a set of multiplication quiz questions
+ * Generates a question constrained to a target difficulty level
+ */
+function generateQuestionWithDifficulty(
+  id: string,
+  targetDifficulty: 'easy' | 'medium' | 'hard',
+  usedPairs: Set<string>
+): QuizQuestion {
+  let num1: number
+  let num2: number
+  let key: string
+
+  // Try to generate a unique pair
+  let attempts = 0
+  do {
+    switch (targetDifficulty) {
+      case 'easy':
+        num1 = Math.floor(Math.random() * 6) // 0-5
+        num2 = Math.floor(Math.random() * 6) // 0-5
+        break
+      case 'medium':
+        num1 = Math.floor(Math.random() * 5) + 6 // 6-10
+        num2 = Math.floor(Math.random() * 9) + 2 // 2-10
+        break
+      case 'hard':
+        num1 = Math.random() < 0.5 ? 11 : 12
+        num2 = Math.floor(Math.random() * 11) + 2 // 2-12
+        break
+    }
+
+    // Randomly swap for variety
+    if (Math.random() < 0.5) [num1, num2] = [num2, num1]
+
+    key = `${Math.min(num1, num2)}x${Math.max(num1, num2)}`
+    attempts++
+  } while (usedPairs.has(key) && attempts < 20)
+
+  usedPairs.add(key)
+  return buildQuestion(id, num1, num2)
+}
+
+/**
+ * Generates a set of multiplication quiz questions with progressive difficulty
  */
 export function generateMultiplicationQuiz(count: number = 10): QuizQuestion[] {
-  const questions: QuizQuestion[] = []
+  const usedPairs = new Set<string>()
 
-  for (let i = 0; i < count; i++) {
-    questions.push(generateQuestion(`generated-q${i + 1}`))
+  // Distribute across difficulty tiers: 40% easy, 30% medium, 30% hard
+  const easyCount = Math.ceil(count * 0.4)
+  const mediumCount = Math.ceil(count * 0.3)
+  const hardCount = count - easyCount - mediumCount
+
+  const questions: QuizQuestion[] = []
+  let qIndex = 0
+
+  const tiers: Array<{ difficulty: 'easy' | 'medium' | 'hard'; count: number }> = [
+    { difficulty: 'easy', count: easyCount },
+    { difficulty: 'medium', count: mediumCount },
+    { difficulty: 'hard', count: hardCount },
+  ]
+
+  for (const tier of tiers) {
+    for (let i = 0; i < tier.count; i++) {
+      questions.push(
+        generateQuestionWithDifficulty(`generated-q${++qIndex}`, tier.difficulty, usedPairs)
+      )
+    }
   }
 
   return questions

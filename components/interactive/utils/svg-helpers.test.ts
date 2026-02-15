@@ -12,8 +12,8 @@ import {
   getTextAnchor,
   createGridLines,
   formatNumber,
-  type Point
 } from './svg-helpers'
+import type { Point } from './geometry'
 
 describe('svg-helpers utilities', () => {
   describe('createArcPath', () => {
