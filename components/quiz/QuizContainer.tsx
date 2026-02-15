@@ -91,8 +91,11 @@ export default function QuizContainer({ questions, unitId }: QuizContainerProps)
           <div className="text-6xl font-bold text-primary-600 mb-2 number-ltr">
             {totalScore} / {maxScore}
           </div>
-          <p className="text-xl text-neutral-600 mb-6">
+          <p className="text-xl text-neutral-600 mb-2">
             השגת {percentage}% מהנקודות
+          </p>
+          <p className="text-sm text-neutral-400 mb-6">
+            שאלות קלות = 5 נק׳ · בינוניות = 10 נק׳ · קשות = 15 נק׳
           </p>
 
           {finalTimeMs !== null && (

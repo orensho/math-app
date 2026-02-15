@@ -2,10 +2,15 @@
 
 אפליקציה ללימוד מתמטיקה אינטראקטיבית בעברית לכיתות א-ו, מבוססת על תוכנית "שבילים פלוס".
 
-## 🚀 התחלה מהירה
+## 🌐 אתר חי
+
+האפליקציה מתארחת ב-Railway: [matematicool.up.railway.app](https://matematicool.up.railway.app)
+
+## 🚀 התחלה מהירה (פיתוח מקומי)
 
 ```bash
 cd ~/Source/math-app
+npm install
 npm run dev
 ```
 
@@ -224,12 +229,19 @@ npm run dev
 **מעקב התקדמות**
 - לחץ על "הפרופיל שלי" בכותרת לראות את הניקוד והתקדמות שלך
 
+## 🚀 פריסה (Railway)
+
+הפרויקט מוגדר לפריסה אוטומטית ב-[Railway](https://railway.com):
+- דחיפה ל-`main` מפעילה פריסה אוטומטית
+- הפורט מוגדר דרך משתנה סביבה `PORT`
+- peer dependencies מטופלים דרך `.npmrc`
+
 ## 🔄 פקודות זמינות
 
 ```bash
 npm run dev            # הרצת שרת פיתוח
 npm run build          # בניית גרסת ייצור
-npm run start          # הרצת גרסת ייצור
+npm run start          # הרצת גרסת ייצור (משתמש ב-$PORT)
 npm run lint           # בדיקת קוד
 npm test               # הרצת בדיקות יחידה
 npm run test:ui        # הרצת בדיקות עם ממשק משתמש
